@@ -1,3 +1,3 @@
 title: Important Dates
 
-**Calendar**
+## Important Dates

@@ -2,7 +2,7 @@ def links(request):
     return {
         "home": "/home/",
         "site_menu": {
-            "TALKS": {
+            "Talks": {
                 "dropdown": "true",
                 "submenu": {
                     "CALL FOR PARTICIPATION": "/talks/cfp/",
@@ -10,7 +10,7 @@ def links(request):
                     "SCHEDULE": "/talks/schedule/",
                 },
             },
-            "INFORMATION": {
+            "Information": {
                 "dropdown": "true",
                 "submenu": {
                     "COIMBRA": "/information/coimbra/",
@@ -21,7 +21,7 @@ def links(request):
                     "T-SHIRTS": "/information/tshirts/",
                 },
             },
-            "SPONSORS & JOBS": {
+            "Sponsors/Jobs": {
                 "dropdown": "true",
                 "submenu": {
                     "SPONSORS": "/sponsors/sponsors",
@@ -29,7 +29,7 @@ def links(request):
                     "SPONSORSHIP": "/sponsors/sponsorship/",
                 },
             },
-            "CONDUCT": {
+            "Conduct": {
                 "dropdown": "true",
                 "submenu": {
                     "CODE OF CONDUCT": "/conduct/code_of_conduct/",
@@ -37,11 +37,11 @@ def links(request):
                     "PRIVACY GUIDE": "/conduct/privacy_guide/",
                 },
             },
-            "TICKETS": {
+            "Tickets": {
                 "dropdown": "false",
                 "href": "/tickets/",
             },
-            "ABOUT": {
+            "About": {
                 "dropdown": "true",
                 "submenu": {
                     "CONTACT": "/about/contact/",

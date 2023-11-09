@@ -1,4 +1,10 @@
 title: Title
 layout: home_about
 
-## COIMBRA BUSINESS SCHOOL, 7-9 SEPTEMBER
+### We're back for the 3rd edition
+
+## Python Conference in Portugal
+
+#### Braga
+
+### ??-?? September 2024

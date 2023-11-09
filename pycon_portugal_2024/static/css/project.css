@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
 .alert-debug {
   background-color: #fff;
   border-color: #d6e9c6;
@@ -8,4 +14,320 @@
   background-color: #f2dede;
   border-color: #eed3d7;
   color: #b94a48;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.alert-debug {
+  background-color: #F7F7F7;
+  border-color: #d6e9c6;
+  color: #000;
+}
+
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.alert-debug {
+  background-color: #F7F7F7;
+  border-color: #d6e9c6;
+  color: #000;
+}
+
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+}
+
+.home-header .home-banner .home_about-content h2, .home-sec h2 {
+  font-family: Turret Road, sans-serif;
+  font-size: 96px;
+  font-weight: 800;
+}
+
+.home-header .home-banner .home_about-content h4, .home-sec .this-is-for li {
+  font-family: Alef, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.home-header .home-banner .home_about-content h3, .home-sec .join-us-content {
+  font-family: Alef, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.home-sec {
+  background-color: #0A042C;
+}
+.home-sec ul {
+  list-style-type: none;
+}
+.home-sec li {
+  padding: 0.5em 2em;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1em;
+}
+.home-sec .this-is-for li {
+  border: 1px solid transparent;
+  border-image-source: linear-gradient(90deg, rgba(255, 0, 255, 0.8) 20%, #9747ff 80%);
+  border-image-slice: 3;
+  border-image-width: 1px;
+  border-image-repeat: stretch;
+}
+.home-sec .join-us-content li {
+  border-radius: 50px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, rgba(255, 0, 255, 0.8)), color-stop(80%, #9747FF));
+  background: linear-gradient(90deg, rgba(255, 0, 255, 0.8) 20%, #9747FF 80%);
+}
+
+.home-header {
+  background-color: #0A042C;
+  padding-bottom: 32px;
+  padding-bottom: 2rem;
+}
+.home-header .home-banner .home-title {
+  display: block;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  max-width: 384px;
+  max-width: 24rem;
+}
+.home-header .home-banner .home-title .home-title-block {
+  position: relative;
+  top: -24px;
+  top: -1.5rem;
+  background: white;
+  padding: 16px;
+  padding: 1rem;
+  margin: 0px 32px 32px;
+  margin: 0rem 2rem 2rem;
+  z-index: 2;
+}
+.home-header .home-banner .home-title .btn-tickets {
+  padding: 0px 16px;
+  padding: 0rem 1rem;
+  margin: 32px 0px;
+  margin: 2rem 0rem;
+}
+.home-header .home-banner .home-title button {
+  background: white;
+  padding: 16px 12px;
+  padding: 1rem 0.75rem;
+  font-weight: bold;
+  width: 100%;
+}
+.home-header .home-banner .home_about-content {
+  padding: 32px 32px 32px 0;
+  padding: 2rem 2rem 2rem 0;
+  text-align: left;
+}
+.sponsors {
+  background-color: #0A042C;
+  text-align: center;
+}
+.sponsors h2 {
+  color: #FDFDFD;
+  font-family: Turret Road, sans-serif;
+  font-size: 88px;
+  font-weight: 800;
+}
+.sponsors h3 {
+  color: #FDFDFD;
+  font-family: Turret Road, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+.sponsors blockquote a {
+  border: 1px solid #FF00FF;
+  padding: 20px 30px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.sponsors .flex-sponsors-organizer blockquote p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sponsors .card {
+  background-color: #F7F7F7;
+  border-radius: 16px;
+}
+.sponsors .card-other-dates {
+  background-color: transparent;
+  border: unset;
+  font: normal normal normal 24px/44px Poppins;
+}
+
+.content-newsletter {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F7F7F7), color-stop(50%, #F7F7F7), color-stop(50%, #2C2C2C), to(#2C2C2C)) !important;
+  background: linear-gradient(to bottom, #F7F7F7 0%, #F7F7F7 50%, #2C2C2C 50%, #2C2C2C 100%) !important;
+}
+
+.home-sponsors.important-dates .dates .calendar {
+  display: block;
+}
+.home-sponsors.important-dates .dates .calendar blockquote {
+  display: block !important;
+  width: 100%;
+  padding-right: 24px;
+  padding-right: 1.5rem;
+}
+.home-sponsors.important-dates .dates .calendar blockquote h4 {
+  font: normal normal bold 24px/35px Poppins;
+}
+.home-sponsors.important-dates .dates .calendar blockquote blockquote {
+  display: block !important;
+  width: auto;
+  padding-top: 14px;
+  padding-top: 0.875rem;
+}
+.home-sponsors.important-dates .dates .calendar blockquote blockquote p {
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+.home-sponsors.important-dates .dates .calendar blockquote p {
+  margin-bottom: 0px;
+  margin-bottom: 0rem;
+}
+
+@media (max-width: 500px) {
+  .pycon-btn {
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+  .dates .important-date-card strong {
+    font-size: 50px !important;
+  }
+  .dates .important-date-card p {
+    font-size: 20px !important;
+  }
+  .dates strong {
+    font-size: 25px;
+  }
+  .dates p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .card-other-dates {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+  .sponsors .container {
+    text-align: center !important;
+    text-align: -webkit-center !important;
+  }
+}
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.alert-debug {
+  background-color: #F7F7F7;
+  border-color: #d6e9c6;
+  color: #000;
+}
+
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+}
+
+.black-nav {
+  background-color: #F7F7F7 !important;
+}
+.black-nav ul {
+  border-color: #2C2C2C !important;
+}
+.black-nav ul a {
+  color: #2C2C2C !important;
+}
+.black-nav .navbar-toggler i {
+  color: #2C2C2C !important;
+}
+.black-nav .dropdown-menu {
+  background: #F7F7F7 !important;
+}
+.black-nav ul a:hover.dropdown-item:hover {
+  background-color: #F7F7F7 !important;
+}
+
+.header {
+  background-color: #0A042C;
+}
+.header .navbar-brand img {
+  max-width: 80px;
+}
+.header .navbar-toggler:hover {
+  background-color: #00969C !important;
+}
+.header .navbar-toggler i {
+  color: #F7F7F7;
+  font-size: 42px;
+}
+.header ul {
+  padding: 11.2px;
+  padding: 0.7rem;
+}
+.header ul a, .header ul a:hover {
+  text-decoration: none;
+}
+.header ul a.dropdown-item:hover, .header ul a:hover.dropdown-item:hover {
+  background-color: #2C2C2C;
+}
+.header ul .nav-link::after {
+  display: none;
+}
+.header ul .nav-link {
+  font-family: Alef, serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.header .dropdown-menu {
+  background: #2C2C2C;
+  border: 1px solid #f7f7f7;
+}
+
+@media (max-width: 991px) {
+  .header .dropdown-menu {
+    border: unset;
+  }
 }

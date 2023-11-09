@@ -183,6 +183,7 @@ TEMPLATES = [
                 "django.template.context_processors.tz",
                 "django.contrib.messages.context_processors.messages",
                 "pycon_portugal_2024.users.context_processors.allauth_settings",
+                "pycon_portugal_2024.site.context_processors.links",
             ],
         },
     }

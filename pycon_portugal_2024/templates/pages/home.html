@@ -9,89 +9,109 @@
           {# HOME-ABOUT #}
           {% include 'modules/default.html' with content=files.0 %}
 
-{#          <img src="{% static 'images/logo/home-banner.png' %}" alt="Home banner" class="img-fluid">#}
-
-          {% with content=files.1|markdown %}
-            <div class="home-title-block text-center mt-5 text-white">
-              {{ content.html | safe }}
-            </div>
-          {% endwith %}
-          <div class="row d-flex flex-align justify-content-around">
-            <div class="col-12 col-md-6 text-center my-5">
-              <a type="button"
-                 class="btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase"
-                 href="https://pretix.evolutio.pt/evolutio/pyconpt2023/"
-                 target="_blank"
-              >
-                Buy Ticket Now <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div>
+          {#          <div class="row d-flex flex-align justify-content-around">#}
+          {#            <div class="col-12 col-md-6 text-center my-5">#}
+          {#              <a type="button"#}
+          {#                 class="btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase"#}
+          {#                 href="https://pretix.evolutio.pt/evolutio/pyconpt2023/"#}
+          {#                 target="_blank"#}
+          {#              >#}
+          {#                Buy Ticket Now <i class="bi bi-arrow-right"></i>#}
+          {#              </a>#}
+          {#            </div>#}
+          {#          </div>#}
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="container-fluid tickets py-5">
-    <div class="container">
-      <h2 class="text-white ms-4">Tickets</h2>
-      <div class="row pt-3 gx-5">
-        {% include 'modules/tickets.html' %}
-      </div>
-      <div class="my-5">
-        <a type="button"
-           class="ms-4 btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase"
-           href="https://pretix.evolutio.pt/evolutio/pyconpt2023/"
-           target="_blank"
-        >
-          Buy ticket now <i class="bi bi-arrow-right"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="container-fluid speakers py-5">
-    <div class="container">
-      <div class="title-container">
-        <h2 class="ms-4">Speakers</h2>
-        <div class="swiper-buttons d-none d-sm-block">
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+    <div class="home-sec">
+      {% with content=files.1|markdown %}
+        <div class="text-center pt-5 text-white">
+          {{ content.html | safe }}
         </div>
-      </div>
-      <div class="swiper">
-        {% include 'modules/speakers.html' %}
-      </div>
+      {% endwith %}
+      {% with content=files.2|markdown %}
+        <div class="this-is-for text-center pt-5 text-white">
+          {{ content.html | safe }}
+        </div>
+      {% endwith %}
     </div>
-
   </div>
 
-  <div class="container-fluid dates py-5">
+
+  <div class="home-sec">
+    {% with content=files.3|markdown %}
+      <div class="text-center pt-5 text-white">
+        {{ content.html | safe }}
+      </div>
+    {% endwith %}
+    {% with content=files.4|markdown %}
+      <div class="join-us-content text-center pt-5 text-white">
+        {{ content.html | safe }}
+      </div>
+    {% endwith %}
+  </div>
+
+  {#  <div class="container-fluid tickets py-5">#}
+  {#    <div class="container">#}
+  {#      <h2 class="text-white ms-4">Tickets</h2>#}
+  {#      <div class="row pt-3 gx-5">#}
+  {#        {% include 'modules/tickets.html' %}#}
+  {#      </div>#}
+  {#      <div class="my-5">#}
+  {#        <a type="button"#}
+  {#           class="ms-4 btn btn-primary btn-lg pycon-btn yellow-btn text-uppercase"#}
+  {#           href="https://pretix.evolutio.pt/evolutio/pyconpt2023/"#}
+  {#           target="_blank"#}
+  {#        >#}
+  {#          Buy ticket now <i class="bi bi-arrow-right"></i>#}
+  {#        </a>#}
+  {#      </div>#}
+  {#    </div>#}
+  {#  </div>#}
+
+
+  {#  <div class="container-fluid speakers py-5">#}
+  {#    <div class="container">#}
+  {#      <div class="title-container">#}
+  {#        <h2 class="ms-4">Speakers</h2>#}
+  {#        <div class="swiper-buttons d-none d-sm-block">#}
+  {#          <div class="swiper-button-prev"></div>#}
+  {#          <div class="swiper-button-next"></div>#}
+  {#        </div>#}
+  {#      </div>#}
+  {#      <div class="swiper">#}
+  {#        {% include 'modules/speakers.html' %}#}
+  {#      </div>#}
+  {#    </div>#}
+  {##}
+  {#  </div>#}
+
+  <div class="home-sec container-fluid">
     <div class="container">
-      <div class="row pt-5 gx-lg-5 px-5">
+      <div class="pt-5 gx-lg-5 px-5">
         {% include 'modules/dates.html' %}
       </div>
     </div>
   </div>
 
-  <div class="container-fluid sponsors py-5">
+  <div class="container-fluid sponsors">
     <div class="container">
-      <h2 class="ms-4">Sponsors</h2>
       <div class="row pt-5 gx-1">
-{#        {% include 'modules/sponsors.html' with content=files.7 %}#}
+        {% include 'modules/sponsors.html' with content=files.7 %}
       </div>
     </div>
   </div>
 
-  <div class="container-fluid previous-edition py-5">
-    <div class="container">
-      <h2 class="ms-4 text-white">Previous Edition</h2>
-      <div class="row pt-5 gx-5">
-        {% include 'modules/previous_edition.html' %}
-      </div>
-    </div>
-  </div>
+  {#  <div class="container-fluid previous-edition py-5">#}
+  {#    <div class="container">#}
+  {#      <h2 class="ms-4 text-white">Previous Edition</h2>#}
+  {#      <div class="row pt-5 gx-5">#}
+  {#        {% include 'modules/previous_edition.html' %}#}
+  {#      </div>#}
+  {#    </div>#}
+  {#  </div>#}
+
+
 
 
 {% endblock content %}
