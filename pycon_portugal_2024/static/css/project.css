@@ -64,7 +64,7 @@ body {
   font-weight: 800;
 }
 
-.home-header .home-banner .home_about-content h4, .home-sec .this-is-for li {
+.home-header .home-banner .home_about-content h4, .home-sec .this-is-for li p {
   font-family: Alef, sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -102,11 +102,16 @@ li {
   margin: 1em;
 }
 .home-sec .this-is-for li {
-  border: 1px solid transparent;
-  border-image-source: linear-gradient(90deg, rgba(255, 0, 255, 0.8) 20%, #9747ff 80%);
-  border-image-slice: 3;
-  border-image-width: 1px;
-  border-image-repeat: stretch;
+  padding: 2px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(20%, rgba(255, 0, 255, 0.8)), color-stop(80%, #9747ff));
+  background: linear-gradient(90deg, rgba(255, 0, 255, 0.8) 20%, #9747ff 80%);
+  border-radius: 50px;
+}
+.home-sec .this-is-for li p {
+  padding: 0.5em 2em;
+  margin: 0;
+  border-radius: 30px;
+  background-color: #0A042C;
 }
 .home-sec .join-us-content {
   display: grid;

@@ -47,13 +47,18 @@
   }
   .this-is-for {
     li {
-      @extend %HOME_SECOND_TEXT;
-      border: 1px solid transparent;
-      border-image-source: linear-gradient(90deg, rgba(255, 0, 255, .8) 20%, #9747ff 80%);
-      border-image-slice: 3;
-      border-image-width: 1px;
-      border-image-repeat: stretch;
+      padding: 2px;
+      background: linear-gradient(90deg, rgba(255, 0, 255, .8) 20%, #9747ff 80%);
+      border-radius: 50px;
+      p {
+        @extend %HOME_SECOND_TEXT;
+        padding: 0.5em 2em;
+        margin: 0;
+        border-radius: 30px;
+        background-color: base.$bgPurple;
+      }
     }
+
   }
   .join-us-content {
     @extend %THIRD_TEXT;

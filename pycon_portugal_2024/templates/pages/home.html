@@ -1,11 +1,12 @@
 {% extends "base.html" %}
+{% load i18n %}
 {% load static markdown_extras %}
 {% block content %}
   {# BANNER #}
   <div class="container-fluid home-header">
     <div class="container-fluid home-banner">
-      <div class="row justify-content-center align-content-center pt-5">
-        <div class="col-10">
+      <div class="row container justify-content-start align-content-center pt-5">
+        <div class="col-6">
           {# HOME-ABOUT #}
           {% include 'modules/default.html' with content=files.0 %}
 
@@ -20,6 +21,8 @@
       {% endwith %}
       {% with content=files.2|markdown %}
         <div class="this-is-for text-center pt-5 text-white">
+          <img src="{% static 'images/home/elipse.gif' %}" alt="{% translate 'Elipse' %}">
+{#          <img src="images/home/elipse.gif" alt="Elipse">#}
           {{ content.html | safe }}
         </div>
       {% endwith %}
