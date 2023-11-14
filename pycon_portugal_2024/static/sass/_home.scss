@@ -20,6 +20,76 @@
   font-weight: 400;
 }
 
+.date-container {
+  margin-left: 17em;
+  display: flex;
+  section {
+    display: -webkit-box;
+    width: 3em;
+  }
+
+  .december, .january, .february, .march, .april {
+    p{
+      display: none;
+    }
+  }
+
+  h3 {
+    @extend %THIRD_TEXT;
+    width: 7em;
+    height: 2em;
+    color: base.$lightPurple;
+    rotate: 90deg;
+    border: solid;
+    padding: 0.5em;
+  }
+
+  .january.open {
+    transition: margin-left 0.1s ease;
+    margin-left: 1em;
+  }
+
+  .march.open {
+    transition: margin-right 0.3s elastic;
+    margin-right: -4em;
+  }
+
+  .april.open {
+    border-right: solid;
+  }
+
+    .open {
+      //transition: margin-right 0.1s ease;
+      width: fit-content;
+      color: base.$lightPurple;
+      margin-right: -8em;
+      margin-top: -3.75em;
+      height: 10.5em;
+      border-top: solid;
+      border-bottom: solid;
+      h3 {
+        margin-top: 2.44em;
+      }
+
+      #december {
+        transition: margin-left 0.3s elastic;
+        margin-left: -4em;
+      }
+
+      #january {
+        transition: margin-left 0.3s ease-out;
+        margin-left: -0.75em;
+      }
+      p {
+        @extend %THIRD_TEXT;
+        display: flex;
+        padding: 2em;
+        color: #FDFDFD;
+        margin-right: 9em;
+      }
+  }
+}
+
 .home-banner {
   background-image: url(../images/home/home_banner.gif);
   position: relative;

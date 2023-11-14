@@ -1,7 +1,7 @@
 {% load static markdown_extras %}
 
 
-<div class="col-12 col-xl-5">
+<div class="col-12 text-center">
   {% with content=files.5|markdown %}
     <div class="">
       <div class="text-white align-items-center justify-content-center">
@@ -11,10 +11,10 @@
   {% endwith %}
 </div>
 
-<div class="col-12 col-xl-7">
+<div class="col-12 col-xl-7 pt-5">
   {% with content=files.6|markdown %}
-    <div class="card-other-dates h-100">
-      <div class="text-white card-body py-3">
+    <div class="h-100">
+      <div class="date-container text-white card-body py-5">
         {{ content.html | safe }}
       </div>
     </div>

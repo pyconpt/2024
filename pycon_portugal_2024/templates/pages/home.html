@@ -45,7 +45,7 @@
 
   <div class="home-sec container-fluid">
     <div class="container">
-      <div class="pt-5 gx-lg-5 px-5">
+      <div class="pt-5 px-5">
         {% include 'modules/dates.html' %}
       </div>
     </div>
@@ -58,4 +58,33 @@
       </div>
     </div>
   </div>
+  <script>
+  const months = ["december", "january", "february", "march", "april"];
+
+  months.forEach(month => {
+    const monthElement = document.getElementById(month);
+    const monthSec = document.getElementsByClassName(month)[0];
+
+    monthElement.addEventListener("click", function() {
+      removeOpen();
+      monthSec.classList.add("open");
+
+    if (month === "december" && monthSec.classList.contains("open")) {
+      document.getElementsByClassName("date-container")[0].style.marginLeft = "17em";
+      console.log(document.getElementsByClassName("date-container")[0]);
+    } else {
+      document.getElementsByClassName("date-container")[0].style.marginLeft = "11em";
+      console.log(document.getElementsByClassName("date-container")[0]);
+    }
+    });
+  });
+
+  function removeOpen() {
+    // Iterate over the elements in the collection and remove the class
+    Array.from(document.getElementsByClassName("open")).forEach(function(element) {
+      element.classList.remove("open");
+    });
+  }
+</script>
+
 {% endblock content %}

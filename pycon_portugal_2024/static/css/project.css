@@ -70,10 +70,77 @@ body {
   font-weight: 700;
 }
 
-.home-header .home-banner .home_about-content h3, .home-sec .join-us-content {
+.home-header .home-banner .home_about-content h3, .home-sec .join-us-content, .date-container .open p, .date-container h3 {
   font-family: Alef, sans-serif;
   font-size: 24px;
   font-weight: 400;
+}
+
+.date-container {
+  margin-left: 17em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.date-container section {
+  display: -webkit-box;
+  width: 3em;
+}
+.date-container .december p, .date-container .january p, .date-container .february p, .date-container .march p, .date-container .april p {
+  display: none;
+}
+.date-container h3 {
+  width: 7em;
+  height: 2em;
+  color: #FF00FF;
+  rotate: 90deg;
+  border: solid;
+  padding: 0.5em;
+}
+.date-container .january.open {
+  -webkit-transition: margin-left 0.1s ease;
+  transition: margin-left 0.1s ease;
+  margin-left: 1em;
+}
+.date-container .march.open {
+  -webkit-transition: margin-right 0.3s elastic;
+  transition: margin-right 0.3s elastic;
+  margin-right: -4em;
+}
+.date-container .april.open {
+  border-right: solid;
+}
+.date-container .open {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #FF00FF;
+  margin-right: -8em;
+  margin-top: -3.75em;
+  height: 10.5em;
+  border-top: solid;
+  border-bottom: solid;
+}
+.date-container .open h3 {
+  margin-top: 2.44em;
+}
+.date-container .open #december {
+  -webkit-transition: margin-left 0.3s elastic;
+  transition: margin-left 0.3s elastic;
+  margin-left: -4em;
+}
+.date-container .open #january {
+  -webkit-transition: margin-left 0.3s ease-out;
+  transition: margin-left 0.3s ease-out;
+  margin-left: -0.75em;
+}
+.date-container .open p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em;
+  color: #FDFDFD;
+  margin-right: 9em;
 }
 
 .home-banner {
