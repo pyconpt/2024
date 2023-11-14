@@ -77,7 +77,6 @@ body {
 }
 
 .date-container {
-  margin-left: 17em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,14 +96,17 @@ body {
   border: solid;
   padding: 0.5em;
 }
+.date-container .hide-border h3 {
+  color: #0A042C;
+  height: 3em;
+  margin-top: -0.5em;
+}
 .date-container .january.open {
-  -webkit-transition: margin-left 0.1s ease;
-  transition: margin-left 0.1s ease;
+  -webkit-transition: margin-left 0.3s ease;
+  transition: margin-left 0.3s ease;
   margin-left: 1em;
 }
 .date-container .march.open {
-  -webkit-transition: margin-right 0.3s elastic;
-  transition: margin-right 0.3s elastic;
   margin-right: -4em;
 }
 .date-container .april.open {
@@ -125,13 +127,12 @@ body {
   margin-top: 2.44em;
 }
 .date-container .open #december {
-  -webkit-transition: margin-left 0.3s elastic;
-  transition: margin-left 0.3s elastic;
-  margin-left: -4em;
+  -webkit-transition: margin-left 0.3s ease;
+  transition: margin-left 0.3s ease;
 }
 .date-container .open #january {
-  -webkit-transition: margin-left 0.3s ease-out;
-  transition: margin-left 0.3s ease-out;
+  -webkit-transition: margin-left 0.3s ease;
+  transition: margin-left 0.3s ease;
   margin-left: -0.75em;
 }
 .date-container .open p {
@@ -141,6 +142,13 @@ body {
   padding: 2em;
   color: #FDFDFD;
   margin-right: 9em;
+  margin-left: -3em;
+}
+.date-container .march.open p {
+  margin-right: 7em;
+}
+.date-container .april.open p {
+  margin-right: 5em;
 }
 
 .home-banner {
@@ -365,6 +373,14 @@ li {
     text-align: -webkit-center !important;
   }
 }
+#last {
+  margin-left: 0.5em;
+}
+
+.text-align-webit-center {
+  text-align: -webkit-center;
+}
+
 html, body {
   overflow-x: hidden;
 }

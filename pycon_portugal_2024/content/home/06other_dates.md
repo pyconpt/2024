@@ -1,4 +1,8 @@
+<section class="hide-border" markdown="block">
 
+### 
+
+</section>
 
 <section class="december open" markdown="block">
 
@@ -36,5 +40,11 @@ Application for Opportunity Grants closes
 ### April
 
 Childcare application opens
+
+</section>
+
+<section class="hide-border" markdown="block">
+
+### last
 
 </section>

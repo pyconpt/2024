@@ -45,7 +45,7 @@
 
   <div class="home-sec container-fluid">
     <div class="container">
-      <div class="pt-5 px-5">
+      <div class="pt-5 px-5 text-align-webit-center">
         {% include 'modules/dates.html' %}
       </div>
     </div>
@@ -69,12 +69,10 @@
       removeOpen();
       monthSec.classList.add("open");
 
-    if (month === "december" && monthSec.classList.contains("open")) {
-      document.getElementsByClassName("date-container")[0].style.marginLeft = "17em";
-      console.log(document.getElementsByClassName("date-container")[0]);
+    if (month === "april" && monthSec.classList.contains("open")) {
+      document.getElementById("last").style.display = "none";
     } else {
-      document.getElementsByClassName("date-container")[0].style.marginLeft = "11em";
-      console.log(document.getElementsByClassName("date-container")[0]);
+      document.getElementById("last").style.display = "flex";
     }
     });
   });

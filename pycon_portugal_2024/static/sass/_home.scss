@@ -21,7 +21,6 @@
 }
 
 .date-container {
-  margin-left: 17em;
   display: flex;
   section {
     display: -webkit-box;
@@ -44,13 +43,19 @@
     padding: 0.5em;
   }
 
+  .hide-border h3 {
+    color: base.$bgPurple;
+    height: 3em;
+    margin-top: -0.5em;
+  }
+
   .january.open {
-    transition: margin-left 0.1s ease;
+    transition: margin-left 0.3s ease;
     margin-left: 1em;
   }
 
   .march.open {
-    transition: margin-right 0.3s elastic;
+
     margin-right: -4em;
   }
 
@@ -72,12 +77,12 @@
       }
 
       #december {
-        transition: margin-left 0.3s elastic;
-        margin-left: -4em;
+        transition: margin-left 0.3s ease;
+        //margin-left: -4em;
       }
 
       #january {
-        transition: margin-left 0.3s ease-out;
+        transition: margin-left 0.3s ease;
         margin-left: -0.75em;
       }
       p {
@@ -86,7 +91,15 @@
         padding: 2em;
         color: #FDFDFD;
         margin-right: 9em;
+        margin-left: -3em;
       }
+  }
+  .march.open p {
+    margin-right: 7em;
+  }
+
+  .april.open p {
+    margin-right: 5em;
   }
 }
 
@@ -354,4 +367,12 @@
       text-align: -webkit-center !important;
     }
   }
+}
+
+#last {
+  margin-left: 0.5em;
+}
+
+.text-align-webit-center {
+  text-align: -webkit-center;
 }
