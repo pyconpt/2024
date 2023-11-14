@@ -60,7 +60,7 @@ body {
 
 .home-header .home-banner .home_about-content h2, .home-sec h2 {
   font-family: Turret Road, sans-serif;
-  font-size: 96px;
+  font-size: 6em;
   font-weight: 800;
 }
 
@@ -157,6 +157,7 @@ body {
   z-index: 20;
   background-position-y: bottom;
   background-position: center;
+  background-size: cover;
 }
 
 li {
@@ -300,6 +301,8 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -346,33 +349,6 @@ li {
   margin-bottom: 0rem;
 }
 
-@media (max-width: 500px) {
-  .pycon-btn {
-    font-size: 15px !important;
-    line-height: 25px !important;
-  }
-  .dates .important-date-card strong {
-    font-size: 50px !important;
-  }
-  .dates .important-date-card p {
-    font-size: 20px !important;
-  }
-  .dates strong {
-    font-size: 25px;
-  }
-  .dates p {
-    font-size: 20px;
-    line-height: 30px;
-  }
-  .card-other-dates {
-    font-size: 20px !important;
-    line-height: 30px !important;
-  }
-  .sponsors .container {
-    text-align: center !important;
-    text-align: -webkit-center !important;
-  }
-}
 #last {
   margin-left: 0.5em;
 }
@@ -381,6 +357,90 @@ li {
   text-align: -webkit-center;
 }
 
+@media (max-width: 768px) {
+  .date-container {
+    display: grid;
+    margin: 0;
+  }
+  .date-container section {
+    width: auto;
+    display: grid;
+  }
+  .date-container h3 {
+    width: auto;
+  }
+  .date-container .january.open {
+    margin: 0;
+  }
+  .date-container .march.open {
+    margin: 0;
+  }
+  .date-container .march.open p {
+    margin: 0;
+  }
+  .date-container .april.open {
+    margin: 0;
+  }
+  .date-container .april.open p {
+    margin: 0;
+  }
+  .date-container .open {
+    margin: 0;
+    width: auto;
+    border: none;
+    display: grid;
+  }
+  .date-container .open #december {
+    margin: 0;
+  }
+  .date-container .open #january {
+    margin: 0;
+  }
+  .date-container .open p {
+    margin: 0;
+    border: solid 1px #FF00FF;
+  }
+  .date-container .open h3 {
+    margin: 0;
+  }
+  .date-container h3 {
+    height: auto;
+    padding: 0.5em;
+    margin: 0;
+    rotate: none;
+  }
+  .home-header .home-banner .home_about-content {
+    padding: 2em 2em 15em 0;
+  }
+  .home-sec h2, .home-header .home-banner .home_about-content h2 {
+    font-family: Turret Road, sans-serif;
+    font-size: 3.5em;
+    font-weight: 800;
+  }
+  .home-sec .this-is-for li p, .home-header .home-banner .home_about-content h4 {
+    font-size: 1em;
+  }
+  .date-container h3, .date-container .open p, .home-sec .join-us-content, .home-header .home-banner .home_about-content h3 {
+    font-size: 1em;
+  }
+  #last, #_1 {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .join-us-content {
+    padding: 1em;
+    justify-items: center;
+  }
+  #ju1, #ju2, #ju3, #ju4, #ju5 {
+    margin: 0.5em 0;
+  }
+}
+@media (max-width: 576px) {
+  .this-is-for img {
+    display: none;
+  }
+}
 html, body {
   overflow-x: hidden;
 }

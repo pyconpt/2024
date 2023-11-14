@@ -4,7 +4,7 @@
 
 %HOME_TITLE {
   font-family: Turret Road, sans-serif;
-  font-size: 96px;
+  font-size: 6em;
   font-weight: 800;
 }
 
@@ -109,6 +109,7 @@
   z-index: 20;
   background-position-y: bottom;
   background-position: center;
+  background-size: cover;
 }
 
   li {
@@ -235,7 +236,7 @@
 }
 
 .sponsors {
-  background-color: $bgPurple;
+  background-color: base.$bgPurple;
   text-align: center;
 
   h2 {
@@ -267,6 +268,7 @@
     blockquote {
       p {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
       }
     }
@@ -328,47 +330,6 @@
   }
 }
 
-@media (max-width: 500px) {
-  .pycon-btn {
-    font-size: 15px !important;
-    line-height: 25px !important;
-  }
-
-  .dates {
-    .important-date-card {
-      strong {
-        font-size: 50px !important;
-      }
-
-      p {
-        font-size: 20px !important;
-      }
-    }
-
-    strong {
-      font-size: 25px;
-    }
-
-    p {
-      font-size: 20px;
-      line-height: 30px;
-    }
-  }
-
-  .card-other-dates {
-    font-size: 20px !important;
-    line-height: 30px !important;
-  }
-
-  .sponsors {
-
-    .container {
-      text-align: center !important;
-      text-align: -webkit-center !important;
-    }
-  }
-}
-
 #last {
   margin-left: 0.5em;
 }
@@ -376,3 +337,101 @@
 .text-align-webit-center {
   text-align: -webkit-center;
 }
+
+@media (max-width: 768px) {
+  .date-container {
+    display: grid;
+    margin: 0;
+    section {
+      width: auto;
+      display: grid;
+    }
+    h3 {
+      width: auto;
+    }
+    .january.open {
+      margin: 0;
+    }
+    .march.open {
+      margin: 0;
+      p {
+        margin: 0;
+      }
+    }
+    .april.open {
+      margin: 0;
+      p {
+        margin: 0;
+      }
+    }
+    .open {
+      #december {
+        margin: 0;
+      }
+      #january {
+        margin: 0;
+      }
+      margin: 0;
+      width: auto;
+      border: none;
+      display: grid;
+      p {
+        margin: 0;
+        border: solid 1px base.$lightPurple;
+      }
+      h3 {
+        margin: 0;
+      }
+    }
+    h3 {
+      height: auto;
+      padding: 0.5em;
+      margin: 0;
+      rotate: none;
+    }
+  }
+  .home-header {
+    .home-banner {
+      .home_about-content {
+        padding: 2em 2em 15em 0;
+      }
+    }
+  }
+  %HOME_TITLE {
+    font-family: Turret Road, sans-serif;
+    font-size: 3.5em;
+    font-weight: 800;
+  }
+
+  %HOME_SECOND_TEXT {
+    font-size: 1em;
+  }
+
+  %THIRD_TEXT{
+    font-size: 1em;
+  }
+  #last, #_1 {
+    display: none;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  .join-us-content {
+    padding: 1em;
+    justify-items: center;
+  }
+  #ju1, #ju2, #ju3, #ju4, #ju5 {
+    margin: 0.5em 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .this-is-for {
+    img {
+      display: none;
+    }
+  }
+}
+

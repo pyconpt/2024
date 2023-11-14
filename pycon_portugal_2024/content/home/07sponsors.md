@@ -8,10 +8,10 @@ layout: simple
 
 ## Sponsors
 
-> > [![loggi](/static/images/sponsors/loggi.png){:class='sponsor'}](https://www.loggi.com/){:target="_blank"}
-> > [![loggi](/static/images/sponsors/issuu.png){:class='sponsor'}](https://www.loggi.com/){:target="_blank"}
-> > [![loggi](/static/images/sponsors/vonage.png){:class='sponsor'}](https://www.loggi.com/){:target="_blank"}
-> > [![loggi](/static/images/sponsors/loggi.png){:class='sponsor'}](https://www.loggi.com/){:target="_blank"}
+> > [![loggi](/static/images/sponsors/loggi.png){:class='sponsor'}](https://www.loggi.com/){:class="col-md-6" target="_blank"}
+> > [![loggi](/static/images/sponsors/issuu.png){:class='sponsor'}](https://www.loggi.com/){:class="col-md-6" target="_blank"}
+> > [![loggi](/static/images/sponsors/vonage.png){:class='sponsor'}](https://www.loggi.com/){:class="col-md-6" target="_blank"}
+> > [![loggi](/static/images/sponsors/loggi.png){:class='sponsor'}](https://www.loggi.com/){:class="col-md-6" target="_blank"}
 
 
 </div>
