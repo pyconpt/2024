@@ -308,8 +308,14 @@ body {
   rotate: -90deg;
   width: 15em;
 }
+.date-container .data-content {
+  -webkit-transition: height 0.3s ease;
+  transition: height 0.3s ease;
+  height: 0vw;
+}
 .date-container p {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
 }
 .date-container h3 {
   rotate: 180deg;
@@ -319,6 +325,8 @@ body {
   color: #FF00FF;
 }
 .date-container .open .data-content {
+  -webkit-transition: height 0.3s ease;
+  transition: height 0.3s ease;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -329,6 +337,11 @@ body {
   height: 50vw;
 }
 .date-container .open .data-content p {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  color: #FDFDFD;
   display: grid;
   rotate: 90deg;
 }
