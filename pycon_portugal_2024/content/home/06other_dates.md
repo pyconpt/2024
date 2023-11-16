@@ -1,50 +1,51 @@
-<section class="hide-border" markdown="block">
-
-### 
-
-</section>
-
-<section class="december open" markdown="block">
+<section class="december open row" markdown="block">
 
 ### December
 
-Early Bird tickets sales close
+<div class="data-content">
+<p>Early Bird tickets sales close</p>
+</div>
+
 
 </section>
 
-<section class="january" markdown="block">
+<section class="january row" markdown="block">
 
 ### January 
 
-Early Bird tickets sales close
+<div class="data-content">
+<p>Early Bird tickets sales close</p>
+</div>
+
 </section>
 
-<section class="february" markdown="block">
+<section class="february row" markdown="block">
 
 ### February 
 
-Call for Participation closes
+<div class="data-content">
+<p>Call for Participation closes</p>
+</div>
 
 </section>
 
-<section class="march" markdown="block">
+<section class="march row" markdown="block">
 
 ### March
 
-Application for Opportunity Grants closes
+<div class="data-content">
+<p>Application for Opportunity Grants closes</p>
+</div>
+
 
 </section>
 
-<section class="april" markdown="block">
+<section class="april row" markdown="block">
 
 ### April
 
-Childcare application opens
-
-</section>
-
-<section class="hide-border" markdown="block">
-
-### last
+<div class="data-content">
+<p>Childcare application opens</p>
+</div>
 
 </section>

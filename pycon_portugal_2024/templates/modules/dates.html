@@ -11,12 +11,11 @@
   {% endwith %}
 </div>
 
-<div class="col-12 col-xl-7 pt-5">
+<div class="display-flex date-div">
   {% with content=files.6|markdown %}
-    <div class="h-100">
-      <div class="date-container text-white card-body py-5">
-        {{ content.html | safe }}
-      </div>
+    <div class="date-container text-white">
+      {{ content.html | safe }}
     </div>
   {% endwith %}
 </div>
+

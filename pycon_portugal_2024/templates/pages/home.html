@@ -22,7 +22,6 @@
       {% with content=files.2|markdown %}
         <div class="this-is-for text-center pt-5 text-white">
           <img src="{% static 'images/home/elipse.gif' %}" alt="{% translate 'Elipse' %}">
-{#          <img src="images/home/elipse.gif" alt="Elipse">#}
           {{ content.html | safe }}
         </div>
       {% endwith %}

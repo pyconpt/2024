@@ -26,6 +26,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.inner-body {
+  background-color: #0A042C;
+}
+
 .alert-debug {
   background-color: #F7F7F7;
   border-color: #d6e9c6;
@@ -44,6 +48,10 @@ html, body {
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.inner-body {
+  background-color: #0A042C;
 }
 
 .alert-debug {
@@ -185,6 +193,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.inner-body {
+  background-color: #0A042C;
+}
+
 .alert-debug {
   background-color: #F7F7F7;
   border-color: #d6e9c6;
@@ -265,6 +277,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.inner-body {
+  background-color: #0A042C;
+}
+
 .alert-debug {
   background-color: #F7F7F7;
   border-color: #d6e9c6;
@@ -275,6 +291,46 @@ body {
   background-color: #f2dede;
   border-color: #eed3d7;
   color: #b94a48;
+}
+
+.display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.date-div {
+  height: 25em;
+}
+
+.date-container {
+  background-color: #0A042C;
+  rotate: -90deg;
+  width: 15em;
+}
+.date-container p {
+  display: none;
+}
+.date-container h3 {
+  rotate: 180deg;
+  border: solid;
+  margin: 0;
+  padding: 0.5em;
+  color: #FF00FF;
+}
+.date-container .open .data-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 1px #FF00FF;
+  height: 50vw;
+}
+.date-container .open .data-content p {
+  display: grid;
+  rotate: 90deg;
 }
 
 .home-header .home-banner .home_about-content h2, .home-sec h2 {
@@ -289,85 +345,10 @@ body {
   font-weight: 700;
 }
 
-.home-header .home-banner .home_about-content h3, .home-sec .join-us-content, .date-container .open p, .date-container h3 {
+.home-header .home-banner .home_about-content h3, .home-sec .join-us-content {
   font-family: Alef, sans-serif;
   font-size: 24px;
   font-weight: 400;
-}
-
-.date-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.date-container section {
-  display: -webkit-box;
-  width: 3em;
-}
-.date-container .december p, .date-container .january p, .date-container .february p, .date-container .march p, .date-container .april p {
-  display: none;
-}
-.date-container h3 {
-  width: 7em;
-  height: 2em;
-  color: #FF00FF;
-  rotate: 90deg;
-  border: solid;
-  padding: 0.5em;
-}
-.date-container .hide-border h3 {
-  color: #0A042C;
-  height: 3em;
-  margin-top: -0.5em;
-}
-.date-container .january.open {
-  -webkit-transition: margin-left 0.3s ease;
-  transition: margin-left 0.3s ease;
-  margin-left: 1em;
-}
-.date-container .march.open {
-  margin-right: -4em;
-}
-.date-container .april.open {
-  border-right: solid;
-}
-.date-container .open {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: #FF00FF;
-  margin-right: -8em;
-  margin-top: -3.75em;
-  height: 10.5em;
-  border-top: solid;
-  border-bottom: solid;
-}
-.date-container .open h3 {
-  margin-top: 2.44em;
-}
-.date-container .open #december {
-  -webkit-transition: margin-left 0.3s ease;
-  transition: margin-left 0.3s ease;
-}
-.date-container .open #january {
-  -webkit-transition: margin-left 0.3s ease;
-  transition: margin-left 0.3s ease;
-  margin-left: -0.75em;
-}
-.date-container .open p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 2em;
-  color: #FDFDFD;
-  margin-right: 9em;
-  margin-left: -3em;
-}
-.date-container .march.open p {
-  margin-right: 7em;
-}
-.date-container .april.open p {
-  margin-right: 5em;
 }
 
 .home-banner {
@@ -541,92 +522,37 @@ li {
   background: linear-gradient(to bottom, #F7F7F7 0%, #F7F7F7 50%, #2C2C2C 50%, #2C2C2C 100%) !important;
 }
 
-.home-sponsors.important-dates .dates .calendar {
-  display: block;
-}
-.home-sponsors.important-dates .dates .calendar blockquote {
-  display: block !important;
-  width: 100%;
-  padding-right: 24px;
-  padding-right: 1.5rem;
-}
-.home-sponsors.important-dates .dates .calendar blockquote h4 {
-  font: normal normal bold 24px/35px Poppins;
-}
-.home-sponsors.important-dates .dates .calendar blockquote blockquote {
-  display: block !important;
-  width: auto;
-  padding-top: 14px;
-  padding-top: 0.875rem;
-}
-.home-sponsors.important-dates .dates .calendar blockquote blockquote p {
-  margin-bottom: 16px;
-  margin-bottom: 1rem;
-}
-.home-sponsors.important-dates .dates .calendar blockquote p {
-  margin-bottom: 0px;
-  margin-bottom: 0rem;
-}
-
-#last {
-  margin-left: 0.5em;
-}
-
 .text-align-webit-center {
   text-align: -webkit-center;
 }
 
 @media (max-width: 768px) {
-  .date-container {
-    display: grid;
-    margin: 0;
+  .date-div {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    rotate: 0deg;
   }
-  .date-container section {
-    width: auto;
-    display: grid;
+  .date-div .date-container {
+    rotate: 0deg;
   }
-  .date-container h3 {
-    width: auto;
+  .date-div h3 {
+    rotate: 0deg;
   }
-  .date-container .january.open {
-    margin: 0;
+  .date-div .date-container .open .data-content {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
-  .date-container .march.open {
-    margin: 0;
-  }
-  .date-container .march.open p {
-    margin: 0;
-  }
-  .date-container .april.open {
-    margin: 0;
-  }
-  .date-container .april.open p {
-    margin: 0;
-  }
-  .date-container .open {
-    margin: 0;
-    width: auto;
-    border: none;
-    display: grid;
-  }
-  .date-container .open #december {
-    margin: 0;
-  }
-  .date-container .open #january {
-    margin: 0;
-  }
-  .date-container .open p {
-    margin: 0;
-    border: solid 1px #FF00FF;
-  }
-  .date-container .open h3 {
-    margin: 0;
-  }
-  .date-container h3 {
-    height: auto;
-    padding: 0.5em;
-    margin: 0;
-    rotate: none;
+  .date-div .date-container .open .data-content p {
+    padding: 1em;
+    rotate: 0deg;
   }
   .home-header .home-banner .home_about-content {
     padding: 2em 2em 15em 0;
@@ -639,7 +565,7 @@ li {
   .home-sec .this-is-for li p, .home-header .home-banner .home_about-content h4 {
     font-size: 1em;
   }
-  .date-container h3, .date-container .open p, .home-sec .join-us-content, .home-header .home-banner .home_about-content h3 {
+  .home-sec .join-us-content, .home-header .home-banner .home_about-content h3 {
     font-size: 1em;
   }
   #last, #_1 {

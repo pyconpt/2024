@@ -2,6 +2,43 @@
 
 @use "base";
 
+.display-flex {
+  display: flex;
+}
+
+.date-div {
+  height: 25em;
+}
+
+.date-container {
+  background-color: #0A042C;
+  rotate: -90deg;
+  width: 15em;
+
+  p {
+    display: none;
+  }
+  h3 {
+    rotate: 180deg;
+    border: solid;
+    margin: 0;
+    padding: 0.5em;
+    color: base.$lightPurple;
+  }
+  .open {
+    .data-content {
+      display: flex;
+      align-items: center;
+      border: solid 1px base.$lightPurple;
+      height: 50vw;
+      p {
+        display: grid;
+        rotate: 90deg;
+      }
+    }
+  }
+}
+
 %HOME_TITLE {
   font-family: Turret Road, sans-serif;
   font-size: 6em;
@@ -18,89 +55,6 @@
   font-family: Alef, sans-serif;
   font-size: 24px;
   font-weight: 400;
-}
-
-.date-container {
-  display: flex;
-  section {
-    display: -webkit-box;
-    width: 3em;
-  }
-
-  .december, .january, .february, .march, .april {
-    p{
-      display: none;
-    }
-  }
-
-  h3 {
-    @extend %THIRD_TEXT;
-    width: 7em;
-    height: 2em;
-    color: base.$lightPurple;
-    rotate: 90deg;
-    border: solid;
-    padding: 0.5em;
-  }
-
-  .hide-border h3 {
-    color: base.$bgPurple;
-    height: 3em;
-    margin-top: -0.5em;
-  }
-
-  .january.open {
-    transition: margin-left 0.3s ease;
-    margin-left: 1em;
-  }
-
-  .march.open {
-
-    margin-right: -4em;
-  }
-
-  .april.open {
-    border-right: solid;
-  }
-
-    .open {
-      //transition: margin-right 0.1s ease;
-      width: fit-content;
-      color: base.$lightPurple;
-      margin-right: -8em;
-      margin-top: -3.75em;
-      height: 10.5em;
-      border-top: solid;
-      border-bottom: solid;
-      h3 {
-        margin-top: 2.44em;
-      }
-
-      #december {
-        transition: margin-left 0.3s ease;
-        //margin-left: -4em;
-      }
-
-      #january {
-        transition: margin-left 0.3s ease;
-        margin-left: -0.75em;
-      }
-      p {
-        @extend %THIRD_TEXT;
-        display: flex;
-        padding: 2em;
-        color: #FDFDFD;
-        margin-right: 9em;
-        margin-left: -3em;
-      }
-  }
-  .march.open p {
-    margin-right: 7em;
-  }
-
-  .april.open p {
-    margin-right: 5em;
-  }
 }
 
 .home-banner {
@@ -294,101 +248,30 @@
 }
 
 
-
-.home-sponsors {
-  &.important-dates {
-    .dates {
-
-      .calendar {
-        display: block;
-
-        blockquote {
-          display: block !important;
-          width: 100%;
-          padding-right: 1.5rem;
-
-          h4 {
-            font: normal normal bold 24px/35px Poppins;
-          }
-
-          blockquote {
-            display: block !important;
-            width: auto;
-            padding-top: .875rem;
-
-            p {
-              margin-bottom: 1rem;
-            }
-          }
-
-          p {
-            margin-bottom: 0rem;
-          }
-        }
-      }
-    }
-  }
-}
-
-#last {
-  margin-left: 0.5em;
-}
-
 .text-align-webit-center {
   text-align: -webkit-center;
 }
 
 @media (max-width: 768px) {
-  .date-container {
-    display: grid;
-    margin: 0;
-    section {
-      width: auto;
-      display: grid;
+  .date-div {
+    height: fit-content;
+    width: fit-content;
+    rotate: 0deg;
+    .date-container {
+      rotate: 0deg;
     }
     h3 {
-      width: auto;
+      rotate: 0deg;
     }
-    .january.open {
-      margin: 0;
-    }
-    .march.open {
-      margin: 0;
+    .date-container .open .data-content {
+      height: fit-content;
+      width: fit-content;
       p {
-        margin: 0;
+        padding: 1em;
+        rotate: 0deg;
       }
     }
-    .april.open {
-      margin: 0;
-      p {
-        margin: 0;
-      }
-    }
-    .open {
-      #december {
-        margin: 0;
-      }
-      #january {
-        margin: 0;
-      }
-      margin: 0;
-      width: auto;
-      border: none;
-      display: grid;
-      p {
-        margin: 0;
-        border: solid 1px base.$lightPurple;
-      }
-      h3 {
-        margin: 0;
-      }
-    }
-    h3 {
-      height: auto;
-      padding: 0.5em;
-      margin: 0;
-      rotate: none;
-    }
+
   }
   .home-header {
     .home-banner {
