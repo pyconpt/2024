@@ -340,8 +340,8 @@ body {
 .date-container .open .data-content p {
   visibility: visible;
   opacity: 1;
-  -webkit-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.4s ease 0.2s;
+  transition: opacity 0.4s ease 0.2s;
   color: #FDFDFD;
   display: grid;
   rotate: 90deg;
@@ -537,12 +537,9 @@ li {
 
 @media (max-width: 768px) {
   .date-div {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     rotate: 0deg;
   }
   .date-div .date-container {
@@ -552,16 +549,18 @@ li {
     rotate: 0deg;
   }
   .date-div .data-content {
-    -webkit-transition: height ease 0.3s;
-    transition: height ease 0.3s;
-    height: 0;
+    -webkit-transition: max-height ease 0.3s;
+    transition: max-height ease 0.3s;
+    max-height: 0;
   }
   .date-div .date-container .open .data-content {
-    -webkit-transition: height ease 0.3s;
-    transition: height ease 0.3s;
+    max-height: 100px;
+    -webkit-transition: max-height ease 0.3s;
+    transition: max-height ease 0.3s;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    overflow: hidden;
   }
   .date-div .date-container .open .data-content p {
     padding: 1em;

@@ -39,7 +39,7 @@
       p {
         visibility: visible;
         opacity: 1;
-        transition: opacity 0.3s ease;
+        transition: opacity 0.4s ease 0.2s;
         color: #FDFDFD;
         display: grid;
         rotate: 90deg;
@@ -255,8 +255,7 @@
 
 @media (max-width: 768px) {
   .date-div {
-    height: fit-content;
-    width: fit-content;
+    justify-content: center;
     rotate: 0deg;
     .date-container {
       rotate: 0deg;
@@ -265,12 +264,14 @@
       rotate: 0deg;
     }
     .data-content {
-      transition: height ease 0.3s;
-      height: 0;
+      transition: max-height ease 0.3s;
+      max-height: 0;
     }
     .date-container .open .data-content {
-      transition: height ease 0.3s;
+      max-height: 100px;
+      transition: max-height ease 0.3s;
       height: fit-content;
+      overflow: hidden;
       p {
         padding: 1em;
         rotate: 0deg;
