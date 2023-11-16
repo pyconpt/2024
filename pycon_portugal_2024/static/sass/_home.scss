@@ -264,9 +264,13 @@
     h3 {
       rotate: 0deg;
     }
+    .data-content {
+      transition: height ease 0.3s;
+      height: 0;
+    }
     .date-container .open .data-content {
+      transition: height ease 0.3s;
       height: fit-content;
-      width: fit-content;
       p {
         padding: 1em;
         rotate: 0deg;

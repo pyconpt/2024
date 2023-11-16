@@ -4,8 +4,8 @@
   <div class="container-fluid inner-content-width footer-container">
     <div class="row justify-content-around">
       <div class="row footer-links">
-        <div class="col-6 footer-title social-media-title"><strong>Follow us</strong></div>
-        <div class="col-6 row justify-content-center align-self-center">
+        <div class=" col-12 col-sm-6 footer-title social-media-title"><strong>Follow us</strong></div>
+        <div class="col-sm-6 col-12 row justify-content-center align-self-center">
           {% for smedia, smedia_href in social_media.items %}
             {% with smedia_logo='images/external_logo/logo_'|add:smedia|add:'.png' %}
               <div class="text-center footer-social-media-link">

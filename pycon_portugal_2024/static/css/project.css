@@ -172,6 +172,7 @@ body {
     padding-right: 0.75rem;
   }
   .custom-footer .social-media-title {
+    padding: 0;
     text-align: center;
   }
   .custom-footer .footer-links {
@@ -524,11 +525,6 @@ li {
   background-color: #F7F7F7;
   border-radius: 16px;
 }
-.sponsors .card-other-dates {
-  background-color: transparent;
-  border: unset;
-  font: normal normal normal 24px/44px Poppins;
-}
 
 .content-newsletter {
   background: -webkit-gradient(linear, left top, left bottom, from(#F7F7F7), color-stop(50%, #F7F7F7), color-stop(50%, #2C2C2C), to(#2C2C2C)) !important;
@@ -555,13 +551,17 @@ li {
   .date-div h3 {
     rotate: 0deg;
   }
+  .date-div .data-content {
+    -webkit-transition: height ease 0.3s;
+    transition: height ease 0.3s;
+    height: 0;
+  }
   .date-div .date-container .open .data-content {
+    -webkit-transition: height ease 0.3s;
+    transition: height ease 0.3s;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
   }
   .date-div .date-container .open .data-content p {
     padding: 1em;
