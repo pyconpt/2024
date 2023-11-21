@@ -6,6 +6,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
 .alert-debug {
   background-color: #fff;
   border-color: #d6e9c6;
@@ -785,4 +787,100 @@ li {
   .this-is-for img {
     display: none;
   }
+}
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.inner-body {
+  background-color: #0A042C;
+}
+
+.alert-debug {
+  background-color: #F7F7F7;
+  border-color: #d6e9c6;
+  color: #000;
+}
+
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+}
+
+h2 {
+  padding: 1em 0;
+  color: #FFFFFF;
+  font-family: Turret Road, sans-serif;
+  font-size: 4em;
+  font-weight: 800;
+}
+
+h3 {
+  padding: 1em 0;
+  color: #FFFFFF;
+  font-family: Alef, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+p, li {
+  color: #FFFFFF;
+  font-family: Alef, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.simple-content ul {
+  padding-left: 1em;
+}
+
+.simple-content li {
+  list-style-type: disc;
+}
+
+.purple-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: #9747FF;
+}
+
+.pink-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: #FF00FF;
+}
+
+nav {
+  background-color: #0A042C;
+}
+
+table {
+  border: solid white 1px;
+}
+
+td, th {
+  color: #FFFFFF;
+  padding: 0.5em;
+  border: #FF00FF solid 1px;
+}
+
+blockquote p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+blockquote {
+  text-align: -webkit-center;
+}
+
+#sponsors {
+  text-align: center;
 }

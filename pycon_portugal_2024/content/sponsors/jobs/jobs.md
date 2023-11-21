@@ -1,5 +1,6 @@
-title: Job Offers
 layout: simple
+
+## Job Offers
 
 Looking for a job? Here we'll have an awesome list with companies who sponsored the conference. If you want to publish a job offer here, [click here](/sponsors/sponsorship/).
 
@@ -7,14 +8,15 @@ Looking for a job? Here we'll have an awesome list with companies who sponsored 
 
 [![evolutio](/static/images/sponsors/evolutio.png){:class='sponsor my-4'}](https://www.evolutio.pt){:target='_blank'}
 
+<hr class="pink-line">
 
-#### **THE COMPANY**
+### **THE COMPANY**
 
 We are a Portuguese technology consultancy boutique, located in Porto. We are specialised in Spacial Data Mining, Data Science and Software Engineering, and can help steer Clients in their digital transformation. Backed by a very strong experienced team with a solid track record in developing cutting edge software solutions for clients like Porto University, NOS Telecoms, Porto City Council, Lisboa City Council, Gaia City Council, Matosinhos City Council, Público, Confidential Imobiliário, Vida Imobiliária, Iberian Property, amongst others.
 
+<hr class="purple-line">
 
-
-#### **THE ROLE**
+### **THE ROLE**
 
 We are looking for a Backend Web Developer to join the team in building Django (Python) applications with good leadership, teamwork and problem-solving skills. These are exciting and complex projects that would be extremely interesting to work on.
 

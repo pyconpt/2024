@@ -1,0 +1,27 @@
+// sponsors
+
+@use "base";
+
+table {
+  border: solid white 1px;
+}
+
+td, th {
+  color: #FFFFFF;
+  padding: 0.5em;
+  border: base.$lightPurple solid 1px;
+}
+
+blockquote p {
+  display: flex;
+  justify-content: space-around;
+}
+
+blockquote {
+  text-align: -webkit-center;
+}
+
+#sponsors {
+  text-align: center;
+}
+

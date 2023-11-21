@@ -1,5 +1,6 @@
-title: Visibility Options
 layout: simple
+
+## Visibility Options
 
 We have made a large sponsorship menu to invite all to contribute and to give you the opportunity to customise your support.
 
@@ -38,3 +39,5 @@ Please contact [sponsors@pycon.pt](mailto:sponsors@pycon.pt) with questions and 
         download the PDF file instead.</a>
     </p>
 </object>
+
+<hr class="pink-line">
