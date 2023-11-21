@@ -19,11 +19,12 @@
   }
 
   .dropdown-menu {
-    background: base.$white !important;
+    background: base.$bgPurple !important;
   }
 
   ul a:hover.dropdown-item:hover {
     background-color: base.$white !important;
+    color: #0A042C !important;
   }
 
 }

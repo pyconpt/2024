@@ -50,6 +50,13 @@ h2 {
   font-weight: 800;
 }
 
+h3 {
+  color: #FFFFFF;
+  font-family: Alef, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
 p, li {
   color: #FFFFFF;
   font-family: Alef, sans-serif;
@@ -110,6 +117,13 @@ h2 {
   font-family: Turret Road, sans-serif;
   font-size: 4em;
   font-weight: 800;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-family: Alef, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 p, li {
@@ -295,6 +309,13 @@ h2 {
   font-weight: 800;
 }
 
+h3 {
+  color: #FFFFFF;
+  font-family: Alef, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
 p, li {
   color: #FFFFFF;
   font-family: Alef, sans-serif;
@@ -339,10 +360,11 @@ nav {
   color: #2C2C2C !important;
 }
 .black-nav .dropdown-menu {
-  background: #F7F7F7 !important;
+  background: #0A042C !important;
 }
 .black-nav ul a:hover.dropdown-item:hover {
   background-color: #F7F7F7 !important;
+  color: #0A042C !important;
 }
 
 .header {
@@ -416,6 +438,13 @@ h2 {
   font-family: Turret Road, sans-serif;
   font-size: 4em;
   font-weight: 800;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-family: Alef, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 p, li {
