@@ -42,6 +42,44 @@ body {
   color: #b94a48;
 }
 
+h2 {
+  padding: 1em 0;
+  color: #FFFFFF;
+  font-family: Turret Road, sans-serif;
+  font-size: 4em;
+  font-weight: 800;
+}
+
+p, li {
+  color: #FFFFFF;
+  font-family: Alef, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.simple-content ul {
+  padding-left: 1em;
+}
+.simple-content li {
+  list-style-type: disc;
+}
+
+.purple-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: #9747FF;
+}
+
+.pink-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: #FF00FF;
+}
+
+nav {
+  background-color: #0A042C;
+}
+
 html, body {
   overflow-x: hidden;
 }
@@ -64,6 +102,45 @@ body {
   background-color: #f2dede;
   border-color: #eed3d7;
   color: #b94a48;
+}
+
+h2 {
+  padding: 1em 0;
+  color: #FFFFFF;
+  font-family: Turret Road, sans-serif;
+  font-size: 4em;
+  font-weight: 800;
+}
+
+p, li {
+  color: #FFFFFF;
+  font-family: Alef, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.simple-content ul {
+  padding-left: 1em;
+}
+
+.simple-content li {
+  list-style-type: disc;
+}
+
+.purple-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: #9747FF;
+}
+
+.pink-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: #FF00FF;
+}
+
+nav {
+  background-color: #0A042C;
 }
 
 .custom-footer {
@@ -210,14 +287,53 @@ body {
   color: #b94a48;
 }
 
+h2 {
+  padding: 1em 0;
+  color: #FFFFFF;
+  font-family: Turret Road, sans-serif;
+  font-size: 4em;
+  font-weight: 800;
+}
+
+p, li {
+  color: #FFFFFF;
+  font-family: Alef, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.simple-content ul {
+  padding-left: 1em;
+}
+
+.simple-content li {
+  list-style-type: disc;
+}
+
+.purple-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: #9747FF;
+}
+
+.pink-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: #FF00FF;
+}
+
+nav {
+  background-color: #0A042C;
+}
+
 .black-nav {
-  background-color: #F7F7F7 !important;
+  background-color: #0A042C !important;
 }
 .black-nav ul {
-  border-color: #2C2C2C !important;
+  border-color: white !important;
 }
 .black-nav ul a {
-  color: #2C2C2C !important;
+  color: white !important;
 }
 .black-nav .navbar-toggler i {
   color: #2C2C2C !important;
@@ -292,6 +408,45 @@ body {
   background-color: #f2dede;
   border-color: #eed3d7;
   color: #b94a48;
+}
+
+h2 {
+  padding: 1em 0;
+  color: #FFFFFF;
+  font-family: Turret Road, sans-serif;
+  font-size: 4em;
+  font-weight: 800;
+}
+
+p, li {
+  color: #FFFFFF;
+  font-family: Alef, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.simple-content ul {
+  padding-left: 1em;
+}
+
+.simple-content li {
+  list-style-type: disc;
+}
+
+.purple-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: #9747FF;
+}
+
+.pink-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: #FF00FF;
+}
+
+nav {
+  background-color: #0A042C;
 }
 
 .display-flex {

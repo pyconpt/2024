@@ -23,7 +23,6 @@ def default_view(request, menu="home", submenu=None):
         content = "%s/%s" % (path, f)
         ctx["files"].append(content)
 
-    print('AAAAAAAAAAAAAAA')
     print(ctx)
 
     if menu == "home":

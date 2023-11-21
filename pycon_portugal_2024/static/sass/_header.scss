@@ -4,13 +4,13 @@
 
 
 .black-nav {
-  background-color: base.$white !important;
+  background-color: base.$bgPurple !important;
 
   ul {
-    border-color: base.$BgBlack !important;
+    border-color: white !important;
 
     a {
-      color: base.$BgBlack !important;
+      color: white !important;
     }
   }
 
@@ -64,7 +64,7 @@
     }
 
     .nav-link {
-      font-family: Alef, serif;  
+      font-family: Alef, serif;
       font-size: 16px;
       font-weight: 700;
     }

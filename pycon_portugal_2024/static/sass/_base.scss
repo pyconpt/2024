@@ -62,3 +62,45 @@ $red: #b94a48;
   border-color: $dark-pink;
   color: $red;
 }
+
+  h2 {
+    padding: 1em 0;
+    color: #FFFFFF;
+    font-family: Turret Road, sans-serif;
+    font-size: 4em;
+    font-weight: 800;
+  }
+
+  p, li{
+    color: #FFFFFF;
+    font-family: Alef, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+  }
+
+.simple-content {
+  ul {
+    padding-left: 1em;
+  }
+  li {
+    list-style-type: disc;
+  }
+}
+
+.purple-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: $purple;
+}
+
+.pink-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: $lightPurple;
+}
+
+nav {
+
+  background-color: #0A042C;
+}
+

@@ -8,7 +8,7 @@ from django.views.generic import TemplateView
 from pycon_portugal_2024.site.views import default_view
 
 urlpatterns = [
-    path("", default_view, name="home"),
+
     path("about/", TemplateView.as_view(template_name="pages/about.html"), name="about"),
     # Django Admin, use {% url 'admin:index' %}
     path(settings.ADMIN_URL, admin.site.urls),
@@ -16,6 +16,8 @@ urlpatterns = [
     path("users/", include("pycon_portugal_2024.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
+    path("", default_view, name="home"),
+    path("<slug:menu>/", default_view, name="menu-view"),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 

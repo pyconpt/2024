@@ -11,15 +11,8 @@ def links(request):
                 },
             },
             "Information": {
-                "dropdown": "true",
-                "submenu": {
-                    "COIMBRA": "/information/coimbra/",
-                    "VENUE": "/information/venue/",
-                    "GRANTS": "/information/grants/",
-                    "PARTY": "/information/party/",
-                    "HOSPITALITY": "/information/hospitality/",
-                    "T-SHIRTS": "/information/tshirts/",
-                },
+                "dropdown": "false",
+                "href": "/information/",
             },
             "Sponsors/Jobs": {
                 "dropdown": "true",
