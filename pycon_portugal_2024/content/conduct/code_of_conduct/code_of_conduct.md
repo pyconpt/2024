@@ -102,6 +102,4 @@ If you feel unsafe reporting in person, you may choose someone to represent you.
 
 When handling a report, we follow our response guidelines.
 
-<hr class="pink-line">
-
 We value your attendance, and look forward to seeing you at PyCon Portugal.

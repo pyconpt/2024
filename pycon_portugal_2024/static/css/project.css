@@ -361,9 +361,6 @@ nav {
 .black-nav ul a {
   color: white !important;
 }
-.black-nav .navbar-toggler i {
-  color: #2C2C2C !important;
-}
 .black-nav .dropdown-menu {
   background: #0A042C !important;
 }
@@ -379,11 +376,14 @@ nav {
   max-width: 80px;
 }
 .header .navbar-toggler:hover {
-  background-color: #00969C !important;
+  background-color: white !important;
 }
 .header .navbar-toggler i {
   color: #F7F7F7;
   font-size: 42px;
+}
+.header .navbar-toggler i:hover {
+  color: #0A042C;
 }
 .header ul {
   padding: 11.2px;

@@ -14,10 +14,6 @@
     }
   }
 
-  .navbar-toggler i {
-    color: base.$BgBlack !important;
-  }
-
   .dropdown-menu {
     background: base.$bgPurple !important;
   }
@@ -40,12 +36,15 @@
 
   .navbar-toggler {
     &:hover {
-      background-color: base.$Green !important;
+      background-color: white !important;
     }
 
     i {
       color: base.$white;
       font-size: 42px;
+      &:hover {
+        color: base.$bgPurple;
+      }
     }
   }
 

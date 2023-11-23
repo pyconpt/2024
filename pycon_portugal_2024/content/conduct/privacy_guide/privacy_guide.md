@@ -48,7 +48,7 @@ The PyCon Portugal 2023 will publicly share the slides from the presentations.
 
 <hr class="purple-line">
 
-### Sponsors
+<h3> Sponsors </h3>
 
 For all sponsors, we collect personal data necessary for our contractual relationship.
 
