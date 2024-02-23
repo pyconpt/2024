@@ -13,6 +13,7 @@ This list of individuals is still growing. Nonetheless, these are our sincerest 
 * Gabriel Guimarães
 * Isabella Colombarolli
 * Luis Vaz
+* Miguel Magalhães
 * Sofia Silva
 
 In addition, the wonderful speakers, our amazing sponsors, and to everyone who bought a ticket.
