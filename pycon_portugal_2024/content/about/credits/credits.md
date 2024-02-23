@@ -8,12 +8,11 @@ This list of individuals is still growing. Nonetheless, these are our sincerest 
 * Bia Rodrigues
 * David Vaz
 * Felipe Valverde
+* Filipe Guedes
 * Frederico Rodrigues
 * Gabriel Guimarães
 * Isabella Colombarolli
-* João Polónia
-* Lucas Pires
 * Luis Vaz
-* Telmo Guerra
+* Sofia Silva
 
 In addition, the wonderful speakers, our amazing sponsors, and to everyone who bought a ticket.

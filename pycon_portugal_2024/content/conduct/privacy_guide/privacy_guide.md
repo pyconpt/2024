@@ -4,7 +4,7 @@ layout: simple
 
 Ad Evolutio – PyCon Portugal 2023 organizers – is responsible for the website 2023.pycon.pt, PyCon Portugal 2023 official website. The privacy and security of personal data of our attendees, speakers, sponsors, and volunteers – participants – are very important to us. PyCon Portugal 2023 organizers are committed to observing the principles of data protection to the best of its ability, in compliance with the (EU) Regulation 2016/679 of the European Parliament and Council, of 27th of April 2016, concerning the protection of natural persons concerning the processing of personal data and the free movement of such data, which revokes Directive 95/46/CE (General Data Protection Regulations), and other additional legislation.
 
-Please read the following text to know how your personal data will be used by the PyCon Portugal 2023 organizers. Should any doubts or questions arise, talk with us by email to 2023@pycon.pt.
+Please read the following text to know how your personal data will be used by the PyCon Portugal 2023 organizers. Should any doubts or questions arise, talk with us by email to [2024@pycon.pt](mailto:2024@pycon.pt).
 
 <hr class="pink-line">
 
@@ -76,4 +76,4 @@ Our website may contain links to external websites. This privacy policy applies 
 
 We retain your Personal Data for as long as necessary to provide you with our Services, or for other important purposes such as complying with legal obligations, resolving disputes, and enforcing our agreements.
 
-The data subject has the right to access, rectify or remove, restrict or contest the processing of the personal data at any time, by simply communicating this intention via email to 2023@pycon.pt.
+The data subject has the right to access, rectify or remove, restrict or contest the processing of the personal data at any time, by simply communicating this intention via email to [2024@pycon.pt](mailto:2024@pycon.pt).

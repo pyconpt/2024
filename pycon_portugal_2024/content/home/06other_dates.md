@@ -1,51 +1,80 @@
-<section class="december open row" markdown="block">
+[//]: # (<section class="december open row" markdown="block">)
 
-### December
+[//]: # ()
+[//]: # (### December)
 
-<div class="data-content">
-<p>Early Bird tickets sales close</p>
-</div>
+[//]: # ()
+[//]: # (<div class="data-content">)
 
+[//]: # (<p>Early Bird tickets sales close</p>)
 
-</section>
+[//]: # (</div>)
 
-<section class="january row" markdown="block">
+[//]: # ()
+[//]: # ()
+[//]: # (</section>)
 
-### January 
+[//]: # ()
+[//]: # (<section class="january row" markdown="block">)
 
-<div class="data-content">
-<p>Early Bird tickets sales close</p>
-</div>
+[//]: # ()
+[//]: # (### January )
 
-</section>
+[//]: # ()
+[//]: # (<div class="data-content">)
 
-<section class="february row" markdown="block">
+[//]: # (<p>Early Bird tickets sales close</p>)
 
-### February 
+[//]: # (</div>)
 
-<div class="data-content">
-<p>Call for Participation closes</p>
-</div>
+[//]: # ()
+[//]: # (</section>)
 
-</section>
+[//]: # ()
+[//]: # (<section class="february row" markdown="block">)
 
-<section class="march row" markdown="block">
+[//]: # ()
+[//]: # (### February )
 
-### March
+[//]: # ()
+[//]: # (<div class="data-content">)
 
-<div class="data-content">
-<p>Application for Opportunity Grants closes</p>
-</div>
+[//]: # (<p>Call for Participation closes</p>)
 
+[//]: # (</div>)
 
-</section>
+[//]: # ()
+[//]: # (</section>)
 
-<section class="april row" markdown="block">
+[//]: # ()
+[//]: # (<section class="march row" markdown="block">)
 
-### April
+[//]: # ()
+[//]: # (### March)
 
-<div class="data-content">
-<p>Childcare application opens</p>
-</div>
+[//]: # ()
+[//]: # (<div class="data-content">)
 
-</section>
+[//]: # (<p>Application for Opportunity Grants closes</p>)
+
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # ()
+[//]: # (</section>)
+
+[//]: # ()
+[//]: # (<section class="april row" markdown="block">)
+
+[//]: # ()
+[//]: # (### April)
+
+[//]: # ()
+[//]: # (<div class="data-content">)
+
+[//]: # (<p>Childcare application opens</p>)
+
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # (</section>)

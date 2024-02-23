@@ -5,6 +5,6 @@ layout: home_about
 
 ## Python Conference in Portugal
 
-#### Braga
+#### Altice Forum, Braga
 
-### ??-?? September 2024
+### 17-19 October 2024

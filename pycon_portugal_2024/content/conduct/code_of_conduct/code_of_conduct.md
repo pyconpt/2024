@@ -4,7 +4,7 @@ Everybody who participates in PyCon Portugal in one way or another is required t
 
 The organizers will introduce a Code of Conduct team that will be primarily responsible for handling any incidents. The CoC applies before and throughout the event (including related activities such as social events, and social media). We have also published our response guidelines.
 
-The team can be reached on conduct@pycon.pt.
+The team can be reached on [conduct@pycon.pt](mailto:conduct@pycon.pt).
 
 We would like to thank the DjangoCon Europe 2019 CoC team for the awesome CoC (which we adapted with some minor modifications) and the response guidelines (which we have adopted almost unedited from DjangoCon Europe 2018).
 
@@ -68,7 +68,7 @@ In case of a Code of Conduct violation, some of the most common actions organise
 
 ### Where to report incidents
 
-If a Code of Conduct incident happens to you, or you witness it happening to someone else, please contact the CoC team immediately, either in Slack or by sending an email to conduct@pycon.pt.
+If a Code of Conduct incident happens to you, or you witness it happening to someone else, please contact the CoC team immediately, either in Slack or by sending an email to [conduct@pycon.pt](mailto:conduct@pycon.pt).
 
 Your report will be treated confidentially and will only be discussed within the CoC team.
 

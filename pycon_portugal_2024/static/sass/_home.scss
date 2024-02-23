@@ -243,6 +243,24 @@
   }
 }
 
+.flex-sponsors-organizer {
+  blockquote {
+    a {
+      border: 1px solid #FF00FF;
+      padding: 20px 30px;
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      width: fit-content;
+    }
+    p {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+
 .content-newsletter {
   background: linear-gradient(to bottom, base.$white 0%, base.$white 50%, base.$BgBlack 50%, base.$BgBlack 100%) !important;
 
@@ -322,5 +340,13 @@
       display: none;
     }
   }
+}
+
+#partner, #organizer {
+  text-align: center;
+  color: #FDFDFD;
+  font-family: Turret Road, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
 }
 

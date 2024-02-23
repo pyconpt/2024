@@ -4,23 +4,21 @@ layout: simple
 
 This page contains all information regarding the proposal process for PyCon Portugal – we will update it regularly as new information becomes available.
 
-The talk submissions **are closed!** If you have any questions, please do not hesitate to contact us at content@pycon.pt. Don't forget to follow us on Twitter @PyConPT for the latest up-to-date information!
-
-**Deadline was 2023-06-30 23h59 UTC 🔥**. You can edit your submissions up until this date.
+The talk submissions are [open](https://pretalx.evolutio.pt/pycon-portugal-2024/cfp){:target="_blank"}! If you have any questions, please do not hesitate to contact us at [content@pycon.pt](mailto:content@pycon.pt). Don't forget to follow us on Twitter @PyConPT for the latest up-to-date information!
 
 If you think you have something great to talk about – submit your idea! If you are unsure, talk it over with somebody, or go to Slack to find previous speakers and participants to discuss your idea with. When in doubt, submit your talk 😉!
 
 ### CfP powered by:
 
-pretalx
+[![pretalx](/static/images/other/pretalx.svg){:class='secondary-logo'}](https://pretalx.com/p/about/){:target="_blank"}
 
 <hr class="pink-line">
 
 ## Schedule ️
 
-* Talks - September 7, 8
+* Talks - October 17, 18
 
-* Workshops - September 9
+* Workshops - October 19
 
 The conference will take place from 9AM to 6PM.
 
@@ -46,9 +44,9 @@ Follow us on social media for up-to-date information - see footer below!
 
 * Whatever you deem appropriate – it's your conference, after all!
 
-You may think that your idea is not suited to PyCon Portugal, or that you couldn't possibly present it well, or that others will do it better. We want to prove you wrong. Read more on Why You, Too, Should Speak at a Conference, which applies to speaking at PyCon Portugal!
+You may think that your idea is not suited to PyCon Portugal, or that you couldn't possibly present it well, or that others will do it better. We want to prove you wrong. Read more on [Why You, Too, Should Speak at a Conference](https://blog.usebutton.com/why-you-too-should-speak-at-a-conference){:target="_blank"}, which applies to speaking at PyCon Portugal!
 
-If you would like to ask a question, you are always welcome to write to the content committee: content@pycon.pt.
+If you would like to ask a question, you are always welcome to write to the content committee: [content@pycon.pt](mailto:content@pycon.pt).
 
 <hr class="pink-line">
 
