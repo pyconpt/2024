@@ -1,80 +1,100 @@
-[//]: # (<section class="december open row" markdown="block">)
 
-[//]: # ()
-[//]: # (### December)
 
-[//]: # ()
-[//]: # (<div class="data-content">)
+<div markdown="1" class="col-2 offset-1 month-container">
 
-[//]: # (<p>Early Bird tickets sales close</p>)
+### March
 
-[//]: # (</div>)
+</div> 
 
-[//]: # ()
-[//]: # ()
-[//]: # (</section>)
+<div markdown="1" class="col-8 d-flex">
 
-[//]: # ()
-[//]: # (<section class="january row" markdown="block">)
+<span class="day-container"><strong></strong></span>
 
-[//]: # ()
-[//]: # (### January )
+</div>
 
-[//]: # ()
-[//]: # (<div class="data-content">)
+<div markdown="1" class="col-2 offset-1 month-container">
 
-[//]: # (<p>Early Bird tickets sales close</p>)
+### April
 
-[//]: # (</div>)
+</div> 
 
-[//]: # ()
-[//]: # (</section>)
+<div markdown="1" class="col-8 d-flex">
 
-[//]: # ()
-[//]: # (<section class="february row" markdown="block">)
+<span class="day-container"><strong></strong></span>
 
-[//]: # ()
-[//]: # (### February )
+</div>
 
-[//]: # ()
-[//]: # (<div class="data-content">)
+<div markdown="1" class="col-2 offset-1 month-container">
 
-[//]: # (<p>Call for Participation closes</p>)
+### May
 
-[//]: # (</div>)
+</div> 
 
-[//]: # ()
-[//]: # (</section>)
+<div markdown="1" class="col-8 d-flex">
 
-[//]: # ()
-[//]: # (<section class="march row" markdown="block">)
+<span class="day-container"><strong></strong></span>
 
-[//]: # ()
-[//]: # (### March)
+</div>
 
-[//]: # ()
-[//]: # (<div class="data-content">)
+<div markdown="1" class="col-2 offset-1 month-container">
 
-[//]: # (<p>Application for Opportunity Grants closes</p>)
+### June
 
-[//]: # (</div>)
+</div> 
 
-[//]: # ()
-[//]: # ()
-[//]: # (</section>)
+<div markdown="1" class="col-8 d-flex">
 
-[//]: # ()
-[//]: # (<section class="april row" markdown="block">)
+<span class="day-container"><strong></strong></span>
 
-[//]: # ()
-[//]: # (### April)
+</div>
 
-[//]: # ()
-[//]: # (<div class="data-content">)
+<div markdown="1" class="col-2 offset-1 month-container">
 
-[//]: # (<p>Childcare application opens</p>)
+### July
 
-[//]: # (</div>)
+</div> 
 
-[//]: # ()
-[//]: # (</section>)
+<div markdown="1" class="col-8 d-flex">
+
+<span class="day-container"><strong></strong></span>
+
+</div>
+
+<div markdown="1" class="col-2 offset-1 month-container">
+
+### August
+
+</div> 
+
+<div markdown="1" class="col-8 d-flex">
+
+<span class="day-container"><strong></strong></span>
+
+</div>
+
+
+<div markdown="1" class="col-2 offset-1 month-container">
+
+### September
+
+</div> 
+
+<div markdown="1" class="col-8 d-flex">
+
+<span class="day-container"><strong></strong></span>
+
+</div>
+
+
+<div markdown="1" class="col-2 offset-1 month-container">
+
+### October
+
+</div> 
+
+<div markdown="1" class="col-8 d-flex">
+
+<span class="day-container"><strong></strong></span>
+
+</div>
+

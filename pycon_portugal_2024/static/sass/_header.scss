@@ -54,8 +54,17 @@
     a, a:hover {
       text-decoration: none;
 
-      &.dropdown-item:hover {
-        background-color: base.$BgBlack;
+      &.dropdown-item {
+        color: white;
+
+        &:hover {
+          background-color: white !important;
+          color: base.$bgPurple !important;
+        }
+
+        a {
+          font-size: 42px;
+        }
       }
     }
 
@@ -71,7 +80,7 @@
   }
 
   .dropdown-menu {
-    background: base.$BgBlack;
+    background: base.$bgPurple;
     border: 1px solid #f7f7f7;
   }
 }

@@ -8,3 +8,12 @@ layout: home_about
 #### Altice Forum, Braga
 
 ### 17-19 October 2024
+
+
+<div markdown="1" class="d-flex mt-4 gap-3">
+
+[//]: # ([<button class="btn main-purple-btn">BUY TICKET NOW <i class="bi bi-arrow-right"></i></button>]&#40;https://google.com&#41;{:target="_blank"})
+
+[<button class="btn main-purple-btn">SUBMIT YOUR CFP <i class="bi bi-arrow-right"></i></button>](https://pretalx.evolutio.pt/pycon-portugal-2024/cfp){:target="_blank"}
+
+</div>

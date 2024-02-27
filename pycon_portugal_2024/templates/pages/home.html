@@ -3,17 +3,20 @@
 {% load static markdown_extras %}
 {% block content %}
   {# BANNER #}
-  <div class="container-fluid home-header">
-    <div class="container-fluid home-banner">
-      <div class="row container justify-content-start align-content-center pt-5">
-        <div class="col-md-6 col-12">
-          {# HOME-ABOUT #}
-          {% include 'modules/default.html' with content=files.0 %}
+  <div class="container-fluid px-0 home-header">
+    <div class="container-fluid px-0 home-banner">
+      <div class="container justify-content-start align-content-center pt-3">
+        <div class="row">
 
+          <div class="col-md-6 col-12">
+            {# HOME-ABOUT #}
+            {% include 'modules/default.html' with content=files.0 %}
+
+          </div>
         </div>
       </div>
     </div>
-    <div class="home-sec">
+    <div class="container home-sec">
       {% with content=files.1|markdown %}
         <div class="text-center pt-5 text-white">
           {{ content.html | safe }}
@@ -21,15 +24,28 @@
       {% endwith %}
       {% with content=files.2|markdown %}
         <div class="this-is-for text-center pt-5 text-white">
-          <img src="{% static 'images/home/elipse.gif' %}" alt="{% translate 'Elipse' %}">
+          <img src="{% static 'images/home/ellipsis.png' %}"
+               alt="{% translate 'Elipse' %}"
+               class="ellipsis-rotating"
+          >
           {{ content.html | safe }}
         </div>
       {% endwith %}
     </div>
+    <hr class="pink-line">
   </div>
 
+{#  <div class="home-sec container">#}
+{#    <div class="container">#}
+{#      <div class="pt-5 px-5 text-align-webit-center">#}
+{#        {% include 'modules/dates.html' %}#}
+{#      </div>#}
+{#    </div>#}
+{#  </div>#}
 
-  <div class="home-sec">
+{#  <hr class="purple-line">#}
+
+  <div class="container home-sec">
     {% with content=files.3|markdown %}
       <div class="text-center pt-5 text-white">
         {{ content.html | safe }}
@@ -42,46 +58,39 @@
     {% endwith %}
   </div>
 
-  <div class="home-sec container-fluid">
-    <div class="container">
-      <div class="pt-5 px-5 text-align-webit-center">
-        {% include 'modules/dates.html' %}
-      </div>
+  <hr class="pink-line">
+
+  <div class="container sponsors">
+    <div class="row pt-5 gx-1">
+      {% include 'modules/sponsors.html' with content=files.7 %}
     </div>
   </div>
 
-  <div class="container-fluid sponsors">
-    <div class="container">
-      <div class="row pt-5 gx-1">
-        {% include 'modules/sponsors.html' with content=files.7 %}
-      </div>
-    </div>
-  </div>
-  <script>
-  const months = ["december", "january", "february", "march", "april"];
-
-  months.forEach(month => {
-    const monthElement = document.getElementById(month);
-    const monthSec = document.getElementsByClassName(month)[0];
-
-    monthElement.addEventListener("click", function() {
-      removeOpen();
-      monthSec.classList.add("open");
-
-    if (month === "april" && monthSec.classList.contains("open")) {
-      document.getElementById("last").style.display = "none";
-    } else {
-      document.getElementById("last").style.display = "flex";
-    }
-    });
-  });
-
-  function removeOpen() {
-    // Iterate over the elements in the collection and remove the class
-    Array.from(document.getElementsByClassName("open")).forEach(function(element) {
-      element.classList.remove("open");
-    });
-  }
-</script>
+  {#  <script>#}
+  {#      const months = ["december", "january", "february", "march", "april"];#}
+  {##}
+  {#      months.forEach(month => {#}
+  {#          const monthElement = document.getElementById(month);#}
+  {#          const monthSec = document.getElementsByClassName(month)[0];#}
+  {##}
+  {#          monthElement.addEventListener("click", function () {#}
+  {#              removeOpen();#}
+  {#              monthSec.classList.add("open");#}
+  {##}
+  {#              if (month === "april" && monthSec.classList.contains("open")) {#}
+  {#                  document.getElementById("last").style.display = "none";#}
+  {#              } else {#}
+  {#                  document.getElementById("last").style.display = "flex";#}
+  {#              }#}
+  {#          });#}
+  {#      });#}
+  {##}
+  {#      function removeOpen() {#}
+  {#          // Iterate over the elements in the collection and remove the class#}
+  {#          Array.from(document.getElementsByClassName("open")).forEach(function (element) {#}
+  {#              element.classList.remove("open");#}
+  {#          });#}
+  {#      }#}
+  {#  </script>#}
 
 {% endblock content %}

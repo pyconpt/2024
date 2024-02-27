@@ -7,7 +7,7 @@ We have made a large sponsorship menu to invite all to contribute and to give yo
 
 Please see the detailed description and options in the sponsorships brochure.
 
-[//]: # ([<center><button class="btn">Discover the Sponsorship Brochure &#40;PDF&#41;</button></center>]&#40;/static/docs/sponsorship-brochure-pyconpt23.pdf&#41;{:target="_blank"})
+[<center><button class="btn main-purple-btn">Discover the Sponsorship Brochure (PDF)</button></center>](/static/docs/brochura_geral-vfinal.pdf){:target="_blank"}
 
 
 The following table highlights the main sponsor levels.
@@ -31,18 +31,18 @@ Please contact [sponsors@pycon.pt](mailto:sponsors@pycon.pt) with questions and 
 **We say a humble thanks to any contribution and support given!**
 
 
-[//]: # ([//]: # &#40;<div style="position:relative;padding-top:max&#40;60%,326px&#41;;height:0;width:100%"><iframe allow="clipboard-write" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox" allowfullscreen="true" style="position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;" src="https://e.issuu.com/embed.html?d=pycon-sponsorship-brochure&hideIssuuLogo=false&pageLayout=singlePage&u=pyconpt"></iframe></div>&#41;)
-[//]: # ()
-[//]: # (<object data="/static/docs/sponsorship-brochure-pyconpt23.pdf" type="application/pdf" width="100%" height="700px">)
+[//]: # (<div style="position:relative;padding-top:max(60%,326px);height:0;width:100%"><iframe allow="clipboard-write" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox" allowfullscreen="true" style="position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;" src="https://e.issuu.com/embed.html?d=pycon-sponsorship-brochure&hideIssuuLogo=false&pageLayout=singlePage&u=pyconpt"></iframe></div>)
 
-[//]: # (    <p>It appears you don't have a PDF plugin for this browser.)
+<object data="/static/docs/brochura_geral-vfinal.pdf" type="application/pdf" width="100%" height="700px">
 
-[//]: # (        <a href="/static/docs/sponsorship-brochure-pyconpt23.pdf">click here to)
+    <p>It appears you don't have a PDF plugin for this browser.
 
-[//]: # (        download the PDF file instead.</a>)
+        <a href="/static/docs/sponsorship-brochure-pyconpt23.pdf">click here to
 
-[//]: # (    </p>)
+        download the PDF file instead.</a>
 
-[//]: # (</object>)
+    </p>
+
+</object>
 
 <hr class="pink-line">

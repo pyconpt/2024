@@ -1,21 +1,21 @@
 {% load static markdown_extras %}
 
-{##}
-{#<div class="col-12 text-center">#}
-{#  {% with content=files.5|markdown %}#}
-{#    <div class="">#}
-{#      <div class="text-white align-items-center justify-content-center">#}
-{#        {{ content.html | safe }}#}
-{#      </div>#}
-{#    </div>#}
-{#  {% endwith %}#}
-{#</div>#}
-{##}
-{#<div class="display-flex date-div pt-5">#}
-{#  {% with content=files.6|markdown %}#}
-{#    <div class="date-container text-white">#}
-{#      {{ content.html | safe }}#}
-{#    </div>#}
-{#  {% endwith %}#}
-{#</div>#}
-{##}
+
+<div class="col-12 text-center">
+  {% with content=files.5|markdown %}
+    <div class="">
+      <div class="text-white align-items-center justify-content-center">
+        {{ content.html | safe }}
+      </div>
+    </div>
+  {% endwith %}
+</div>
+
+<div class="container my-5">
+  {% with content=files.6|markdown %}
+    <div class="row dates-row">
+      {{ content.html | safe }}
+    </div>
+  {% endwith %}
+</div>
+

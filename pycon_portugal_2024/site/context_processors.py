@@ -22,6 +22,7 @@ def links(request):
                     "SPONSORSHIP": "/sponsors/sponsorship/",
                 },
             },
+            "Logo": {},
             "Conduct": {
                 "dropdown": "true",
                 "submenu": {

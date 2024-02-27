@@ -1,3 +1,3 @@
 title: Important Dates
 
-[//]: # (## Important Dates)
+## Important Dates
