@@ -25,7 +25,9 @@
             {% if menu_dict.dropdown == 'false' %}
               <li class="nav-item mx-2 mx-xl-4">
                 <a class="nav-link text-white"
-                   href="{{ menu_dict.href }}"> {{ menu }} </a>
+                   href="{{ menu_dict.href }}"
+                    {% if menu_dict.blanktarget %}target="_blank"{% endif %}
+                > {{ menu }} </a>
               </li>
             {% else %}
               <li class="nav-item dropdown mx-2 mx-xl-4">
