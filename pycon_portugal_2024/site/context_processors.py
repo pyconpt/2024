@@ -11,8 +11,11 @@ def links(request):
                 },
             },
             "Information": {
-                "dropdown": "false",
-                "href": "/information/",
+                "dropdown": "true",
+                "submenu": {
+                    "BRAGA": "/information/braga/",
+                    "VENUE": "/information/venue/",
+                },
             },
             "Sponsors/Jobs": {
                 "dropdown": "true",

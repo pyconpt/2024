@@ -1,0 +1,69 @@
+.swiper-buttons {
+  position: relative;
+  width: 70px;
+  margin-left: auto;
+  margin-top: -30px;
+
+  .swiper-button-next {
+    position: relative;
+    float: right;
+    color: white;
+
+    &:after {
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+
+  .swiper-button-prev {
+    position: relative;
+    float: left;
+    color: white;
+
+    &:after {
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+}
+
+.swiper {
+  overflow: clip;
+  padding-top: 50px;
+  text-align: end;
+
+  .swiper-description {
+    font: italic normal 100 16px/25px Poppins;
+    display: inline-block;
+    margin: -5px 5px auto auto;
+  }
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+
+  .swiper-slide {
+    width: 380px;
+
+    p {
+      display: inline-block;
+
+
+    }
+
+    img {
+      object-fit: fill;
+      width: 380px;
+      height: 250px;
+      pointer-events: none;
+    }
+  }
+}
+
+.altice-logo {
+  max-height: 150px;
+  max-width: 350px;
+  height: auto;
+  width: auto;
+}

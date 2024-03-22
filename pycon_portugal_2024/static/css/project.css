@@ -952,3 +952,64 @@ blockquote {
   max-width: 200px;
   width: auto;
 }
+
+.swiper-buttons {
+  position: relative;
+  width: 70px;
+  margin-left: auto;
+  margin-top: -30px;
+}
+.swiper-buttons .swiper-button-next {
+  position: relative;
+  float: right;
+  color: white;
+}
+.swiper-buttons .swiper-button-next:after {
+  font-size: 20px;
+  line-height: 20px;
+}
+.swiper-buttons .swiper-button-prev {
+  position: relative;
+  float: left;
+  color: white;
+}
+.swiper-buttons .swiper-button-prev:after {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.swiper {
+  overflow: clip;
+  padding-top: 50px;
+  text-align: end;
+}
+.swiper .swiper-description {
+  font: italic normal 100 16px/25px Poppins;
+  display: inline-block;
+  margin: -5px 5px auto auto;
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+}
+.swiper-wrapper .swiper-slide {
+  width: 380px;
+}
+.swiper-wrapper .swiper-slide p {
+  display: inline-block;
+}
+.swiper-wrapper .swiper-slide img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 380px;
+  height: 250px;
+  pointer-events: none;
+}
+
+.altice-logo {
+  max-height: 150px;
+  max-width: 350px;
+  height: auto;
+  width: auto;
+}
