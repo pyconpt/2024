@@ -22,6 +22,7 @@
 
 html, body {
   overflow-x: hidden;
+  background-color: #0A042C;
 }
 
 body {
@@ -100,10 +101,19 @@ nav {
 .main-purple-btn:hover {
   background-color: #FF00FF;
   color: white;
+}
+
+.text-align-left {
+  text-align: left !important;
+}
+
+.purple-border {
+  border: solid 1px #FF00FF;
 }
 
 html, body {
   overflow-x: hidden;
+  background-color: #0A042C;
 }
 
 body {
@@ -184,6 +194,14 @@ nav {
 .main-purple-btn:hover {
   background-color: #FF00FF;
   color: white;
+}
+
+.text-align-left {
+  text-align: left !important;
+}
+
+.purple-border {
+  border: solid 1px #FF00FF;
 }
 
 .custom-footer {
@@ -308,6 +326,7 @@ nav {
 }
 html, body {
   overflow-x: hidden;
+  background-color: #0A042C;
 }
 
 body {
@@ -388,6 +407,14 @@ nav {
 .main-purple-btn:hover {
   background-color: #FF00FF;
   color: white;
+}
+
+.text-align-left {
+  text-align: left !important;
+}
+
+.purple-border {
+  border: solid 1px #FF00FF;
 }
 
 .black-nav {
@@ -460,6 +487,7 @@ nav {
 }
 html, body {
   overflow-x: hidden;
+  background-color: #0A042C;
 }
 
 body {
@@ -540,6 +568,14 @@ nav {
 .main-purple-btn:hover {
   background-color: #FF00FF;
   color: white;
+}
+
+.text-align-left {
+  text-align: left !important;
+}
+
+.purple-border {
+  border: solid 1px #FF00FF;
 }
 
 .display-flex {
@@ -898,8 +934,15 @@ li {
   padding-bottom: 2rem !important;
 }
 
+.free-ticket-section p {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
 html, body {
   overflow-x: hidden;
+  background-color: #0A042C;
 }
 
 body {
@@ -980,6 +1023,14 @@ nav {
 .main-purple-btn:hover {
   background-color: #FF00FF;
   color: white;
+}
+
+.text-align-left {
+  text-align: left !important;
+}
+
+.purple-border {
+  border: solid 1px #FF00FF;
 }
 
 table {

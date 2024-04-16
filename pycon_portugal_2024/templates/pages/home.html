@@ -77,6 +77,14 @@
     </div>
   </div>
 
+  <hr class="purple-line">
+
+    <div class="container free-ticket-section text-align-webit-center">
+      {% with content=files.9|markdown %}
+        {{ content.html | safe }}
+      {% endwith %}
+    </div>
+
   {#  <script>#}
   {#      const months = ["december", "january", "february", "march", "april"];#}
   {##}

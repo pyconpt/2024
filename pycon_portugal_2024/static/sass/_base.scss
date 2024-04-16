@@ -3,16 +3,17 @@
 
 
 html, body {
-    overflow-x: hidden;
+  overflow-x: hidden;
+  background-color: #0A042C;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .inner-body {
-    min-height: 68vh;
-    background-color: #0A042C;
+  min-height: 68vh;
+  background-color: #0A042C;
 }
 
 ////////////////////////////////
@@ -53,76 +54,84 @@ $red: #b94a48;
 // debug, info, success, warning, error
 
 .alert-debug {
-    background-color: $white;
-    border-color: $mint-green;
-    color: $black;
+  background-color: $white;
+  border-color: $mint-green;
+  color: $black;
 }
 
 .alert-error {
-    background-color: $pink;
-    border-color: $dark-pink;
-    color: $red;
+  background-color: $pink;
+  border-color: $dark-pink;
+  color: $red;
 }
 
 h2 {
-    padding: 0;
-    color: #FFFFFF;
-    font-family: Turret Road, sans-serif;
-    font-size: 4em;
-    font-weight: 800;
+  padding: 0;
+  color: #FFFFFF;
+  font-family: Turret Road, sans-serif;
+  font-size: 4em;
+  font-weight: 800;
 }
 
 h3 {
-    padding: 0;
-    color: #FFFFFF;
-    font-family: Alef, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
+  padding: 0;
+  color: #FFFFFF;
+  font-family: Alef, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 p, li {
-    color: #FFFFFF;
-    font-family: Alef, sans-serif;
-    font-size: 1em;
-    font-weight: 400;
+  color: #FFFFFF;
+  font-family: Alef, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .simple-content {
-    ul {
-        padding-left: 1em;
-    }
+  ul {
+    padding-left: 1em;
+  }
 
-    li {
-        list-style-type: disc;
-    }
+  li {
+    list-style-type: disc;
+  }
 }
 
 .purple-line {
-    margin-top: 5em;
-    opacity: 1;
-    color: $purple;
+  margin-top: 5em;
+  opacity: 1;
+  color: $purple;
 }
 
 .pink-line {
-    margin-top: 5em;
-    opacity: 1;
-    color: $lightPurple;
+  margin-top: 5em;
+  opacity: 1;
+  color: $lightPurple;
 }
 
 nav {
 
-    background-color: #0A042C;
+  background-color: #0A042C;
 }
 
 
 .main-purple-btn {
-    background-color: $purple;
-    color: $bgWhite;
-    border-radius: 24px;
-    border: 2px solid white;
+  background-color: $purple;
+  color: $bgWhite;
+  border-radius: 24px;
+  border: 2px solid white;
 
-    &:hover {
-        background-color: $lightPurple;
-        color: white;
-    }
+  &:hover {
+    background-color: $lightPurple;
+    color: white;
+  }
+}
+
+.text-align-left {
+  text-align: left!important;
+}
+
+.purple-border {
+  border: solid 1px $lightPurple;
 }
