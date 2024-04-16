@@ -873,6 +873,11 @@ li {
   }
 }
 
+.dates-row h2 {
+  text-align: center;
+  padding: 32px;
+  padding: 2rem;
+}
 .dates-row p {
   margin: 0;
 }
@@ -883,6 +888,10 @@ li {
 
 .tickets-section {
   text-align: left;
+}
+.tickets-section h2 {
+  padding: 32px;
+  padding: 2rem;
 }
 .tickets-section h4 {
   font-family: "Turret Road", sans-serif;
@@ -934,6 +943,10 @@ li {
   padding-bottom: 2rem !important;
 }
 
+.free-ticket-section h2 {
+  padding: 32px;
+  padding: 2rem;
+}
 .free-ticket-section p {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
