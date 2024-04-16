@@ -35,6 +35,17 @@
     <hr class="pink-line">
   </div>
 
+  <div class="container sponsors">
+    <div class="row pt-5 gx-1">
+      {% with content=files.8|markdown %}
+        <div class="text-center pt-5 text-white">
+          {{ content.html | safe }}
+        </div>
+      {% endwith %}
+    </div>
+  </div>
+  <hr class="purple-line">
+
   <div class="home-sec container">
     <div class="container">
       <div class="pt-5 px-5">

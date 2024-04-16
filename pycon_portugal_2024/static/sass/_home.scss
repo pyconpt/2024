@@ -312,3 +312,57 @@ li {
 .dates-row .month-container h3 {
   color: base.$lightPurple !important;
 }
+
+.tickets-section {
+  text-align: left;
+
+
+  h4 {
+    font-family: "Turret Road", sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 52.46px;
+    text-align: left;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, rgba(255, 0, 255, 0.8) 20%, #9747FF 80%);
+  }
+
+  .detail {
+    font-family: Alef, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+
+  }
+
+  .price {
+    font-family: "Turret Road", sans-serif;
+    font-size: 3.875rem;
+    font-weight: 800;
+    line-height: 67.77px;
+    text-align: left;
+
+  }
+
+  p {
+    font-family: Alef, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 32.68px;
+    text-align: left;
+  }
+
+  .col-content {
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: base.$lightPurple;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .row > * {
+    padding-bottom: 2rem!important;
+  }
+}
