@@ -831,6 +831,15 @@ li {
   padding: 1em 2em;
   border: 1px solid #FF00FF;
 }
+@media (max-width: 991.98px) {
+  .dates-row > div {
+    padding: 1em 1em;
+  }
+}
+
+.dates-row p {
+  margin: 0;
+}
 
 .dates-row .month-container h3 {
   color: #FF00FF !important;
