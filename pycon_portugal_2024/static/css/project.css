@@ -88,13 +88,13 @@ li {
   padding: 0;
   color: #ffffff;
   font-family: Turret Road, sans-serif;
-  font-size: 4em; /* Default font size */
+  font-size: 2em;
   font-weight: 800;
 }
 
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 .pink-line {
@@ -202,13 +202,13 @@ li {
   padding: 0;
   color: #ffffff;
   font-family: Turret Road, sans-serif;
-  font-size: 4em; /* Default font size */
+  font-size: 2em;
   font-weight: 800;
 }
 
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 .pink-line {
@@ -437,13 +437,13 @@ li {
   padding: 0;
   color: #ffffff;
   font-family: Turret Road, sans-serif;
-  font-size: 4em; /* Default font size */
+  font-size: 2em;
   font-weight: 800;
 }
 
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 .pink-line {
@@ -624,13 +624,13 @@ li {
   padding: 0;
   color: #ffffff;
   font-family: Turret Road, sans-serif;
-  font-size: 4em; /* Default font size */
+  font-size: 2em;
   font-weight: 800;
 }
 
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 .pink-line {
@@ -1180,13 +1180,13 @@ li {
   padding: 0;
   color: #ffffff;
   font-family: Turret Road, sans-serif;
-  font-size: 4em; /* Default font size */
+  font-size: 2em;
   font-weight: 800;
 }
 
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 .pink-line {
