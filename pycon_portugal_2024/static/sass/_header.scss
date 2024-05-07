@@ -2,7 +2,6 @@
 
 @use "base";
 
-
 .black-nav {
   background-color: base.$bgPurple !important;
 
@@ -20,9 +19,8 @@
 
   ul a:hover.dropdown-item:hover {
     background-color: base.$white !important;
-    color: #0A042C !important;
+    color: #0a042c !important;
   }
-
 }
 
 .header {
@@ -51,7 +49,8 @@
   ul {
     padding: 0.7rem;
 
-    a, a:hover {
+    a,
+    a:hover {
       text-decoration: none;
 
       &.dropdown-item {

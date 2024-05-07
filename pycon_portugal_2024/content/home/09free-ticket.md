@@ -8,13 +8,14 @@ title: Free Ticket
 
 <div markdown="1" class="p-4 purple-border">
 
-> > [![proposal](/static/images/home/proposal-image.png){:class='align-self-start'}](https://pretalx.evolutio.pt/pycon-portugal-2024/cfp){:target="_blank"}
+> > [![proposal](/static/images/home/proposal-image.png){:class='align-self-start'}](https://pretalx.evolutio.pt/pycon-portugal-2024/cfp){:target="\_blank"}
 
 **Call for Proposal**
 
-Do you have content to share with the community?
+<p class="pticket">Do you have content to share with the community?
+</p>
 
-[<button class="btn main-purple-btn">SUBMIT<i class="bi bi-arrow-right"></i></button>](https://pretalx.evolutio.pt/pycon-portugal-2024/cfp){:target="_blank"}
+[<button class="btn main-purple-btn">SUBMIT<i class="bi bi-arrow-right"></i></button>](https://pretalx.evolutio.pt/pycon-portugal-2024/cfp){:target="\_blank"}
 
 </div>
 
@@ -24,13 +25,14 @@ Do you have content to share with the community?
 
 <div markdown="1" class="p-4 purple-border">
 
-> > [![volunteer](/static/images/home/volunteer.png){:class='align-self-start'}](https://forms.gle/ydCnRZi8qrHhqyxM8){:target="_blank"}
+> > [![volunteer](/static/images/home/volunteer.png){:class='align-self-start'}](https://forms.gle/ydCnRZi8qrHhqyxM8){:target="\_blank"}
 
 **Volunteer**
 
-Do you want to see what’s behind the curtain?
+<p class="pticket">Do you want to see what’s behind the curtain?
+</p>
 
-[<button class="btn main-purple-btn">APPLY<i class="bi bi-arrow-right"></i></button>](https://forms.gle/ydCnRZi8qrHhqyxM8){:target="_blank"}
+[<button class="btn main-purple-btn">APPLY<i class="bi bi-arrow-right"></i></button>](https://forms.gle/ydCnRZi8qrHhqyxM8){:target="\_blank"}
 
 </div>
 
@@ -40,13 +42,14 @@ Do you want to see what’s behind the curtain?
 
 <div markdown="1" class="p-4 purple-border">
 
-> > [![grant](/static/images/home/grant.png){:class='align-self-start'}](https://forms.gle/ZiA1KPTpkkTdqdND9){:target="_blank"}
+> > [![grant](/static/images/home/grant.png){:class='align-self-start'}](https://forms.gle/ZiA1KPTpkkTdqdND9){:target="\_blank"}
 
 **Grant**
 
-Do you need a push to attend PyCon Portugal?
+<p class="pticket">Do you need a push to attend PyCon Portugal?
+</p>
 
-[<button class="btn main-purple-btn">APPLY<i class="bi bi-arrow-right"></i></button>](https://forms.gle/ZiA1KPTpkkTdqdND9){:target="_blank"}
+[<button class="btn main-purple-btn">APPLY<i class="bi bi-arrow-right"></i></button>](https://forms.gle/ZiA1KPTpkkTdqdND9){:target="\_blank"}
 
 </div>
 

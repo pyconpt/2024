@@ -1,43 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
 
-
-html, body {
+html,
+body {
   overflow-x: hidden;
-  background-color: #0A042C;
+  background-color: #0a042c;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .inner-body {
   min-height: 68vh;
-  background-color: #0A042C;
+  background-color: #0a042c;
 }
 
 ////////////////////////////////
 //Variables//
 ////////////////////////////////
-$bgPurple: #0A042C;
-$purple: #9747FF;
-$lightPurple: #FF00FF;
+$bgPurple: #0a042c;
+$purple: #9747ff;
+$lightPurple: #ff00ff;
 
 $bgWhite: #fff;
-$BgBlue: #0077C9;
-$BgBlack: #2C2C2C;
-$BgYellow: #F9A825;
-$BgDarkBlue: #1B215D;
-$BgLightBlue: #D0B0F5;
-$BgGreen: #468F1F;
-$Green: #00969C;
-$BgLightGreen: #00969C80;
-$BgLightPurple: #D0B0F5;
+$BgBlue: #0077c9;
+$BgBlack: #2c2c2c;
+$BgYellow: #f9a825;
+$BgDarkBlue: #1b215d;
+$BgLightBlue: #d0b0f5;
+$BgGreen: #468f1f;
+$Green: #00969c;
+$BgLightGreen: #00969c80;
+$BgLightPurple: #d0b0f5;
 $HomeHeaderLinks: #0580ec;
 
 // Alert colors
 
-$white: #F7F7F7;
+$white: #f7f7f7;
 $mint-green: #d6e9c6;
 $black: #000;
 $pink: #f2dede;
@@ -67,7 +67,7 @@ $red: #b94a48;
 
 h2 {
   padding: 0;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Turret Road, sans-serif;
   font-size: 4em;
   font-weight: 800;
@@ -75,14 +75,15 @@ h2 {
 
 h3 {
   padding: 0;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Alef, sans-serif;
   font-size: 24px;
   font-weight: 400;
 }
 
-p, li {
-  color: #FFFFFF;
+p,
+li {
+  color: #ffffff;
   font-family: Alef, sans-serif;
   font-size: 1em;
   font-weight: 400;
@@ -104,6 +105,20 @@ p, li {
   color: $purple;
 }
 
+.sponsorhip-title {
+  padding: 0;
+  color: #ffffff;
+  font-family: Turret Road, sans-serif;
+  font-size: 4em; /* Default font size */
+  font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+  .sponsorhip-title {
+    font-size: 60px;
+  }
+}
+
 .pink-line {
   margin-top: 5em;
   opacity: 1;
@@ -111,10 +126,8 @@ p, li {
 }
 
 nav {
-
-  background-color: #0A042C;
+  background-color: #0a042c;
 }
-
 
 .main-purple-btn {
   background-color: $purple;
@@ -128,8 +141,16 @@ nav {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .main-purple-btn {
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
 .text-align-left {
-  text-align: left!important;
+  text-align: left !important;
 }
 
 .purple-border {

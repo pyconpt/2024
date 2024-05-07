@@ -11,7 +11,7 @@
 }
 
 .date-container {
-  background-color: #0A042C;
+  background-color: #0a042c;
   width: 15em;
 }
 
@@ -19,6 +19,24 @@
   font-family: Turret Road, sans-serif;
   font-size: 6em;
   font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+  %HOME_TITLE {
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  %HOME_TITLE {
+    font-size: 5em;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  %HOME_TITLE {
+    font-size: 6em;
+  }
 }
 
 %HOME_SECOND_TEXT {
@@ -37,9 +55,8 @@
   background-image: url(../images/home/home_banner.gif);
   position: relative;
   z-index: 20;
-  background-position-y: bottom;
-  background-position-x: center;
-  background-size: 115%;
+  background-position: center bottom;
+  background-size: cover;
 }
 
 li {
@@ -63,7 +80,11 @@ li {
   .this-is-for {
     li {
       padding: 2px;
-      background: linear-gradient(90deg, rgba(255, 0, 255, .8) 20%, #9747ff 80%);
+      background: linear-gradient(
+        90deg,
+        rgba(255, 0, 255, 0.8) 20%,
+        #9747ff 80%
+      );
       border-radius: 50px;
 
       p {
@@ -74,7 +95,6 @@ li {
         background-color: base.$bgPurple;
       }
     }
-
   }
 
   .join-us-content {
@@ -83,10 +103,14 @@ li {
 
     .join-topics {
       width: fit-content;
-      margin: .5em;
-      padding: .5em 2em;
+      margin: 0.5em;
+      padding: 0.5em 2em;
       border-radius: 50px;
-      background: linear-gradient(90deg, rgba(255, 0, 255, 0.8) 20%, #9747FF 80%);
+      background: linear-gradient(
+        90deg,
+        rgba(255, 0, 255, 0.8) 20%,
+        #9747ff 80%
+      );
     }
 
     .empty-li {
@@ -142,15 +166,13 @@ li {
 
       button {
         background: white;
-        padding: 1rem .75rem;
+        padding: 1rem 0.75rem;
         font-weight: bold;
         width: 100%;
-
       }
     }
 
     .home_about-content {
-
       padding: 2rem 2rem 20rem 0;
       text-align: left;
 
@@ -174,14 +196,20 @@ li {
   text-align: center;
 
   h2 {
-    color: #FDFDFD;
+    color: #fdfdfd;
     font-family: Turret Road, sans-serif;
     font-size: 88px;
     font-weight: 800;
   }
 
+  @media screen and (max-width: 600px) {
+    h2 {
+      font-size: 64px;
+    }
+  }
+
   h3 {
-    color: #FDFDFD;
+    color: #fdfdfd;
     font-family: Turret Road, sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -189,7 +217,7 @@ li {
 
   blockquote {
     a {
-      border: 1px solid #FF00FF;
+      border: 1px solid #ff00ff;
       padding: 20px 30px;
       margin: 10px;
       display: flex;
@@ -204,43 +232,54 @@ li {
   }
 }
 
-.flex-sponsors-organizer {
-  blockquote {
-    a {
-      border: 1px solid #FF00FF;
-      padding: 20px 30px;
-      margin: 10px;
-      display: flex;
-      align-items: center;
-      width: fit-content;
-    }
+.flex-sponsors-organizer blockquote a {
+  border: 1px solid #ff00ff;
+  padding: 20px 30px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
 
-    p {
+.flex-sponsors-organizer blockquote p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-sponsors-organizer {
+    blockquote {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
     }
   }
 }
 
 .content-newsletter {
-  background: linear-gradient(to bottom, base.$white 0%, base.$white 50%, base.$BgBlack 50%, base.$BgBlack 100%) !important;
-
+  background: linear-gradient(
+    to bottom,
+    base.$white 0%,
+    base.$white 50%,
+    base.$BgBlack 50%,
+    base.$BgBlack 100%
+  ) !important;
 }
-
 
 .text-align-webit-center {
   text-align: -webkit-center;
 }
 
-
 @media (max-width: 992px) {
-
   .join-us-content {
     padding: 1em;
     justify-items: center;
   }
-  #ju1, #ju2, #ju3, #ju4, #ju5 {
+  #ju1,
+  #ju2,
+  #ju3,
+  #ju4,
+  #ju5 {
     margin: 0.5em 0;
   }
 }
@@ -253,12 +292,10 @@ li {
   }
 }
 
-
 .flex-sponsors-organizer {
-
   h3 {
     text-align: center;
-    color: #FDFDFD;
+    color: #fdfdfd;
     font-family: Turret Road, sans-serif;
     font-size: 36px;
     font-weight: 700;
@@ -277,7 +314,6 @@ li {
 }
 
 // Create keyframes to animate a 360 degree rotation
-
 
 @keyframes rotating {
   from {
@@ -301,19 +337,32 @@ li {
   }
 }
 
-.dates-row {
-  h2 {
-    text-align: center;
-    padding: 2rem;
-  }
+.dates-row h2 {
+  text-align: center;
+  padding: 2rem;
+}
 
-  p {
-    margin: 0;
+.dates-row p {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .dates-row h2 {
+    padding: 0;
+    text-align: center;
   }
 }
 
 .dates-row .month-container h3 {
   color: base.$lightPurple !important;
+}
+
+.pticket {
+  font-family: Alef, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 32.68px;
+  text-align: left;
 }
 
 .tickets-section {
@@ -330,7 +379,7 @@ li {
     line-height: 52.46px;
     text-align: left;
     padding: 1rem 2rem;
-    background: linear-gradient(90deg, rgba(255, 0, 255, 0.8) 20%, #9747FF 80%);
+    background: linear-gradient(90deg, rgba(255, 0, 255, 0.8) 20%, #9747ff 80%);
   }
 
   .detail {
@@ -339,7 +388,6 @@ li {
     font-weight: 700;
     line-height: 21.79px;
     text-align: left;
-
   }
 
   .price {
@@ -348,12 +396,11 @@ li {
     font-weight: 800;
     line-height: 67.77px;
     text-align: left;
-
   }
 
   p {
     font-family: Alef, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 32.68px;
     text-align: left;

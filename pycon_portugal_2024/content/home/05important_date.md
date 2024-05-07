@@ -6,20 +6,21 @@ title: Important Dates
 
 ### May
 
-</div> 
+</div>
 
 <div markdown="1" class="col-md-9 d-flex">
 
 **15th** - Call for Participation Deadline
 **30th** - Grants Applications Opening
 **30th** - Early Bird Ticket Sales Closes
+
 </div>
 
 <div markdown="1" class=" col-md-3  month-container">
 
 ### June
 
-</div> 
+</div>
 
 <div markdown="1" class=" col-md-9 d-flex">
 
@@ -30,28 +31,26 @@ title: Important Dates
 
 </div>
 
-
 <div markdown="1" class=" col-md-3  month-container">
 
 ### September
 
-</div> 
+</div>
 
 <div markdown="1" class=" col-md-9 d-flex align-left">
 
 <span class="day-container"><strong></strong></span>
 
-**07th** - Childcare Applications Opening 
+**07th** - Childcare Applications Opening
 **15th** - T-shirt Sales Deadline (for deliveries at the conference)
 
 </div>
-
 
 <div markdown="1" class=" col-md-3  month-container">
 
 ### October
 
-</div> 
+</div>
 
 <div markdown="1" class=" col-md-9 d-flex">
 
@@ -61,4 +60,3 @@ title: Important Dates
 **19th** - Workshops
 
 </div>
-
