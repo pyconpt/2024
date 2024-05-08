@@ -1503,6 +1503,12 @@ blockquote {
   transform: none;
 }
 
+@media screen and (max-width: 600px) {
+  .secondary-logo {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
 .swiper-buttons {
   position: relative;
   width: 70px;
