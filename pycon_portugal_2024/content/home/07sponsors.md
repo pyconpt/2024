@@ -24,7 +24,7 @@ layout: simple
 
 <!-- > > [![cmb](/static/images/logo/cmb-w.png){:class='secondary-logo'}](https://www.cm-braga.pt/pt){:target="\_blank"} -->
 
-> > [![cmb](/static/images/logo/cmb-w.png){:class='secondary-logo' style='transform: none; -webkit-transform: none;'}](https://www.cm-braga.pt/pt){:target="\_blank"}
+> > [![cmb](/static/images/logo/cmb-w.png){:class='secondary-logo' style='transform: none !important; -webkit-transform: none !important;'}](https://www.cm-braga.pt/pt){:target="\_blank"}
 
 </div>
 
