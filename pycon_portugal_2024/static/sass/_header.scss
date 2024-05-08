@@ -73,8 +73,15 @@
 
     .nav-link {
       font-family: Alef, serif;
-      font-size: 16px;
+      font-size: 24px;
       font-weight: 700;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .nav-link {
+        text-align: center;
+      }
     }
   }
 

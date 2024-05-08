@@ -494,6 +494,13 @@ nav {
 }
 .black-nav .dropdown-menu {
   background: #0a042c !important;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .black-nav ul a:hover.dropdown-item:hover {
+    text-align: center;
+  }
 }
 .black-nav ul a:hover.dropdown-item:hover {
   background-color: #f7f7f7 !important;
@@ -542,8 +549,14 @@ nav {
 }
 .header ul .nav-link {
   font-family: Alef, serif;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 700;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .header ul .nav-link {
+    text-align: center;
+  }
 }
 .header .dropdown-menu {
   background: #0a042c;
@@ -1253,11 +1266,28 @@ blockquote {
   text-align: center;
 }
 
+.sponsor-name {
+  color: black;
+}
+
 .secondary-logo {
   height: auto;
   max-height: 100px;
   max-width: 200px;
   width: auto;
+}
+
+@media (max-width: 768px) {
+  .secondary-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    max-width: none;
+    max-height: none;
+  }
 }
 
 .swiper-buttons {
