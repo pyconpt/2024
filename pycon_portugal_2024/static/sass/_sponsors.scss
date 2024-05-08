@@ -30,9 +30,18 @@ blockquote {
   color: black;
 }
 
+/* .secondary-logo {
+  height: auto;
+  max-height: 100px;
+  max-width: 200px;
+  width: auto;
+}
+ */
 .secondary-logo {
   height: auto;
   max-height: 100px;
   max-width: 200px;
   width: auto;
+  -webkit-transform: none;
+  transform: none;
 }

@@ -1092,12 +1092,12 @@ li {
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; /* Center-align the images horizontally */
+            align-items: center;
   }
-  .flex-sponsors-organizer blockquote img {
-    width: 200px; /* Set a fixed width for the images */
-    height: auto; /* Allow the height to adjust proportionally */
-  }
+  /* .flex-sponsors-organizer blockquote img {
+    width: 200px;
+    height: auto;
+  } */
 }
 .content-newsletter {
   background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), color-stop(50%, #f7f7f7), color-stop(50%, #2c2c2c), to(#2c2c2c)) !important;
@@ -1487,11 +1487,20 @@ blockquote {
   color: black;
 }
 
+/* .secondary-logo {
+  height: auto;
+  max-height: 100px;
+  max-width: 200px;
+  width: auto;
+}
+ */
 .secondary-logo {
   height: auto;
   max-height: 100px;
   max-width: 200px;
   width: auto;
+  -webkit-transform: none;
+  transform: none;
 }
 
 .swiper-buttons {
