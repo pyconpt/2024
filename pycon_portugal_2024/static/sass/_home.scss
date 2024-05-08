@@ -188,6 +188,18 @@ li {
         @extend %HOME_SECOND_TEXT;
       }
     }
+    @media screen and (max-width: 600px) {
+      .home_about-content {
+        text-align: center;
+        padding: 4rem 0;
+      }
+
+      .home_about-content h2,
+      .home_about-content h3,
+      .home_about-content h4 {
+        text-align: center;
+      }
+    }
   }
 }
 
@@ -248,11 +260,15 @@ li {
 }
 
 @media screen and (max-width: 600px) {
-  .flex-sponsors-organizer {
-    blockquote {
-      display: flex;
-      flex-direction: column;
-    }
+  .flex-sponsors-organizer blockquote {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the images horizontally */
+  }
+
+  .flex-sponsors-organizer blockquote img {
+    width: 200px; /* Set a fixed width for the images */
+    height: auto; /* Allow the height to adjust proportionally */
   }
 }
 

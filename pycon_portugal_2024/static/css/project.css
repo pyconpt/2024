@@ -95,6 +95,7 @@ li {
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
     font-size: 55px;
+    text-align: center;
   }
 }
 .pink-line {
@@ -107,15 +108,16 @@ nav {
   background-color: #0a042c;
 }
 
-.main-purple-btn {
-  background-color: #9747ff;
-  color: #fff;
+/* .main-purple-btn {
+  background-color: $purple;
+  color: $bgWhite;
   border-radius: 24px;
   border: 2px solid white;
-}
-.main-purple-btn:hover {
-  background-color: #ff00ff;
-  color: white;
+
+  &:hover {
+    background-color: $lightPurple;
+    color: white;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -123,6 +125,45 @@ nav {
     border-radius: 24px;
     font-size: 16px;
     padding: 10px 20px;
+  }
+} */
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-purple-btn {
+  background-color: #9747ff;
+  color: #fff;
+  border-radius: 24px;
+  border: 2px solid white;
+  margin-right: 10px;
+}
+.main-purple-btn:hover {
+  background-color: #ff00ff;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-purple-btn {
+    margin-right: 0;
+    width: auto;
   }
 }
 .text-align-left {
@@ -209,6 +250,7 @@ li {
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
     font-size: 55px;
+    text-align: center;
   }
 }
 .pink-line {
@@ -221,11 +263,43 @@ nav {
   background-color: #0a042c;
 }
 
+/* .main-purple-btn {
+  background-color: $purple;
+  color: $bgWhite;
+  border-radius: 24px;
+  border: 2px solid white;
+
+  &:hover {
+    background-color: $lightPurple;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-purple-btn {
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+} */
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .main-purple-btn {
   background-color: #9747ff;
   color: #fff;
   border-radius: 24px;
   border: 2px solid white;
+  margin-right: 10px;
 }
 
 .main-purple-btn:hover {
@@ -234,10 +308,18 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+  .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .main-purple-btn {
-    border-radius: 24px;
-    font-size: 16px;
-    padding: 10px 20px;
+    margin-right: 0;
+    width: auto;
   }
 }
 .text-align-left {
@@ -444,6 +526,7 @@ li {
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
     font-size: 55px;
+    text-align: center;
   }
 }
 .pink-line {
@@ -456,11 +539,43 @@ nav {
   background-color: #0a042c;
 }
 
+/* .main-purple-btn {
+  background-color: $purple;
+  color: $bgWhite;
+  border-radius: 24px;
+  border: 2px solid white;
+
+  &:hover {
+    background-color: $lightPurple;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-purple-btn {
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+} */
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .main-purple-btn {
   background-color: #9747ff;
   color: #fff;
   border-radius: 24px;
   border: 2px solid white;
+  margin-right: 10px;
 }
 
 .main-purple-btn:hover {
@@ -469,10 +584,18 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+  .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .main-purple-btn {
-    border-radius: 24px;
-    font-size: 16px;
-    padding: 10px 20px;
+    margin-right: 0;
+    width: auto;
   }
 }
 .text-align-left {
@@ -494,13 +617,6 @@ nav {
 }
 .black-nav .dropdown-menu {
   background: #0a042c !important;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  .black-nav ul a:hover.dropdown-item:hover {
-    text-align: center;
-  }
 }
 .black-nav ul a:hover.dropdown-item:hover {
   background-color: #f7f7f7 !important;
@@ -644,6 +760,7 @@ li {
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
     font-size: 55px;
+    text-align: center;
   }
 }
 .pink-line {
@@ -656,11 +773,43 @@ nav {
   background-color: #0a042c;
 }
 
+/* .main-purple-btn {
+  background-color: $purple;
+  color: $bgWhite;
+  border-radius: 24px;
+  border: 2px solid white;
+
+  &:hover {
+    background-color: $lightPurple;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-purple-btn {
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+} */
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .main-purple-btn {
   background-color: #9747ff;
   color: #fff;
   border-radius: 24px;
   border: 2px solid white;
+  margin-right: 10px;
 }
 
 .main-purple-btn:hover {
@@ -669,10 +818,18 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+  .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .main-purple-btn {
-    border-radius: 24px;
-    font-size: 16px;
-    padding: 10px 20px;
+    margin-right: 0;
+    width: auto;
   }
 }
 .text-align-left {
@@ -846,6 +1003,18 @@ li {
   padding: 2rem 2rem 20rem 0;
   text-align: left;
 }
+@media screen and (max-width: 600px) {
+  .home-header .home-banner .home_about-content {
+    text-align: center;
+    padding: 4rem 0;
+  }
+  .home-header .home-banner .home_about-content h2,
+  .home-header .home-banner .home_about-content h3,
+  .home-header .home-banner .home_about-content h4 {
+    text-align: center;
+  }
+}
+
 .sponsors {
   background-color: #0a042c;
   text-align: center;
@@ -921,6 +1090,13 @@ li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; /* Center-align the images horizontally */
+  }
+  .flex-sponsors-organizer blockquote img {
+    width: 200px; /* Set a fixed width for the images */
+    height: auto; /* Allow the height to adjust proportionally */
   }
 }
 .content-newsletter {
@@ -1200,6 +1376,7 @@ li {
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
     font-size: 55px;
+    text-align: center;
   }
 }
 .pink-line {
@@ -1212,11 +1389,43 @@ nav {
   background-color: #0a042c;
 }
 
+/* .main-purple-btn {
+  background-color: $purple;
+  color: $bgWhite;
+  border-radius: 24px;
+  border: 2px solid white;
+
+  &:hover {
+    background-color: $lightPurple;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-purple-btn {
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+} */
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .main-purple-btn {
   background-color: #9747ff;
   color: #fff;
   border-radius: 24px;
   border: 2px solid white;
+  margin-right: 10px;
 }
 
 .main-purple-btn:hover {
@@ -1225,10 +1434,18 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+  .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .main-purple-btn {
-    border-radius: 24px;
-    font-size: 16px;
-    padding: 10px 20px;
+    margin-right: 0;
+    width: auto;
   }
 }
 .text-align-left {
@@ -1275,19 +1492,6 @@ blockquote {
   max-height: 100px;
   max-width: 200px;
   width: auto;
-}
-
-@media (max-width: 768px) {
-  .secondary-logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    max-width: none;
-    max-height: none;
-  }
 }
 
 .swiper-buttons {

@@ -116,6 +116,7 @@ li {
 @media screen and (max-width: 600px) {
   .sponsorhip-title {
     font-size: 55px;
+    text-align: center;
   }
 }
 
@@ -129,7 +130,7 @@ nav {
   background-color: #0a042c;
 }
 
-.main-purple-btn {
+/* .main-purple-btn {
   background-color: $purple;
   color: $bgWhite;
   border-radius: 24px;
@@ -146,6 +147,37 @@ nav {
     border-radius: 24px;
     font-size: 16px;
     padding: 10px 20px;
+  }
+} */
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-purple-btn {
+  background-color: $purple;
+  color: $bgWhite;
+  border-radius: 24px;
+  border: 2px solid white;
+  margin-right: 10px;
+
+  &:hover {
+    background-color: $lightPurple;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-purple-btn {
+    margin-right: 0;
+    width: auto;
   }
 }
 
