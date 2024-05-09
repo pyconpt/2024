@@ -43,12 +43,10 @@ blockquote {
   max-height: 100px;
   max-width: 200px;
   width: auto;
-  -webkit-transform: none;
-  transform: none;
+  transform: unset;
 }
 @media screen and (max-width: 600px) {
   .secondary-logo {
-    -webkit-transform: none;
-    transform: none;
+    transform: unset;
   }
 }

@@ -1094,10 +1094,10 @@ li {
         -ms-flex-align: center;
             align-items: center;
   }
-  /* .flex-sponsors-organizer blockquote img {
+  .flex-sponsors-organizer blockquote img {
     width: 200px;
     height: auto;
-  } */
+  }
 }
 .content-newsletter {
   background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), color-stop(50%, #f7f7f7), color-stop(50%, #2c2c2c), to(#2c2c2c)) !important;
@@ -1499,14 +1499,14 @@ blockquote {
   max-height: 100px;
   max-width: 200px;
   width: auto;
-  -webkit-transform: none;
-  transform: none;
+  -webkit-transform: unset;
+          transform: unset;
 }
 
 @media screen and (max-width: 600px) {
   .secondary-logo {
-    -webkit-transform: none;
-    transform: none;
+    -webkit-transform: unset;
+            transform: unset;
   }
 }
 .swiper-buttons {
