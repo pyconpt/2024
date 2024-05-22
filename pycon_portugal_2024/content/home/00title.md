@@ -13,6 +13,6 @@ layout: home_about
 
 [<button class="btn main-purple-btn">BUY TICKET NOW <i class="bi bi-arrow-right"></i></button>](https://pretix.evolutio.pt/evolutio/pyconpt2024/){:target="\_blank"}
 
-[<button class="btn main-purple-btn">SUBMIT YOUR CFP <i class="bi bi-arrow-right"></i></button>](https://pretalx.evolutio.pt/pycon-portugal-2024/cfp){:target="\_blank"}
+[//]: # ([<button class="btn main-purple-btn">SUBMIT YOUR CFP <i class="bi bi-arrow-right"></i></button>]&#40;https://pretalx.evolutio.pt/pycon-portugal-2024/cfp&#41;{:target="\_blank"})
 
 </div>

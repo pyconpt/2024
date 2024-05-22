@@ -18,7 +18,7 @@ title: Important Dates
 
 <div markdown="1" class=" col-md-3  month-container">
 
-### June
+### July
 
 </div>
 
