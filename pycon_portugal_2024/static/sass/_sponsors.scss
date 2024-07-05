@@ -1,0 +1,52 @@
+// sponsors
+
+@use "base";
+
+table {
+  border: solid white 1px;
+}
+
+td,
+th {
+  color: #ffffff;
+  padding: 0.5em;
+  border: base.$lightPurple solid 1px;
+}
+
+blockquote p {
+  display: flex;
+  justify-content: space-around;
+}
+
+blockquote {
+  text-align: -webkit-center;
+}
+
+#sponsors {
+  text-align: center;
+}
+
+.sponsor-name {
+  color: black;
+}
+
+/* .secondary-logo {
+  height: auto;
+  max-height: 100px;
+  max-width: 200px;
+  width: auto;
+}
+ */
+
+.secondary-logo {
+  height: auto;
+  max-height: 100px;
+  max-width: 200px;
+  width: auto;
+  transform: unset;
+}
+@media screen and (max-width: 600px) {
+  .secondary-logo {
+    transform: unset;
+  }
+}

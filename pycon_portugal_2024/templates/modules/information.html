@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static markdown_extras %}
+{% block content %}
+
+  {# CALL FOR PARTICIPATION #}
+
+  <div class="base-sec">
+    {% with content=files.1|markdown %}
+      <div class="text-center pt-5 text-white">
+        {{ content.html | safe }}
+      </div>
+    {% endwith %}
+  </div>
+<hr class="pink-line">
+
+    {# SCHEDULE #}
+
+  <div class="base-sec">
+    {% with content=files.2|markdown %}
+      <div class="text-center pt-5 text-white">
+        {{ content.html | safe }}
+      </div>
+    {% endwith %}
+  </div>
+<hr class="purple-line">
+
+    {# TOPICS #}
+
+  <div class="base-sec">
+    {% with content=files.3|markdown %}
+      <div class="text-center pt-5 text-white">
+        {{ content.html | safe }}
+      </div>
+    {% endwith %}
+  </div>
+<hr class="pink-line">
+
+    {# BONUSES #}
+
+  <div class="base-sec">
+    {% with content=files.4|markdown %}
+      <div class="text-center pt-5 text-white">
+        {{ content.html | safe }}
+      </div>
+    {% endwith %}
+  </div>
+<hr class="purple-line">
+
+    {# GUIDELINES #}
+
+  <div class="base-sec">
+    {% with content=files.5|markdown %}
+      <div class="text-center pt-5 text-white">
+        {{ content.html | safe }}
+      </div>
+    {% endwith %}
+  </div>
+<hr class="pink-line">
+
+    {# SELECTION PROCESS #}
+
+  <div class="base-sec">
+    {% with content=files.6|markdown %}
+      <div class="text-center pt-5 text-white">
+        {{ content.html | safe }}
+      </div>
+    {% endwith %}
+  </div>
+  <hr class="purple-line">
+{% endblock content %}

@@ -33,3 +33,12 @@ $red: #b94a48;
   border-color: $dark-pink;
   color: $red;
 }
+
+//////////////// Imports
+
+@import "base";
+@import "footer";
+@import "header";
+@import "home";
+@import "sponsors";
+@import "information";

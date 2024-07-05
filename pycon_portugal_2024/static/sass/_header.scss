@@ -1,0 +1,98 @@
+// header
+
+@use "base";
+
+.black-nav {
+  background-color: base.$bgPurple !important;
+
+  ul {
+    border-color: white !important;
+
+    a {
+      color: white !important;
+    }
+  }
+
+  .dropdown-menu {
+    background: base.$bgPurple !important;
+  }
+
+  ul a:hover.dropdown-item:hover {
+    background-color: base.$white !important;
+    color: #0a042c !important;
+  }
+}
+
+.header {
+  background-color: base.$bgPurple;
+
+  .navbar-brand {
+    img {
+      max-width: 80px;
+    }
+  }
+
+  .navbar-toggler {
+    &:hover {
+      background-color: white !important;
+    }
+
+    i {
+      color: base.$white;
+      font-size: 42px;
+      &:hover {
+        color: base.$bgPurple;
+      }
+    }
+  }
+
+  ul {
+    padding: 0.7rem;
+
+    a,
+    a:hover {
+      text-decoration: none;
+
+      &.dropdown-item {
+        color: white;
+
+        &:hover {
+          background-color: white !important;
+          color: base.$bgPurple !important;
+        }
+
+        a {
+          font-size: 42px;
+        }
+      }
+    }
+
+    .nav-link::after {
+      display: none;
+    }
+
+    .nav-link {
+      font-family: Alef, serif;
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .nav-link {
+        text-align: center;
+      }
+    }
+  }
+
+  .dropdown-menu {
+    background: base.$bgPurple;
+    border: 1px solid #f7f7f7;
+  }
+}
+
+@media (max-width: 991px) {
+  .header .dropdown-menu {
+    border: unset;
+  }
+}

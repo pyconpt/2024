@@ -1,0 +1,33 @@
+{% load static %}
+
+<div class="container-fluid footer custom-footer">
+  <div class="container-fluid inner-content-width footer-container">
+    <div class="row justify-content-around">
+      <div class="row footer-links">
+        <div class=" col-12 col-sm-6 footer-title social-media-title"><strong>Follow us</strong></div>
+        <div class="col-sm-6 col-12 row justify-content-center align-self-center">
+          {% for smedia, smedia_href in social_media.items %}
+            {% with smedia_logo='images/external_logo/logo_'|add:smedia|add:'.png' %}
+              <div class="text-center footer-social-media-link">
+                <a class="nav-link" href="{{ smedia_href }}" target="_blank">
+                  <img src="{% static smedia_logo %}" alt="{{ smedia }}" height="33rem;">
+                </a>
+              </div>
+            {% endwith %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center footer-end">
+    <div class="col row text-center align-self-center justify-content-center inner-content-width">
+      <p class="col-12">© {% now "Y" %} PyCon Portugal </p>
+      <p class="col-12"><span class="d-none d-md-inline">·</span> developed in <a
+        href="https://www.python.org/psf/" target="_blank">Python</a> with ♥ by <a
+        href="https://evolutio.pt/" target="_blank">evolutio</a> <span
+        class="d-none d-md-inline">·</span></p>
+      <p class="col-12"> help us improve on <a href="https://github.com/pyconpt/2024"
+                                               target="_blank">GitHub</a></p>
+    </div>
+  </div>
+</div>

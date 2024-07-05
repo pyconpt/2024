@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: #0a042c;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.inner-body {
+  min-height: 68vh;
+  background-color: #0a042c;
+}
+
+////////////////////////////////
+//Variables//
+////////////////////////////////
+$bgPurple: #0a042c;
+$purple: #9747ff;
+$lightPurple: #ff00ff;
+
+$bgWhite: #fff;
+$BgBlue: #0077c9;
+$BgBlack: #2c2c2c;
+$BgYellow: #f9a825;
+$BgDarkBlue: #1b215d;
+$BgLightBlue: #d0b0f5;
+$BgGreen: #468f1f;
+$Green: #00969c;
+$BgLightGreen: #00969c80;
+$BgLightPurple: #d0b0f5;
+$HomeHeaderLinks: #0580ec;
+
+// Alert colors
+
+$white: #f7f7f7;
+$mint-green: #d6e9c6;
+$black: #000;
+$pink: #f2dede;
+$dark-pink: #eed3d7;
+$gray: #8d8d8d;
+$lightgray: #b2b2b2;
+$red: #b94a48;
+
+////////////////////////////////
+//Alerts//
+////////////////////////////////
+
+// bootstrap alert CSS, translated to the django-standard levels of
+// debug, info, success, warning, error
+
+.alert-debug {
+  background-color: $white;
+  border-color: $mint-green;
+  color: $black;
+}
+
+.alert-error {
+  background-color: $pink;
+  border-color: $dark-pink;
+  color: $red;
+}
+
+h2 {
+  padding: 0;
+  color: #ffffff;
+  font-family: Turret Road, sans-serif;
+  font-size: 4em;
+  font-weight: 800;
+}
+
+h3 {
+  padding: 0;
+  color: #ffffff;
+  font-family: Alef, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+p,
+li {
+  color: #ffffff;
+  font-family: Alef, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.simple-content {
+  ul {
+    padding-left: 1em;
+  }
+
+  li {
+    list-style-type: disc;
+  }
+}
+
+.purple-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: $purple;
+}
+
+.sponsorhip-title {
+  padding: 0;
+  color: #ffffff;
+  font-family: Turret Road, sans-serif;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+  .sponsorhip-title {
+    font-size: 55px;
+    text-align: center;
+  }
+}
+
+.pink-line {
+  margin-top: 5em;
+  opacity: 1;
+  color: $lightPurple;
+}
+
+nav {
+  background-color: #0a042c;
+}
+
+/* .main-purple-btn {
+  background-color: $purple;
+  color: $bgWhite;
+  border-radius: 24px;
+  border: 2px solid white;
+
+  &:hover {
+    background-color: $lightPurple;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-purple-btn {
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+} */
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-purple-btn {
+  background-color: $purple;
+  color: $bgWhite;
+  border-radius: 24px;
+  border: 2px solid white;
+  margin-right: 10px;
+
+  &:hover {
+    background-color: $lightPurple;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-purple-btn {
+    margin-right: 0;
+    width: auto;
+  }
+}
+
+.text-align-left {
+  text-align: left !important;
+}
+
+.purple-border {
+  border: solid 1px $lightPurple;
+}

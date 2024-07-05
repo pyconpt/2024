@@ -1,0 +1,122 @@
+//footer
+
+@use "base";
+
+.custom-footer {
+  background-color: base.$bgPurple;
+  color: #FDFDFD;
+  position: relative;
+  padding-top: 8vh;
+
+  @media (max-width: 768px){
+    padding-bottom: 20vh !important;
+  }
+
+  .footer-container {
+    border-top: 1px solid base.$purple;
+    border-bottom: 1px solid base.$purple;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .footer-title {
+    font-family: Turret Road, sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+    padding-left: 3em;
+  }
+
+  a {
+    color: base.$lightPurple;
+  }
+
+  .footer-social-media-link {
+    padding: .25rem;
+  }
+
+  .footer-end {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: base.$lightPurple;
+
+    p {
+      @media (min-width: 768px) {
+        width: auto;
+      }
+      margin: .125rem;
+      padding: 0rem;
+    }
+
+  }
+
+  .footer-links {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    .nav-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0.5em;
+      background-color: base.$lightPurple;
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+    }
+  }
+
+  .footer-social-media-link {
+    display: contents;
+    width: auto;
+  }
+
+  .footer-site-map {
+    padding-top: 3.1875rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .custom-footer {
+
+    .footer-social-media-link {
+      .nav-link {
+        width: available;
+        padding: .5rem 2.5%;
+      }
+    }
+
+    .footer-site-map {
+      margin-left: 1rem;
+      margin-right: 1rem;
+
+      .footer-title {
+        padding-top: 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .custom-footer {
+    text-align: center !important;
+
+    .footer-container {
+      padding-left: .75rem;
+      padding-right: .75rem;
+    }
+
+    .social-media-title {
+      padding: 0;
+      text-align: center;
+    }
+
+    .footer-links {
+      text-align: center;
+      align-self: center;
+      align-content: center;
+      justify-content: center !important;
+    }
+  }
+}

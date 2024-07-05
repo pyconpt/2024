@@ -1,0 +1,50 @@
+{% load static %}
+
+<nav class="navbar navbar-expand-lg header pt-4 {% block nav_css %}{% endblock %}">
+  <div class="container">
+    <a class="navbar-brand d-block d-lg-none" href="{{ home }}">
+      <img src="
+              {% block nav_brand %}{% static 'images/logo/logo-pycon2024-white.png' %}{% endblock %}"
+           alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarToggler" aria-controls="navbarToggler"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <i class="bi bi-list"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav mb-2 mb-lg-0 mt-4 mt-lg-0 w-100 justify-content-evenly align-items-center">
+        {% for menu, menu_dict in site_menu.items %}
+          {% if menu == 'Logo' %}
+            <a class="navbar-brand d-none d-lg-block" href="{{ home }}">
+              <img src="
+                      {% static 'images/logo/logo-pycon2024-white.png' %}"
+                   alt="Logo">
+            </a>
+          {% else %}
+            {% if menu_dict.dropdown == 'false' %}
+              <li class="nav-item mx-2 mx-xl-4">
+                <a class="nav-link text-white"
+                   href="{{ menu_dict.href }}"
+                    {% if menu_dict.blanktarget %}target="_blank"{% endif %}
+                > {{ menu }} </a>
+              </li>
+            {% else %}
+              <li class="nav-item dropdown mx-2 mx-xl-4">
+                <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown"
+                   role="button"
+                   aria-expanded="false"> {{ menu }} </a>
+                <ul class="dropdown-menu">
+                  {% for submenu, submenu_href in menu_dict.submenu.items %}
+                    <li><a class="dropdown-item"
+                           href="{{ submenu_href }}"> {{ submenu }} </a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,21 @@
+{% load static markdown_extras %}
+
+
+<div class="col-12x">
+  {% with content=files.5|markdown %}
+    <div>
+      <div class="row dates-row">
+        {{ content.html | safe }}
+      </div>
+    </div>
+  {% endwith %}
+</div>
+
+{#<div class="container my-5">#}
+{#  {% with content=files.6|markdown %}#}
+{#    <div class="row dates-row">#}
+{#      {{ content.html | safe }}#}
+{#    </div>#}
+{#  {% endwith %}#}
+{#</div>#}
+{##}

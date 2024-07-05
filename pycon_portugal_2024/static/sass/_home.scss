@@ -1,0 +1,464 @@
+// homepage
+
+@use "base";
+
+.display-flex {
+  display: flex;
+}
+
+.date-div {
+  height: 25em;
+}
+
+.date-container {
+  background-color: #0a042c;
+  width: 15em;
+}
+
+%HOME_TITLE {
+  font-family: Turret Road, sans-serif;
+  font-size: 6em;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+  %HOME_TITLE {
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  %HOME_TITLE {
+    font-size: 5em;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  %HOME_TITLE {
+    font-size: 6em;
+  }
+}
+
+%HOME_SECOND_TEXT {
+  font-family: Alef, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+%THIRD_TEXT {
+  font-family: Alef, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.home-banner {
+  background-image: url(../images/home/home_banner.gif);
+  position: relative;
+  z-index: 20;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+li {
+  list-style-type: none;
+}
+
+.home-sec {
+  background-color: base.$bgPurple;
+
+  h2 {
+    @extend %HOME_TITLE !optional;
+  }
+
+  li {
+    padding: 0.5em 2em;
+    height: fit-content;
+    width: fit-content;
+    margin: 1em;
+  }
+
+  .this-is-for {
+    li {
+      padding: 2px;
+      background: linear-gradient(
+        90deg,
+        rgba(255, 0, 255, 0.8) 20%,
+        #9747ff 80%
+      );
+      border-radius: 50px;
+
+      p {
+        @extend %HOME_SECOND_TEXT;
+        padding: 0.5em 2em;
+        margin: 0;
+        border-radius: 50px;
+        background-color: base.$bgPurple;
+      }
+    }
+  }
+
+  .join-us-content {
+    @extend %THIRD_TEXT;
+    display: grid;
+
+    .join-topics {
+      width: fit-content;
+      margin: 0.5em;
+      padding: 0.5em 2em;
+      border-radius: 50px;
+      background: linear-gradient(
+        90deg,
+        rgba(255, 0, 255, 0.8) 20%,
+        #9747ff 80%
+      );
+    }
+
+    .empty-li {
+      padding: 1em 1.3em;
+    }
+  }
+}
+
+#ju1 {
+  margin-left: 3em;
+}
+
+#ju2 {
+  margin-left: 12em;
+}
+
+#ju3 {
+  margin-left: 12em;
+}
+
+#ju4 {
+  margin-left: 5em;
+}
+
+#ju5 {
+  margin-left: 11em;
+}
+
+.home-header {
+  background-color: base.$bgPurple;
+  padding-bottom: 2rem;
+
+  .home-banner {
+    .home-title {
+      display: block;
+      align-content: center;
+      max-width: 24rem;
+
+      .home-title-block {
+        position: relative;
+        top: -1.5rem;
+        background: white;
+
+        padding: 1rem;
+        margin: 0rem 2rem 2rem;
+        z-index: 2;
+      }
+
+      .btn-tickets {
+        padding: 0rem 1rem;
+        margin: 2rem 0rem;
+      }
+
+      button {
+        background: white;
+        padding: 1rem 0.75rem;
+        font-weight: bold;
+        width: 100%;
+      }
+    }
+
+    .home_about-content {
+      padding: 2rem 2rem 20rem 0;
+      text-align: left;
+
+      h2 {
+        @extend %HOME_TITLE !optional;
+      }
+
+      h3 {
+        @extend %THIRD_TEXT;
+      }
+
+      h4 {
+        @extend %HOME_SECOND_TEXT;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .home_about-content {
+        text-align: center;
+        padding: 4rem 0;
+      }
+
+      .home_about-content h2,
+      .home_about-content h3,
+      .home_about-content h4 {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.sponsors {
+  background-color: base.$bgPurple;
+  text-align: center;
+
+  h2 {
+    color: #fdfdfd;
+    font-family: Turret Road, sans-serif;
+    font-size: 88px;
+    font-weight: 800;
+  }
+
+  @media screen and (max-width: 600px) {
+    h2 {
+      font-size: 64px;
+    }
+  }
+
+  h3 {
+    color: #fdfdfd;
+    font-family: Turret Road, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  blockquote {
+    a {
+      border: 1px solid #ff00ff;
+      padding: 20px 30px;
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      width: fit-content;
+    }
+  }
+
+  .card {
+    background-color: base.$white;
+    border-radius: 16px;
+  }
+}
+
+.flex-sponsors-organizer blockquote a {
+  border: 1px solid #ff00ff;
+  padding: 20px 30px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.flex-sponsors-organizer blockquote p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-sponsors-organizer blockquote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-sponsors-organizer blockquote img {
+    width: 200px;
+    height: auto;
+  }
+}
+
+.content-newsletter {
+  background: linear-gradient(
+    to bottom,
+    base.$white 0%,
+    base.$white 50%,
+    base.$BgBlack 50%,
+    base.$BgBlack 100%
+  ) !important;
+}
+
+.text-align-webit-center {
+  text-align: -webkit-center;
+}
+
+@media (max-width: 992px) {
+  .join-us-content {
+    padding: 1em;
+    justify-items: center;
+  }
+  #ju1,
+  #ju2,
+  #ju3,
+  #ju4,
+  #ju5 {
+    margin: 0.5em 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .this-is-for {
+    img {
+      display: none;
+    }
+  }
+}
+
+.flex-sponsors-organizer {
+  h3 {
+    text-align: center;
+    color: #fdfdfd;
+    font-family: Turret Road, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  blockquote {
+    display: flex;
+    justify-content: center;
+
+    p {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+
+// Create keyframes to animate a 360 degree rotation
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ellipsis-rotating {
+  display: inline-block;
+  animation: rotating 8s linear infinite;
+}
+
+.dates-row > div {
+  padding: 1em 2em;
+  border: 1px solid base.$lightPurple;
+  @media (max-width: 991.98px) {
+    padding: 1em 1em;
+  }
+}
+
+.dates-row h2 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.dates-row p {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .dates-row h2 {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.dates-row .month-container h3 {
+  color: base.$lightPurple !important;
+}
+
+.pticket {
+  font-family: Alef, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 32.68px;
+  text-align: left;
+}
+
+.tickets-section {
+  text-align: left;
+
+  h2 {
+    padding: 2rem;
+  }
+
+  h4 {
+    font-family: "Turret Road", sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 52.46px;
+    text-align: left;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, rgba(255, 0, 255, 0.8) 20%, #9747ff 80%);
+  }
+
+  .detail {
+    font-family: Alef, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+  }
+
+  .price {
+    font-family: "Turret Road", sans-serif;
+    font-size: 3.875rem;
+    font-weight: 800;
+    line-height: 67.77px;
+    text-align: left;
+  }
+
+  p {
+    font-family: Alef, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 32.68px;
+    text-align: left;
+  }
+
+  .col-content {
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: base.$lightPurple;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .row > * {
+    padding-bottom: 2rem !important;
+  }
+}
+
+.free-ticket-section {
+  h2 {
+    padding: 2rem;
+  }
+
+  p {
+    justify-content: start;
+  }
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

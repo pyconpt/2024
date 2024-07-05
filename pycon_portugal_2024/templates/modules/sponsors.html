@@ -1,0 +1,9 @@
+{% load markdown_extras %}
+
+{% with content=content|markdown %}
+
+  <h2>Sponsors</h2>
+
+  {{ content.html|safe }}
+
+{% endwith %}
