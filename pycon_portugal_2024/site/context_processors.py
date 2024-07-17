@@ -16,6 +16,8 @@ def links(request):
                     "BRAGA": "/information/braga/",
                     "VENUE": "/information/venue/",
                     "GRANT": "/information/grant/",
+                    "SPRINTS": "/information/sprints/",
+                    "FAQS": "/information/faqs/",
                 },
             },
             "Sponsors/Jobs": {
