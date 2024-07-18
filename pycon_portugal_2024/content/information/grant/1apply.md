@@ -22,8 +22,9 @@ With our limited funds, we can't promise you will receive a grant, but if you're
                        display: inline-block;
                        font-size: 16px;
                        margin: 4px 2px;
-                       cursor: pointer;
-                       border-radius: 12px;">Apply for a grant</button>
+                       cursor: not-allowed;
+                       border-radius: 12px;
+                       opacity: 0.5;" disabled>Grant Closed</button>
     </a>
 </div>
 If you have questions, you can write to [2024@pycon.pt](mailto:2024@pycon.pt).
