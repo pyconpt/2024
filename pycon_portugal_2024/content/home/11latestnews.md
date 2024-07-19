@@ -3,4 +3,4 @@ layout: home_news
 
 ## Latest News
 
-### Grant Application is currently closed.
+### Featured Talks are now available, Check it [here](https://pretalx.evolutio.pt/pycon-portugal-2024/featured/)

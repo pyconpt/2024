@@ -10,7 +10,7 @@ This will depend on the country you will be coming from. Some countries don't ne
 For everything concerning ticket kindly check it here [Tickets](https://pretix.evolutio.pt/evolutio/pyconpt2024/)
 
 **👉Do you provide Invitation to aid visa application?**
-The organizers of DjangoCon offer invitation letters to assist with your travel arrangements. Contact us to request for one.
+The organizers of Pycon Portugal offer invitation letters to assist with your travel arrangements. Contact us to request for one.
 
 **👉How do i apply for grant for PyCon Portugal**
 Grant Application is closed.
