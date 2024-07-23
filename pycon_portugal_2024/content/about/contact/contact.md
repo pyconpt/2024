@@ -9,6 +9,8 @@ You are most welcome to get in touch if you have questions.
 * [conduct@pycon.pt](mailto:conduct@pycon.pt)
 * [content@pycon.pt](mailto:content@pycon.pt)
 
+Having trouble reaching to us by email, please send us a bug report to [pyconpt@googlegroups.com](mailto:pyconpt@googlegroups.com)
+
 ## Freebies
 
 If you are a sponsor and wish to offer a company gift / voucher code to the attendees, please get in contact through [sponsors@pycon.pt](mailto:sponsors@pycon.pt).
