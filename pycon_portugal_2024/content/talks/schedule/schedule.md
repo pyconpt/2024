@@ -3,7 +3,7 @@ layout: simple
 ## Featured Sessions 
 We prepared a list of exciting sessions, so you can get a feel for our conference. Please keep in mind that this is not our full schedule. We will follow up with the full schedule in time, stay tuned!
 
-### Check our our Feauted talks [here](https://pretalx.evolutio.pt/pycon-portugal-2024/featured/)
+### Check our featured talks [here](https://pretalx.evolutio.pt/pycon-portugal-2024/featured/)
 
 [//]: # (In this second edition, we had a record number of submissions: 113. 🎉)
 
