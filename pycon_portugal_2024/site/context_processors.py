@@ -15,7 +15,7 @@ def links(request):
                 "submenu": {
                     "BRAGA": "/information/braga/",
                     "VENUE": "/information/venue/",
-                    "GRANT": "/information/grant/",
+                    "GRANTS": "/information/grants/",
                     "SPRINTS": "/information/sprints/",
                     "FAQS": "/information/faqs/",
                 },
