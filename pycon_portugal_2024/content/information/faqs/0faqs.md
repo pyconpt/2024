@@ -1,6 +1,6 @@
 layout: simple
 
-##FAQs
+## FAQs
 These are some frequently asked questions, kindly contact us for further assistance if you can't find the answers to your questions here.
 
 **👉Do I need a visa to Braga Portugal?**

@@ -54,6 +54,16 @@
     </div>
   </div>
 
+
+  {% comment %} speaker section {% endcomment %}
+  <hr class="purple-line">
+
+  <div class="container free-ticket-section text-align-webit-center">
+    {% with content=files.12|markdown %}
+      {{ content.html | safe }}
+    {% endwith %}
+  </div>
+
   <hr class="pink-line">
 
   <div class="container home-sec">
@@ -68,6 +78,9 @@
       </div>
     {% endwith %}
   </div>
+
+
+ 
 
   <hr class="purple-line">
 
