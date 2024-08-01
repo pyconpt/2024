@@ -23,12 +23,12 @@ title: Important Dates
 
 </div>
 
-<div markdown="1" class=" col-md-9 d-flex">
+<div markdown="1" class=" col-md-9 d-flex" style="text-decoration: line-through; text-decoration-color: white; color: white;">
 
 <span class="day-container"><strong></strong></span>
 
-**01st** - Talks Publication
-**30th** - Schedule Publication
+**01st** - Talks Publication✅
+**30th** - Schedule Publication✅
 
 </div>
 
