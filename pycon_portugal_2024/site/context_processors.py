@@ -18,6 +18,8 @@ def links(request):
                     "GRANTS": "/information/grants/",
                     "SPRINTS": "/information/sprints/",
                     "FAQS": "/information/faqs/",
+                    "PREVIOUS EDITIONS": "/information/previous/",
+
                 },
             },
             "Sponsors/Jobs": {
