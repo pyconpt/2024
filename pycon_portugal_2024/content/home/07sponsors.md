@@ -3,6 +3,12 @@ layout: simple
 
 <div markdown="1" class="col-12 flex-sponsors-organizer pt-5">
 
+### Diamond
+
+<!-- > > [![pydantic](/static/images/sponsors/pydantic.png){:class='sponsor'}](https://pydantic.dev/){:target="\_blank"} -->
+> > [<img src="/static/images/sponsors/pydantic.png" alt="pydantic" width="250">](https://pydantic.dev/){:target="_blank"}
+
+
 ### Grants
 
 > > [![europython](/static/images/sponsors/eps.png){:class='sponsor'}](https://www.europython-society.org/){:target="\_blank"}
@@ -31,3 +37,4 @@ layout: simple
 > > [![evolutio](/static/images/sponsors/evolutio.png){:class='secondary-logo'}](https://evolutio.pt/){:target="\_blank"}
 
 </div>
+pycon_portugal_2024
