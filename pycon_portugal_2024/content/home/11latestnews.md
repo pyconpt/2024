@@ -2,5 +2,5 @@ title: Latest News
 layout: home_news
 
 ## Latest News
-
-### Featured Talks are now available, Check it [here](https://pretalx.evolutio.pt/pycon-portugal-2024/featured/)
+Are you coming to PyCon Portugal 2024 by car? Just a heads-up: we’ll have free parking, but spaces will be limited on Saturday due to another event happening at the same time. Arrive early to secure your spot!
+pyconpt24
