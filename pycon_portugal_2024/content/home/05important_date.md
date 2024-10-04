@@ -38,12 +38,12 @@ title: Important Dates
 
 </div>
 
-<div markdown="1" class=" col-md-9 d-flex align-left">
+<div markdown="1" class=" col-md-9 d-flex align-left" style="text-decoration: line-through; text-decoration-color: white; color: white;">
 
 <span class="day-container"><strong></strong></span>
 
-**07th** - Childcare Applications Opening
-**15th** - T-shirt Sales Deadline (for deliveries at the conference)
+**07th** - Childcare Applications Opening✅
+**15th** - T-shirt Sales Deadline (for deliveries at the conference)✅
 
 </div>
 

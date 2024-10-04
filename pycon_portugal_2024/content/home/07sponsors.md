@@ -3,6 +3,13 @@ layout: simple
 
 <div markdown="1" class="col-12 flex-sponsors-organizer pt-5">
 
+
+### Platinum 
+
+<!-- > > [![pydantic](/static/images/sponsors/pydantic.png){:class='sponsor'}](https://pydantic.dev/){:target="\_blank"} -->
+> > [<img src="/static/images/sponsors/zencoder.svg" alt="Zencoder" width="250">](https://zencoder.ai/){:target="_blank"}
+
+
 ### Diamond
 
 <!-- > > [![pydantic](/static/images/sponsors/pydantic.png){:class='sponsor'}](https://pydantic.dev/){:target="\_blank"} -->
