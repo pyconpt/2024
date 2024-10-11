@@ -1688,3 +1688,17 @@ blockquote {
 /* speakers css */
 
 /* endspeaker css */
+
+
+/* Jobs page css */
+.jobs {
+  width: 4;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+.my-2 {
+  margin: 0.5rem 0;
+  /* Adjust the margin as needed */
+}
