@@ -8,7 +8,7 @@ Looking for a job? Here we'll have an awesome list with companies who sponsored 
 [![Pydantic](/static/images/sponsors/pydantic.png){:class='jobs my-3' style="width: 350px; height: auto;"}](https://pydantic.dev/){:target='_blank'}
 
 
-### [**Platform Engineer**](https://pydantic.dev/jobs/platform){:target="\_blank"}
+### [**Platform Engineer**](https://pydantic.dev/about#join-the-teams){:target="\_blank"}
 **Platform Engineer at Pydantic**
 As a Principal Platform Engineer you'll have the opportunity to take our nascent developer 
 platform to the next level. You'll be the first full-time engineer dedicated to building out our 
@@ -24,15 +24,15 @@ environments, performant CI, strategies for running database migrations, etc.
 implementing better intra-cluster RBAC.
 - Grow a team that aligns with the company's vision and culture.
 
-_To know more about this job vist [Pydantic Jobs](https://pydantic.dev/jobs/platform)_
+_To know more about this job visit [Pydantic Jobs](https://pydantic.dev/about#join-the-teams)_
 
 <!-- second job  -->
-### [**Principal Developer**](https://pydantic.dev/jobs/platform){:target="\_blank"}
+### [**Principal Developer**](https://pydantic.dev/about#join-the-teams){:target="\_blank"}
 **Database Infrastructure - Rust**
 We are hiring a Rust developer to help design and implement the database infrastructure for 
 our observability platform, Pydantic Logfire.
 
 
-_To know more about this job vist [Pydantic Jobs](https://pydantic.dev/jobs/platform)_
+_To know more about this job visit [Pydantic Jobs](https://pydantic.dev/about#join-the-teams)_
 <hr class="pink-line">
 
