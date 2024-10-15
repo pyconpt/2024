@@ -6,13 +6,11 @@ layout: simple
 
 ### Diamond
 
-<!-- > > [![pydantic](/static/images/sponsors/pydantic.png){:class='sponsor'}](https://pydantic.dev/){:target="\_blank"} -->
 > > [<img src="/static/images/sponsors/pydantic.png" alt="pydantic" width="250">](https://pydantic.dev/){:target="_blank"}
 
 
 ### Platinum 
 
-<!-- > > [![pydantic](/static/images/sponsors/pydantic.png){:class='sponsor'}](https://pydantic.dev/){:target="\_blank"} -->
 > > [<img src="/static/images/sponsors/zencoder.svg" alt="Zencoder" width="250">](https://zencoder.ai/){:target="_blank"}
 
 

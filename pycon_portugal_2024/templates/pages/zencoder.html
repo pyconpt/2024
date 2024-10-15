@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <div class="container">
+    <div class="row g-0">
+      <div class="col-12 p-0 pt-5">
+        <img src="{% static 'images/logo/zencoder_banner.png' %}" alt="Zencoder Banner"
+             class="w-100">
+      </div>
+      <div class="col-12 text-center py-4">
+        <h2>Zencoder</h2>
+      </div>
+      <div class="col-12 py-4">
+        <p>
+          Zencoder is a pioneering AI startup focused on enhancing the software
+          development process through embedded AI coding agents. Founded by industry
+          veteran Andrew Filev with a passion for innovation, Zencoder aims to make
+          coding more efficient, accurate, and enjoyable for developers worldwide.
+          Zencoder has a team of 45+ AI experts, engineers, and data scientists across
+          the globe.
+        </p>
+        <br>
+        <p class="small-text">
+          <a href="https://zencoder.ai/" target="_blank" class="white-link">Sign up today</a> for a free 3-month trial (limited
+          supply)
+        </p>
+      </div>
+
+    </div>
+  </div>
+{% endblock content %}

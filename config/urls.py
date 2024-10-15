@@ -17,6 +17,7 @@ urlpatterns = [
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
     path("", default_view, name="home"),
+    path("zencoder", TemplateView.as_view(template_name="pages/zencoder.html"), name="zencoder"),
     path("<slug:menu>/", default_view, name="menu-view"),
     path("<slug:menu>/<slug:submenu>/", default_view, name="submenu-view")
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
