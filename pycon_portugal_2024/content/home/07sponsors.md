@@ -19,6 +19,7 @@ layout: simple
 ### Grants
 
 > > [![europython](/static/images/sponsors/eps.png){:class='sponsor'}](https://www.europython-society.org/){:target="\_blank"}
+> > [![pythonsoftwarefoundation](/static/images/sponsors/psf.png){:class='sponsor'}](https://www.python.org/psf-landing/){:target=\"\_blank\"}
 
 [//]: # "> > [![djangosoftwarefoundation](/static/images/sponsors/dsf.png){:class='sponsor'}](https://www.djangoproject.com/){:target=\"\_blank\"}"
 [//]: # "> > [![cmb](/static/images/logo/cmb-w.png){:class='secondary-logo'}](https://www.cm-braga.pt/pt){:target=\"\_blank\"}"
