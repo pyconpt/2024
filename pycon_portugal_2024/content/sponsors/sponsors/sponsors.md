@@ -21,7 +21,7 @@ layout: simple
 
 > > [![europython](/static/images/sponsors/eps.png){:class='sponsor'}](https://www.europython-society.org/){:target="_blank"}
 > > [![pythonsoftwarefoundation](/static/images/sponsors/psf.png){:class='sponsor'}](https://www.python.org/psf-landing/){:target=\"\_blank\"}
-> > [![djangosoftwarefoundation]&#40;/static/images/sponsors/dsf.png&#41;{:class='sponsor'}]&#40;https://www.djangoproject.com/&#41;{:target="_blank"}
+> > [![djangosoftwarefoundation](/static/images/sponsors/dsf.png&#41;{:class='sponsor'}](https://www.djangoproject.com/){:target="_blank"}
 
 [//]: # (> > [![cmb]&#40;/static/images/logo/cmb-w.png&#41;{:class='secondary-logo'}]&#40;https://www.cm-braga.pt/pt&#41;{:target="_blank"})
 
