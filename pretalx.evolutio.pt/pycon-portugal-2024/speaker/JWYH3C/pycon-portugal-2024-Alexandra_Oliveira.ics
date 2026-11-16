@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//speaker//JWYH3
+ C
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-TRKAC9@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241018T101000
+DTEND;TZID=WET:20241018T104000
+DESCRIPTION:ime series analysis is vital for trends and forecasting in fina
+ nce and healthcare. This talk explores ARIMA models for clustering disease
+  data in 48 European countries\, using Python libraries like pmdarima and 
+ TimeSeriesSplit. We’ll examine how distance measures like Piccolo\, Maha
+ raj\, and LPC reveal health disparities\, showcasing how Python enhances p
+ ublic health surveillance and interventions.
+DTSTAMP:20261116T105839Z
+LOCATION:Auditorium
+SUMMARY:Comparing Time Series Forecasting Models: A Clustering Analysis App
+ roach with Python - Alexandra Oliveira
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/TRKAC9/
+END:VEVENT
+END:VCALENDAR

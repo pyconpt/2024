@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//talk//DDNNVQ
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-DDNNVQ@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241017T121000
+DTEND;TZID=WET:20241017T124000
+DESCRIPTION:Speeding up the development process is something that every per
+ son should be able to. With the massive amount of boilerplate needed\, tha
+ t can take ages. Esmerald and Lilya address that for you.
+DTSTAMP:20261116T105831Z
+LOCATION:Auditorium
+SUMMARY:Esmerald and Lilya - How to speed up the development process - Tiag
+ o Silva\, Pedro Correia
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/DDNNVQ/
+END:VEVENT
+END:VCALENDAR

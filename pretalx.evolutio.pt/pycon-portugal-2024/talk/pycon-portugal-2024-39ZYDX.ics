@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//talk//39ZYDX
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-39ZYDX@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241019T160000
+DTEND;TZID=WET:20241019T180000
+DESCRIPTION:Working with data can be challenging: it often doesn’t come i
+ n the best format for analysis\, and understanding it well enough to extra
+ ct insights requires both time and the skills to filter\, aggregate\, resh
+ ape\, and visualize it. This session will equip you with the knowledge you
+  need to effectively use pandas – a powerful library for data analysis i
+ n Python – to make this process easier.
+DTSTAMP:20261116T105838Z
+LOCATION:Workshops Azores
+SUMMARY:Introduction to Data Analysis Using Pandas - Part 2 - Stefanie Moli
+ n
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/39ZYDX/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//speaker//D33C7
+ 9
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-BQ9WJG@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241018T155000
+DTEND;TZID=WET:20241018T162000
+DESCRIPTION:I worked full-time on a Python FOSS project for 503 days\, so w
+ hat did I learn?\n\nIn this talk I will share some of the lessons I learne
+ d over the course of these 503 days:\n\n - how to get a tech job in this d
+ ay & age\n - how to put your ego aside when working with others (who know 
+ more than you!) and how to deal with mistakes\n - how to interact with use
+ rs & contributors online\n - how it feels to collaborate to a large code b
+ ase
+DTSTAMP:20261116T105845Z
+LOCATION:Auditorium
+SUMMARY:503 days working full-time on FOSS: lessons learned - Rodrigo Girã
+ o Serrão
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/BQ9WJG/
+END:VEVENT
+END:VCALENDAR

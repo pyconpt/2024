@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//talk//AEPHCX
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-AEPHCX@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241018T090500
+DTEND;TZID=WET:20241018T100500
+DESCRIPTION:We will discuss the concept of AI Agents in general and what is
+  needed to realize those agents. We will dive deeper into how they can be 
+ applied specifically to coding to make your everyday life easier.
+DTSTAMP:20261116T105834Z
+LOCATION:Auditorium
+SUMMARY:Going Beyond Copilot with AI Agents - Alex Shershebnev
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/AEPHCX/
+END:VEVENT
+END:VCALENDAR

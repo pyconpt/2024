@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//speaker//JXLWC
+ M
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-9ZVUGH@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241018T140000
+DTEND;TZID=WET:20241018T143000
+DESCRIPTION:Dive into the world of Lazy Evaluation with Python generators! 
+ 🚀 Uncover the efficiency secrets\, learn practical implementations\, an
+ d revolutionize your coding approach. Join me in exploring the power of op
+ timization and enhanced performance. Ready to elevate your Python game?
+DTSTAMP:20261116T105847Z
+LOCATION:Auditorium
+SUMMARY:Pythonic Laziness: Unleashing the Power of Generators for Efficient
+  Computing - Sebastian Arias
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/9ZVUGH/
+END:VEVENT
+END:VCALENDAR

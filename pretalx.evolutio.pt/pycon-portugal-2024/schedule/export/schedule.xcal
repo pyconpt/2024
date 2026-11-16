@@ -1,0 +1,906 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<iCalendar xmlns:pentabarf='http://pentabarf.org' xmlns:xCal='urn:ietf:params:xml:ns:xcal'>
+    <vcalendar>
+        <version>2.0</version>
+        <prodid>-//Pentabarf//Schedule//EN</prodid>
+        <x-wr-caldesc></x-wr-caldesc>
+        <x-wr-calname></x-wr-calname>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>T97N3P@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-T97N3P</pentabarf:event-slug>
+            <pentabarf:title>Welcome Session</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241017T090000</dtstart>
+            <dtend>20241017T091500</dtend>
+            <duration>001500</duration>
+            <summary>Welcome Session</summary>
+            <description>Welcome Session</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Other</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/T97N3P/</url>
+            <location>Auditorium</location>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>38BACY@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-38BACY</pentabarf:event-slug>
+            <pentabarf:title>Attracting and retaining technological talent: challenges for cities</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241017T091500</dtstart>
+            <dtend>20241017T100000</dtend>
+            <duration>004500</duration>
+            <summary>Attracting and retaining technological talent: challenges for cities</summary>
+            <description>City officials often encounter several challenges when it comes to attracting and retaining tech talent. Here are some examples of the main issues they face:
+
+*1. Cost of Living:*
+- High Living Expenses: In many urban areas, the cost of living can be prohibitively high, making it difficult for tech professionals to afford housing and daily expenses.
+- Salary Disparities: Even if salaries in the tech sector are competitive, they may not match the rising costs of living in major cities.
+
+*2. Quality of Life:*
+- Urban Challenges: Issues such as traffic congestion, pollution, and inadequate public services can deter tech talent from relocating to or staying in a city.
+- Work-Life Balance: Tech professionals often prioritize quality of life, seeking cities that offer a balance between work and leisure, as well as access to green spaces and recreational activities.
+
+*3. Competition from Other Cities:*
+- Talent Wars: Many cities are competing for the same pool of tech talent, leading to aggressive recruitment strategies and incentives from rival locations.
+- Established Tech Hubs: Cities like Silicon Valley, Seattle, and Austin have established reputations as tech hubs, making it challenging for other cities to compete.
+
+*4. Infrastructure and Resources:*
+- Technological Infrastructure: The availability of high-speed internet, coworking spaces, and tech hubs is critical for attracting tech talent. Cities lacking these resources may struggle to appeal to professionals.
+- Support for Startups: Cities need to provide support systems, such as incubators, accelerators, and funding opportunities, to nurture tech startups and attract talent.
+
+*5. Education and Training:*
+- Skill Gaps: A lack of local educational institutions or training programs that align with the needs of tech companies can create a skills gap, making it difficult to fill positions with qualified candidates.
+- Continuous Learning: The fast-paced nature of the tech industry requires ongoing training and development opportunities that not all cities can provide.
+
+*6. Diversity and Inclusion:*
+- Inclusive Environments: Attracting diverse talent requires creating inclusive environments where all individuals feel welcome and valued. Cities that fail to address diversity issues may struggle to retain talent.
+- Cultural Factors: The local culture and community can either attract or repel tech talent, particularly those from underrepresented groups.
+
+*7. Networking Opportunities:*
+- Professional Communities: Access to strong professional networks and communities is crucial for tech professionals. Cities lacking active tech communities may struggle to attract and retain talent.
+- Events and Conferences: Opportunities for networking through industry events, meetups, and conferences are essential for building connections in the tech sector.
+
+*8. Policy and Regulation:*
+- Business-Friendly Policies: City officials need to create policies that are favorable to tech companies, including tax incentives, streamlined regulations, and support for innovation.
+- Visa and Immigration Policies: For cities seeking to attract international talent, navigating complex visa and immigration regulations can be a significant hurdle.
+
+These are a few examples of the themes that will be addressed in this round table.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Other</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/38BACY/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Rui Monteiro</attendee>
+            
+            <attendee>Miguel Fonseca</attendee>
+            
+            <attendee>Luis Rodrigues</attendee>
+            
+            <attendee>Rui Jos&#233;</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>W7RD87@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-W7RD87</pentabarf:event-slug>
+            <pentabarf:title>Paying Attention with Python</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241017T100000</dtstart>
+            <dtend>20241017T110000</dtend>
+            <duration>010000</duration>
+            <summary>Paying Attention with Python</summary>
+            <description>To what we pay attention is important. How we pay attention is equally consequential but often unconscious. Considering why we pay attention is perhaps most significant ~ an engaging, poignant and sadly neglected opportunity for self-examination.
+
+Why is this important?
+
+With a world full of code of questionable quality and purpose, someone, somewhere thought such software was a good idea. Let&apos;s reflect upon what happens as we engage, disengage, or even mis-engage with the world through Python code. With the help of practical, creative and humorous examples, this talk will explore the many ways in which we may pay attention to our world through Python. In the world of programming, it turns out that _paying attention_ to &quot;paying attention&quot; is worthy of __paying attention__.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Keynote</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/W7RD87/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Nicholas H.Tollervey</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>PCX3AA@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-PCX3AA</pentabarf:event-slug>
+            <pentabarf:title>Reflections on My Year as an Open Source Intern at Pydantic</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241017T113000</dtstart>
+            <dtend>20241017T120000</dtend>
+            <duration>003000</duration>
+            <summary>Reflections on My Year as an Open Source Intern at Pydantic</summary>
+            <description>Two years ago, I was introduced to Pydantic, the most widely used data validation library for Python. I was using it in the context of data validation for APIs, and to say it was a game changer would be an understatement - I readily fell head over heels for the tool. Since that day, my role has evolved from an enthusiastic user to a passionate contributor. I started interning at Pydantic in fall of 2023, and I transitioned to a full-time role in June of 2024, once I graduated with my undergraduate degree.
+
+In this talk, I aim to offer valuable insights derived from my distinctive experience as an open source intern. Initially, I will explore the pivotal role of open source work in early career development, highlighting its capacity to facilitate rapid acquisition of best coding practices through immersion, foster leadership and organizational proficiencies, and refine communication skills both within a company and with the broader open source community. Subsequently, I will provide practical guidance for aspiring open source contributors and interns, encompassing strategies for identifying suitable projects, making impactful first impressions, and effectively navigating the intricacies of the open source community.
+
+Attendees will emerge from this session equipped with a comprehensive grasp of the transformative potential of open source engagement in early career development, along with actionable advice for initiating their journey as open source contributors or interns. My ultimate aspiration is to inspire individuals to embrace the opportunities presented by open source work, while also advocating for organizations to recognize and leverage the unique contributions that open source interns can offer to their teams.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/PCX3AA/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Sydney Runkle</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>DDNNVQ@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-DDNNVQ</pentabarf:event-slug>
+            <pentabarf:title>Esmerald and Lilya - How to speed up the development process</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241017T121000</dtstart>
+            <dtend>20241017T124000</dtend>
+            <duration>003000</duration>
+            <summary>Esmerald and Lilya - How to speed up the development process</summary>
+            <description>My name is Tiago Silva, a portuguese software engineer based in UK and with experience in many fields of the industry. 
+
+Having worked for big players in the market, including Bank of England, I was able to develop a fully fledged python web framework called Esmerald (https://esmerald.dev) and more recently addressing ASGI tooling by creating Lilya (https://lilya.dev) already being adopted as well. 
+
+From its inception in 2022, Esmerald helped countless organisations saving thousands of hours in development and without any kind of marketing, Lilya is now doing the same.
+
+Both developed by Dymmond (https://dymmond.com) Esmerald came to stay and help python and non python engineers maximizing the time and minimizing the effort by reducing the human led bugs and increasing the productivity and imagination to the next level.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/DDNNVQ/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Tiago Silva</attendee>
+            
+            <attendee>Pedro Correia</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>NFLRHA@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-NFLRHA</pentabarf:event-slug>
+            <pentabarf:title>Modern art of simplifying python projects by distributing complexity.</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241017T140000</dtstart>
+            <dtend>20241017T143000</dtend>
+            <duration>003000</duration>
+            <summary>Modern art of simplifying python projects by distributing complexity.</summary>
+            <description>The purpose of this talk is to define the necessary steps for matured project to support successful adaptation for futured tasks.
+
+Let&#8217;s imagine a successful startup. Brilliant ideas require quick realization. Customers are happy, investors ask to add more functionality. With time, the project consume an initial wave of hype and stabilize own grow. The team scales up with the project. Some programmers leave, new ones come in. Parts of the project are rewritten due to lack of documentation or technology not meeting business needs. But suddenly the productivity of the developers collapses, this is the so-called &#8220;after wave of hype life&#8221; with the following symptoms:
+
+Exponential growth of required tools and technologies
+Low incomes from additional features vs. high development costs
+Enormous growth in the number of people involved
+Since it is impossible to avoid this step, it is necessary to prepare for it in advance in order to minimize negative consequences and enhance positive impacts.
+
+Preventive actions: - Implementing a Code Style Guide to unify parts of the code base. - Gather opinions on keeping legacy code or a complete refactoring. These will become future milestones on your project roadmap. - Documentation in the form of &#8220;What do I do if I die?&#8221;.
+
+Spreading complexity through separating parts of a project into isolated blocks: - GPT tools, how they can help, and why they can&#8217;t help. - Manual tools and techniques for identifying and avoiding interfacing patterns in the project. - Looking at the structure of individual applications if microservices are not a good solution. - Packaging portions of code into separate libraries. - Separating settings.
+
+For each topic, I will give examples of working with large projects that are at this stage. Despite different business types, geographical and social contexts, these projects shows similar architectural mistakes, which will be discussed.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/NFLRHA/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Maxim Danilov</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>CWELKT@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-CWELKT</pentabarf:event-slug>
+            <pentabarf:title>Pushing the Boundaries of Django Managers</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241017T144000</dtstart>
+            <dtend>20241017T151000</dtend>
+            <duration>003000</duration>
+            <summary>Pushing the Boundaries of Django Managers</summary>
+            <description>In this talk, we&apos;ll start things off with a quick intro to Django for anyone who&apos;s not yet familiar with it. We&apos;ll cover the basics, giving you a sense of what it&apos;s capable of.
+We will focus on the Managers concept inside of the Django ecosystem, highlighting their purpose and how they can be used to improve your application (custom methods, raw SQL,...). We&apos;ll touch briefly on the limitations of this concept, mainly the complexity around managing complex queries and reusing logic across different requests. Finally, we&apos;ll analyse my solution to this issue, using Jinja2 and building custom raw SQL templates that are evaluated at runtime to improve your custom queries. In this section, we&apos;ll have some time to look at a simple example of how this can be done.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/CWELKT/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Jo&#227;o Vasconcelos</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>EMUBEW@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-EMUBEW</pentabarf:event-slug>
+            <pentabarf:title>Self hosting your side projects with Django and duct tape</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241017T152000</dtstart>
+            <dtend>20241017T155000</dtend>
+            <duration>003000</duration>
+            <summary>Self hosting your side projects with Django and duct tape</summary>
+            <description>The talk will cover everything you need to know to host your projects on your hardware the old-fashioned way confidently. We won&#8217;t use containers, virtualization, edge computing, or anything the cool kids use these days. Instead, we will rely on good old technology like Nginx and server-side rendered Django. We&#8217;ll even have the database running on the same machine as if it&#8217;s still the year 2009.
+
+Even though the deployment will be old-fashioned, the way we deploy new code changes won&#8217;t be, as I&#8217;ll show how to leverage GitHub Actions to get the latest Python code changes to your site every time you push to the main branch. I&#8217;ll also talk about how to configure observability tools and be alerted if there is an issue. 
+
+We&#8217;ll also cover some of the common gotchas, like buying the right SD card for your Raspberry Pi, dealing with your internet provider&#8217;s dynamic IP addresses, compiling the latest version of Python, configuring your Nginx to run Django, configuring Postgres and dealing with backups. I&#8217;ll even show you how to use duct tape to improve your site&#8217;s uptime!
+
+I&#8217;ll make the case that any developer comfortable running Python on their laptop can be comfortable running a Python web application connected to the internet.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/EMUBEW/</url>
+            <location>Auditorium</location>
+            
+            <attendee>An&#382;e Pe&#269;ar</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>S3FCGA@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-S3FCGA</pentabarf:event-slug>
+            <pentabarf:title>Pydantic Logfire &#8212; Uncomplicated Observability</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241017T162000</dtstart>
+            <dtend>20241017T165000</dtend>
+            <duration>003000</duration>
+            <summary>Pydantic Logfire &#8212; Uncomplicated Observability</summary>
+            <description>From the team behind Pydantic, Logfire is a new type of observability platform built on the same belief as our open source library &#8212; that the most powerful tools can be easy to use.
+
+In this talk, we&apos;ll introduce Logfire, then demonstrate how it can make understanding and fixing your app faster and more enjoyable.
+
+We&apos;ll touch on some of the most useful integrations.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/S3FCGA/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Marcelo Trylesinski</attendee>
+            
+            <attendee>Sydney Runkle</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>8V3PUH@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-8V3PUH</pentabarf:event-slug>
+            <pentabarf:title>Unlocking ASGI Innovations: How FastAPI Reaps the Benefits</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241017T170000</dtstart>
+            <dtend>20241017T173000</dtend>
+            <duration>003000</duration>
+            <summary>Unlocking ASGI Innovations: How FastAPI Reaps the Benefits</summary>
+            <description>- Introduction (5 min)
+   - What is ASGI?
+   - Why FastAPI follows this specification?
+- Websocket Denial Response (5 min)
+    - What is the WebSocket Denial Response?
+    - How does it impact authentication on WebSockets?
+    - How is the implementation on Starlette &amp; Uvicorn?
+    - Show how to use it with FastAPI.
+- HTTP Trailers (5 min)
+    - What are HTTP Trailers, and what are the use cases?
+    - How is the implementation on Uvicorn?
+    - Starlette doesn&apos;t support this out of the box yet, what is needed?
+- Client Disconnect (10 min)
+    - Explain the problem about client disconnect on ASGI.
+    - Explain the solution brought in 2024.
+    - Explain what changes for FastAPI and Starlette users, and examples in code.
+    - Show the implementation.
+- Comments &amp; Conclusion &amp; Q&amp;A (5 min)</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/8V3PUH/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Marcelo Trylesinski</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>QVBL9G@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-QVBL9G</pentabarf:event-slug>
+            <pentabarf:title>Lightning Talks</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241017T174000</dtstart>
+            <dtend>20241017T181000</dtend>
+            <duration>003000</duration>
+            <summary>Lightning Talks</summary>
+            <description>Lightning Talks</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Other</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/QVBL9G/</url>
+            <location>Auditorium</location>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>AEPHCX@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-AEPHCX</pentabarf:event-slug>
+            <pentabarf:title>Going Beyond Copilot with AI Agents</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241018T090500</dtstart>
+            <dtend>20241018T100500</dtend>
+            <duration>010000</duration>
+            <summary>Going Beyond Copilot with AI Agents</summary>
+            <description>In this talk, we&apos;ll discuss the concept of AI Agents in general and what is needed to realize those agents. We will then dive deeper into how they can be applied specifically to coding to make your everyday life easier. And we&apos;ll finish off with some examples of the ways you can incorporate such agents into your workflow already right after this talk.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Keynote</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/AEPHCX/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Alex Shershebnev</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>TRKAC9@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-TRKAC9</pentabarf:event-slug>
+            <pentabarf:title>Comparing Time Series Forecasting Models: A Clustering Analysis Approach with Python</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241018T101000</dtstart>
+            <dtend>20241018T104000</dtend>
+            <duration>003000</duration>
+            <summary>Comparing Time Series Forecasting Models: A Clustering Analysis Approach with Python</summary>
+            <description>Time series analysis is essential for understanding trends, seasonality, and forecasting across various domains like finance and healthcare. In public health, ARIMA models are crucial for clustering disease trend data. This talk showcases an analysis of health indicators across 48 European countries, emphasizing the role of Python libraries such as pmdarima for ARIMA modeling and TimeSeriesSplit for robust cross-validation. Also, explore the impact of distance measures&#8212;like Piccolo, Maharaj, and LPC&#8212;on clustering outcomes, uncovering significant geographic health disparities. This aplication, llustrates how Python tools can enhance public health surveillance and inform effective intervention strategies.
+This talk is strutured as:
+1. Description of the problem
+2. Description of the approach
+3. Results presentation
+4. Discussion and conclusions</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/TRKAC9/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Alexandra Oliveira</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>K7SXHE@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-K7SXHE</pentabarf:event-slug>
+            <pentabarf:title>Are We Typed Yet? The Evolution of Gradual Typing and Mypy</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241018T113000</dtstart>
+            <dtend>20241018T120000</dtend>
+            <duration>003000</duration>
+            <summary>Are We Typed Yet? The Evolution of Gradual Typing and Mypy</summary>
+            <description>In this talk, we&apos;ll explore the evolution of static typing in Python, focusing on Mypy, its development, and its impact on the adoption of gradual typing. We&apos;ll delve into the journey of static typing, static analysis, and language servers, examining how they have influenced the way we write Python code today.
+
+The discussion will cover:
+
+* **Mypy&apos;s Goals and Non-Goals:**
+  We&apos;ll look at Mypy&apos;s core objectives and clarify what it doesn&apos;t aim to achieve.
+* **Progress and Challenges:**
+  We&apos;ll analyze Mypy&apos;s progress over time, exploring success stories and addressing the challenges encountered in widespread adoption.
+* **Typing Oddities:**
+  We&apos;ll explore some of the complexities and interesting quirks associated with static typing and where it may fall short.
+* **The Power of Typing:**
+  We&apos;ll showcase real-world examples of successful static typing implementations.
+* **Gradual Typing in Python:**
+  We&apos;ll discuss the concept of gradual typing and its potential for Python, drawing comparisons to other languages like TypeScript, Ruby, and Elixir.
+* **The Broader Landscape:**
+  We&apos;ll explore the influence of Mypy on the overall Python ecosystem, including its impact on development practices and tooling.
+* **Beyond Type Checking:**
+  This new ecosystem is bringing up new ideas and ways to code. Powerful language servers can have a profound impact on the final design of our applications, for better or worse.
+
+By the end of this talk, I hope you will gain a deeper understanding of Mypy&apos;s role in Python&apos;s typing landscape, its impact on gradual typing adoption, and the potential future of static typing in the Python world.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/K7SXHE/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Caio Salgado</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>APWHHR@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-APWHHR</pentabarf:event-slug>
+            <pentabarf:title>Next-Gen Apps: Enhancing User Experience with Large Language Models</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241018T121000</dtstart>
+            <dtend>20241018T124000</dtend>
+            <duration>003000</duration>
+            <summary>Next-Gen Apps: Enhancing User Experience with Large Language Models</summary>
+            <description>Large Language Models(LLMs) are good at reasoning based on their knowledge. This talk explores how you can use the power of LLMs to add intelligence like coding assistants, text-to-sequel, etc to existing applications.
+
+One of the simplest ways to start adding intelligence is by using an LLM with fine-tuned prompts. You can find the answers to questions like: - What are some of the things that you need to consider while prompt engineering? - What are the limits of prompt engineering?
+
+After finding out the limits of prompt engineering, let us understand how to augment the knowledge of the LLM using vector databases. You can learn things like: - Ingesting the data into the vector databases. - Considerations in data ingestion to improve the LLM performance.
+
+We will also cover the concept of AI agents that given a set of capabilities or tools can figure out how to use them where relevant in an intelligent fashion. You can learn - How do agents work? - Where are they useful?
+
+After this talk, you will learn how to add intelligence to existing applications with the help of the ever-popular LLMs using open-source frameworks.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/APWHHR/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Nithish Raghunandanan</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>9ZVUGH@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-9ZVUGH</pentabarf:event-slug>
+            <pentabarf:title>Pythonic Laziness: Unleashing the Power of Generators for Efficient Computing</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241018T140000</dtstart>
+            <dtend>20241018T143000</dtend>
+            <duration>003000</duration>
+            <summary>Pythonic Laziness: Unleashing the Power of Generators for Efficient Computing</summary>
+            <description>## Introduction
+
+Lazy evaluation is a powerful concept in computer science that can be used to optimize the performance of programs by reducing the amount of computation needed to produce results. In Python, one way to implement lazy evaluation is through the use of generators, which are functions that can be paused and resumed during execution to generate a sequence of values on-the-fly.
+
+In this talk, we will explore the concept of lazy evaluation with generators in Python. We will start with a brief overview of generators and then delve into the principles of lazy evaluation, including how it works and its advantages over eager evaluation. We will also cover practical examples of how generators can be used to implement lazy evaluation in real-world scenarios, such as processing large datasets or generating infinite sequences.
+
+Attendees of this talk will gain a deeper understanding of the concept of lazy evaluation and how it can be implemented using generators in Python. They will learn about the benefits of lazy evaluation, including improved performance and reduced memory usage, and see practical examples of how it can be used to solve common programming problems. This presentation is designed for developers who are interested in optimizing their Python code and want to explore the power of lazy evaluation with generators.
+
+
+## Timeline
+
+**Introduction (3 minutes):** Introduce myself and give a brief overview of the talk&apos;s topic and goals. We&apos;ll explain why lazy evaluation and generators are important for optimizing Python code, and outline the structure of the talk.
+
+**Background (7 minutes):** Explain the principles of lazy evaluation and how it differs from eager evaluation. Also, explain generators and their role in implementing lazy evaluation in Python, and compare lazy and eager evaluation in terms of performance and memory usage.
+
+**Getting Started with Generators (7 minutes):**  Explain how to define and use generators in Python. Demonstrate how to use generators to generate sequences on-the-fly and discuss the advantages of generators over other sequence types like lists or tuples.
+
+**Practical Examples (10 minutes):**  Demonstrate how generators can be used to solve real-world programming problems. Give examples of processing large datasets, generating infinite sequences, or implementing lazy evaluation in iterative algorithms, and discuss how lazy evaluation can improve performance and reduce memory usage in these scenarios.
+
+**Conclusion (3 minutes):** Recap the talk&apos;s main points, give final thoughts on the benefits of using lazy evaluation and generators in Python, and Q&amp;A time</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/9ZVUGH/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Sebastian Arias</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>RLD7QT@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-RLD7QT</pentabarf:event-slug>
+            <pentabarf:title>Better logging in Python</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241018T144000</dtstart>
+            <dtend>20241018T151000</dtend>
+            <duration>003000</duration>
+            <summary>Better logging in Python</summary>
+            <description>There&apos;s a lot of talk about observability, reliability, fault tolerance. That seems to be all on the Ops side, though. For the developers, test methodologies and practices get talked about a lot, but logging, which might be even more important, doesn&apos;t get talked about enough. You&apos;re always gonna have bugs slip through no matter what you do, so ensuring a quick detection and response is worth an insane amount of time, money and trust, from clients and users. In this talk, I want to speak about the built-in logging module (this is something that other languages don&apos;t have!), its quirks and possible alternatives (it&apos;s certainly not the most ergonomic utility...), its setup, and then how to use it app-wide. When should one define different loggers, in which situations (if any ;)) one would want to include side effects in the logging action, where should the logging configuration be and in which format (it actually does not need to be configured through _code_, interestingly). Different log levels, what concretely to log and where (in the &quot;bottom&quot; calls, or as up in the main program as possible?) How much logging is too much logging, etc. Logging formats and what things you should always include in your logs no matter what you do (hint: times ;)) and why you&apos;ll need that information. Thoughts on how to make it parseable and easily interpretable. Finally, we&apos;ll touch upon why you&apos;ll want to hook this up to external services and how to handle those cases. Won&apos;t be the main point of the talk, as the log-as-a-service space is already packed, it&apos;s not nearly as interesting and I&apos;m also not trying to publicize anything (much less proprietary solutions). I&apos;ll just mention the existence and use case of those tools (and i.e, in which situations you&apos;ll be able to roll your own vs having it as a service).
+
+Expected roadmap:
+
+Introduction (5 minutes) Welcome and set the context: Why is logging important? Touch on the challenges of debugging without proper logs. Time and cost savings, etc. 
+
+Python&#8217;s Built-in Logging Library (10 minutes) Explore the logging module from the Python standard library. Briefly discuss its features, log levels, and configuration options. Demonstrate basic usage and best practices. Introduce alternative libraries and why you might or might not want to use them. 
+
+Advanced Techniques (10 minutes) Log formatting: Customizing log messages. What things to include, what format should your logs use. Handlers and formatters: Choosing the right output channels. Filters: Controlling which logs get processed. Performance: Impact, Async, batching, log queues, etc. Rotating logs: Managing log files over time. 
+
+External Service Integrations (5 minutes): Why you&apos;ll probably want some centralized source for your logs. Briefly touch on integrating with logging platforms (i.e ELK), alerting platforms, or logs as a service.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/RLD7QT/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Daniel Herv&#225;s</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>BQ9WJG@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-BQ9WJG</pentabarf:event-slug>
+            <pentabarf:title>503 days working full-time on FOSS: lessons learned</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241018T155000</dtstart>
+            <dtend>20241018T162000</dtend>
+            <duration>003000</duration>
+            <summary>503 days working full-time on FOSS: lessons learned</summary>
+            <description>## Outline
+
+### Introduction (~5min)
+
+Personal and professional context for the talk:
+- Who am I?
+- What FOSS project have I been working on for 525 days?
+- Who am I working with?
+
+### Lesson learned 1 &#8211; how to get a tech job (~5min)
+In this segment of the talk I share the story of how I got this job.
+This will explain how my writing on my blog contributed to establish some reputation and how my (Python-focused) social media presence connected me with the person who would eventually become my employer.
+
+### Lesson learned 2 &#8211; put your ego aside (~5min)
+In this segment of the talk I explain how I deal with PR reviews and how I&apos;ve learned to embrace the criticism, taking into account that all of your work is scrutinised every time you make a PR.
+I&apos;ll also tell the story of how I made a couple of blunders in successive PRs, how my team dealt with those, and what I got away from those weeks when I underperformed.
+
+### Lesson learned 3 &#8211; interacting with users &amp; contributors (~5/7min)
+This segment of the talk covers the other end of the interactions on a FOSS project, answering questions like:
+- How should you behave when interacting with users making feature requests?
+- What about users that report &#8220;bugs&#8221; that would be &#8220;solved&#8221; if they read the documentation carefully?
+- How do you review external PRs, leave feedback, and request changes?
+
+Depending on how the audience reacts to this segment, I might also tell an anecdote about how bad I felt when rejecting an external PR and how that feeling was amplified tenfold when I found out that the external PR came from a &#8220;Python personality&#8221;, which also contains another lesson because the person whose PR was rejected handled it in the most graceful way possible.
+
+### Lesson learned 4 &#8211; working on a large project (~5min)
+I will dedicate this segment of the presentation to talk about the strategies I use to deal with the fact that the project I work on is too big for me to keep all of it in my head.
+This includes my note-taking system and my PR checklist.
+
+### Wrap-up (~2min)
+To wrap up the talk, I&apos;ll summarise my learnings and share a bullet-point list of the ones that are more likely to be helpful to others.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/BQ9WJG/</url>
+            <location>Auditorium</location>
+            
+            <attendee>Rodrigo Gir&#227;o Serr&#227;o</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>XTB8FH@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-XTB8FH</pentabarf:event-slug>
+            <pentabarf:title>Django, SQLite, and Production</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241018T162000</dtstart>
+            <dtend>20241018T165000</dtend>
+            <duration>003000</duration>
+            <summary>Django, SQLite, and Production</summary>
+            <description>SQLite is the most widely deployed database in the world, and it&apos;s the default database for Django when starting a new project with the startproject command. However, the Django documentation warns users against using SQLite in production. In this talk, we will look at the most common issues with SQLite and how to mitigate them.
+
+We will look at issues like database lock errors, timeouts, concurrent reads and writes, and slow performance and show how to work around some of these limitations. We will also show how to manage backups, replicas, and point-in-time recovery, which is necessary for many production applications.
+
+We will look at the issues I had with SQLite on my side projects (fedidevs.com), how I overcame them, and how people use SQLite outside of the Django/Python community. We will also look at benchmarks to see how SQLite compares to PostgreSQL.
+
+We will also cover some recent patches merged into Django that make it much easier to configure SQLite for web application use cases, starting with Django 5.1.
+
+The talk&apos;s goal is not to convince you that your next application should use SQLite in production but to help you understand the trade-offs and make a good decision for your specific use case.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Talk</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/XTB8FH/</url>
+            <location>Auditorium</location>
+            
+            <attendee>An&#382;e Pe&#269;ar</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>Z37VVL@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-Z37VVL</pentabarf:event-slug>
+            <pentabarf:title>Lightning Talks</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241018T170000</dtstart>
+            <dtend>20241018T173000</dtend>
+            <duration>003000</duration>
+            <summary>Lightning Talks</summary>
+            <description>Lightning Talks</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Other</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/Z37VVL/</url>
+            <location>Auditorium</location>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>TYE8BX@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-TYE8BX</pentabarf:event-slug>
+            <pentabarf:title>Closing Session</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241018T173000</dtstart>
+            <dtend>20241018T174500</dtend>
+            <duration>001500</duration>
+            <summary>Closing Session</summary>
+            <description>Closing Session</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Other</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/TYE8BX/</url>
+            <location>Auditorium</location>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>X97LFD@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-X97LFD</pentabarf:event-slug>
+            <pentabarf:title>Let&apos;s Dive into Web Scraping with Python!</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241019T103000</dtstart>
+            <dtend>20241019T123000</dtend>
+            <duration>020000</duration>
+            <summary>Let&apos;s Dive into Web Scraping with Python!</summary>
+            <description>Hey there Python enthusiasts! Ready to embark on an exciting 2-hour adventure into the world of web scraping? Join me for a workshop where we&apos;ll roll up our sleeves and get hands-on with Python to uncover the treasures hidden in the depths of the web.
+
+In today&apos;s data-driven world, web scraping is a must-have skill for developers, data scientists, and researchers. But let&apos;s face it, trying to learn from scattered online tutorials can feel like navigating a maze. That&apos;s why I&apos;ve crafted this workshop to be your ultimate guide&#8212;a one-stop shop where you&apos;ll get everything you need to master web scraping like a pro!
+
+We&apos;ll cover everything from the basics to advanced techniques, using Python&apos;s powerful libraries like BeautifulSoup, Scrapy, and Selenium. Whether you&apos;re a seasoned coder or just dipping your toes into Python, this workshop is designed to be fun, interactive, and accessible to all skill levels. Together, we&apos;ll explore:
+* Understanding the resources available for web scraping (HTML, robots.txt, sitemaps).
+* Introduction to essential Python libraries tailored for web scraping.
+* Step-by-step demonstrations of basic web scraping techniques using BeautifulSoup and Scrapy.
+* Advanced scraping methods, including handling dynamic content and interacting with JavaScript-driven websites using Selenium.
+* Best practices for ethical and responsible web scraping.
+
+While basic web scraping concepts are essential, this workshop goes beyond the fundamentals to cover advanced techniques and scenarios. Participants will learn how to tackle complex scraping challenges, including handling dynamic content, working with APIs, and navigating authentication barriers.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Workshop</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/X97LFD/</url>
+            <location>Workshops Azores</location>
+            
+            <attendee>William Lacerda</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>JGT833@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-JGT833</pentabarf:event-slug>
+            <pentabarf:title>Introduction to Data Analysis Using Pandas - Part 1</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241019T133000</dtstart>
+            <dtend>20241019T153000</dtend>
+            <duration>020000</duration>
+            <summary>Introduction to Data Analysis Using Pandas - Part 1</summary>
+            <description>#### Section 1: Getting Started With Pandas
+
+We will begin by introducing the Series, DataFrame, and Index classes, which are the basic building blocks of the pandas library, and showing how to work with them. By the end of this section, you will be able to create DataFrames and perform operations on them to inspect and filter data.
+
+#### Section 2: Data Wrangling
+
+To prepare our data for analysis, we need to perform data wrangling. We will learn how to clean and reformat data (e.g. renaming columns, fixing data type mismatches), restructure/reshape it, and enrich it (e.g. discretizing columns, calculating aggregations, combining data sources).
+
+#### Section 3: Data Visualization
+
+The human brain excels at finding patterns in visual representations of the data; so in this section, we will learn how to visualize data using pandas along with the Matplotlib and Seaborn to help us better understand our data.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Workshop</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/JGT833/</url>
+            <location>Workshops Azores</location>
+            
+            <attendee>Stefanie Molin</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>39ZYDX@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-39ZYDX</pentabarf:event-slug>
+            <pentabarf:title>Introduction to Data Analysis Using Pandas - Part 2</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241019T160000</dtstart>
+            <dtend>20241019T180000</dtend>
+            <duration>020000</duration>
+            <summary>Introduction to Data Analysis Using Pandas - Part 2</summary>
+            <description>#### Section 1: Getting Started With Pandas
+
+We will begin by introducing the Series, DataFrame, and Index classes, which are the basic building blocks of the pandas library, and showing how to work with them. By the end of this section, you will be able to create DataFrames and perform operations on them to inspect and filter data.
+
+#### Section 2: Data Wrangling
+
+To prepare our data for analysis, we need to perform data wrangling. We will learn how to clean and reformat data (e.g. renaming columns, fixing data type mismatches), restructure/reshape it, and enrich it (e.g. discretizing columns, calculating aggregations, combining data sources).
+
+#### Section 3: Data Visualization
+
+The human brain excels at finding patterns in visual representations of the data; so in this section, we will learn how to visualize data using pandas along with the Matplotlib and Seaborn to help us better understand our data.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Workshop</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/39ZYDX/</url>
+            <location>Workshops Azores</location>
+            
+            <attendee>Stefanie Molin</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>UYKQQ7@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-UYKQQ7</pentabarf:event-slug>
+            <pentabarf:title>GenAI Beyond Chat with RAG, Knowledge Graphs and Python</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241019T103000</dtstart>
+            <dtend>20241019T123000</dtend>
+            <duration>020000</duration>
+            <summary>GenAI Beyond Chat with RAG, Knowledge Graphs and Python</summary>
+            <description>In this GenAI workshop, you will learn how Knowledge Graphs and Retrieval Augmented Generation (RAG) can support your GenAI projects.
+
+You will:
+Use Vector indexes and embeddings in Neo4j to perform similarity and keyword search
+Use Python, LangChain and OpenAI to create a Knowledge Graph of unstructured data
+Learn about Large Language Models (LLMs), hallucination and integrating knowledge graphs
+Explore Retrieval Augmented Generation (RAG) and its role in grounding LLM-generated content
+
+After completing this workshop, you will be able to explain the terms LLM, RAG, grounding, and knowledge graphs. You will also have the knowledge and skills to create simple LLM-based applications using Neo4j and Python.
+
+This workshop will put you on the path to controlling LLMs and enabling their integration into your projects.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Workshop</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/UYKQQ7/</url>
+            <location>Workshops Madeira</location>
+            
+            <attendee>Martin O&apos;Hanlon</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>PVRJAG@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-PVRJAG</pentabarf:event-slug>
+            <pentabarf:title>Creating of really multilingual Django project in 2 hour</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241019T133000</dtstart>
+            <dtend>20241019T153000</dtend>
+            <duration>020000</duration>
+            <summary>Creating of really multilingual Django project in 2 hour</summary>
+            <description>I&#8217;ll take my own Django-TOF opensource project and create small Really Multilanguage Project on DJANGO, how it should be, to avoid problem in future. We can also add some VueJs Frontend to see, how to cover translations from front end.
+
+I try to discuss those points:
+
+Starting a multilingual Django project. What we should not forget.
+Static translated texts of the project. What&#8217;s wrong with i18n.
+Problems with Automatic Translation. Why AI still can not full-fledged help us
+Why translatable dynamic content will not translate properly.
+Why not existing Django/Python multilingual solutions?</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Workshop</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/PVRJAG/</url>
+            <location>Workshops Madeira</location>
+            
+            <attendee>Maxim Danilov</attendee>
+            
+        </vevent>
+        
+        <vevent>
+            <method>PUBLISH</method>
+            <uid>RNWJUD@@pretalx.evolutio.pt</uid>
+            <pentabarf:event-id></pentabarf:event-id>
+            <pentabarf:event-slug>-RNWJUD</pentabarf:event-slug>
+            <pentabarf:title>Demystifying Bluetooth Low Energy with Python</pentabarf:title>
+            <pentabarf:subtitle></pentabarf:subtitle>
+            <pentabarf:language>en</pentabarf:language>
+            <pentabarf:language-code>en</pentabarf:language-code>
+            <dtstart>20241019T160000</dtstart>
+            <dtend>20241019T180000</dtend>
+            <duration>020000</duration>
+            <summary>Demystifying Bluetooth Low Energy with Python</summary>
+            <description>Ever wondered how Bluetooth works? Although it is a very ubiquitous technology, Bluetooth requires a steep learning curve due to its complex architecture. In this workshop, we will demystify Bluetooth, so you can support it in any Python application.
+
+The workshop will address the following aspects:
+
+- Presentation of the the Bluetooth Low Energy (BLE) architecture;
+- Focus on the Generic Attribute Profile (GATT);
+- Write clients to connect and retrieve data from BLE devices;
+- Create a simple GATT server, where our client will connect.
+
+The theoretical presentation of BLE will be intertwined with practical examples using Bluetooth tools and code examples. In the end of the workshop, you&apos;ll be able to add BLE support to your Python applications, as well as use Bluetooth tools to guide you during the development of a BLE applications.</description>
+            <class>PUBLIC</class>
+            <status>CONFIRMED</status>
+            <category>Workshop</category>
+            <url>https://pretalx.evolutio.pt//pycon-portugal-2024/talk/RNWJUD/</url>
+            <location>Workshops Madeira</location>
+            
+            <attendee>Jorge Miranda</attendee>
+            
+        </vevent>
+        
+    </vcalendar>
+</iCalendar>

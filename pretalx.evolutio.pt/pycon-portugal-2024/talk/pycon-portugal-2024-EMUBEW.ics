@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//talk//EMUBEW
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-EMUBEW@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241017T152000
+DTEND;TZID=WET:20241017T155000
+DESCRIPTION:You can self-host multiple side projects using nothing but an o
+ ld Raspberry Pi\, your home wifi\, Django\, and actual duct tape. I’ll s
+ how how to get around dynamic IP performance bottlenecks and achieve over 
+ three nines of uptime while handling thousands of daily requests on a budg
+ et of 0€ per month.
+DTSTAMP:20261116T105832Z
+LOCATION:Auditorium
+SUMMARY:Self hosting your side projects with Django and duct tape - Anže P
+ ečar
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/EMUBEW/
+END:VEVENT
+END:VCALENDAR

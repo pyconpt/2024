@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//talk//NFLRHA
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-NFLRHA@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241017T140000
+DTEND;TZID=WET:20241017T143000
+DESCRIPTION:An overcomplicated project increases development and maintenanc
+ e time.\nIf a complete redesign is not possible\, we can try to distribute
+  the complexity across the existing codebase. The AI assistants cannot hel
+ p us with this task yet\, and we should discuss manual methods and tools t
+ hat can help us. The effectiveness of the proposed ideas will be demonstra
+ ted by applying them to large projects from different business areas.
+DTSTAMP:20261116T105832Z
+LOCATION:Auditorium
+SUMMARY:Modern art of simplifying python projects by distributing complexit
+ y. - Maxim Danilov
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/NFLRHA/
+END:VEVENT
+END:VCALENDAR

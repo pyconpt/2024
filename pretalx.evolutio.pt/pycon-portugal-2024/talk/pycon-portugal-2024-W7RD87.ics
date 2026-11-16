@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//talk//W7RD87
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-W7RD87@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241017T100000
+DTEND;TZID=WET:20241017T110000
+DESCRIPTION:Dijkstra said programming was\, "a practical exercise in the ef
+ fective exploitation of one’s powers of abstraction". Such powers of abs
+ traction depend on what\, why and how we pay attention to the world. My ta
+ lk will be a thought provoking\, creative and (hopefully) entertaining exp
+ loration of how we use (and misuse) Python to express ourselves.
+DTSTAMP:20261116T105831Z
+LOCATION:Auditorium
+SUMMARY:Paying Attention with Python - Nicholas H.Tollervey
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/W7RD87/
+END:VEVENT
+END:VCALENDAR

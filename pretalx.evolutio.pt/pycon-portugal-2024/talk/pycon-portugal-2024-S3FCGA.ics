@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//talk//S3FCGA
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-S3FCGA@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241017T162000
+DTEND;TZID=WET:20241017T165000
+DESCRIPTION:From the team behind Pydantic\, Logfire is a new type of observ
+ ability platform built on the same belief as our open source library — t
+ hat the most powerful tools can be easy to use.\n\nIn this talk\, we'll in
+ troduce Logfire\, then demonstrate how it can make understanding and fixin
+ g your app faster and more enjoyable.\n\nWe'll touch on some of the most u
+ seful integrations.
+DTSTAMP:20261116T105833Z
+LOCATION:Auditorium
+SUMMARY:Pydantic Logfire — Uncomplicated Observability - Marcelo Trylesin
+ ski\, Sydney Runkle
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/S3FCGA/
+END:VEVENT
+END:VCALENDAR

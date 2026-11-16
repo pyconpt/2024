@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//speaker//FQYBN
+ D
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-38BACY@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241017T091500
+DTEND;TZID=WET:20241017T100000
+DESCRIPTION:Representatives from the 3 cities that already hosted the 3 PyC
+ on Portugal editions - Porto (2022)\, Coimbra (2023) and Braga (2024) disc
+ uss the challenges their cities face when attracting and retaining technol
+ ogical talent.
+DTSTAMP:20261116T105844Z
+LOCATION:Auditorium
+SUMMARY:Attracting and retaining technological talent: challenges for citie
+ s - Rui Monteiro\, Miguel Fonseca\, Luis Rodrigues\, Rui José
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/38BACY/
+END:VEVENT
+END:VCALENDAR

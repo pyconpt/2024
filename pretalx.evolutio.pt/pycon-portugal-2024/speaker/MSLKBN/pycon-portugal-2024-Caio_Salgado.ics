@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//speaker//MSLKB
+ N
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-K7SXHE@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241018T113000
+DTEND;TZID=WET:20241018T120000
+DESCRIPTION:Type Hints were introduced in 2014 by PEP484\, marking its 10th
+  anniversary in 2024. Mypy reached 1.0 in 2023. How much has changed since
+  then? How has the Python code we write today evolved? With strictly typed
+  code and runtime checks becoming more common\, is statically typed code s
+ till the exception rather than the norm? How much longer will it stay this
+  way?
+DTSTAMP:20261116T105840Z
+LOCATION:Auditorium
+SUMMARY:Are We Typed Yet? The Evolution of Gradual Typing and Mypy - Caio S
+ algado
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/K7SXHE/
+END:VEVENT
+END:VCALENDAR

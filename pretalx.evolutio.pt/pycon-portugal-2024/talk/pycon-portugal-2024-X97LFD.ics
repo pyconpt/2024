@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//talk//X97LFD
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-X97LFD@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241019T103000
+DTEND;TZID=WET:20241019T123000
+DESCRIPTION:Dive into web scraping with Python at PyCon Portugal 2024! Join
+  me for a hands-on workshop where we'll cover everything from basic techni
+ ques to advanced strategies. Let's unlock the secrets of the web together!
+DTSTAMP:20261116T105837Z
+LOCATION:Workshops Azores
+SUMMARY:Let's Dive into Web Scraping with Python! - William Lacerda
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/X97LFD/
+END:VEVENT
+END:VCALENDAR

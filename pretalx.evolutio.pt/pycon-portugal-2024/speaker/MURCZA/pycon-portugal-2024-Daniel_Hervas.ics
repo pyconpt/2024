@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//speaker//MURCZ
+ A
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-RLD7QT@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241018T144000
+DTEND;TZID=WET:20241018T151000
+DESCRIPTION:You probably know\, from experience\, that catching the bug is 
+ 90% of the work of solving it. But how much thought and effort has gone in
+ to your application's logging structure? In this talk\, we'll go over Pyth
+ on's stdlib logging library (and possible alternatives)\, how to configure
+  it\, good logging practices (also from a structural/code quality point of
+  view)\, and finally we'll consider in which cases and for what reasons yo
+ u'll want to use external service integrations.
+DTSTAMP:20261116T105840Z
+LOCATION:Auditorium
+SUMMARY:Better logging in Python - Daniel Hervás
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/RLD7QT/
+END:VEVENT
+END:VCALENDAR

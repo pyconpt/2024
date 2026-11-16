@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//pycon-portugal-2024//talk//APWHHR
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pycon-portugal-2024-APWHHR@pretalx.evolutio.pt
+DTSTART;TZID=WET:20241018T121000
+DTEND;TZID=WET:20241018T124000
+DESCRIPTION:Over the last year\, there has been a lot of focus on making ap
+ plications intelligent using the power of AI with the help of large langua
+ ge models (LLMs). This talk covers how to add intelligence to existing app
+ lications with an overview of different techniques starting from prompt en
+ gineering\, using vector stores to improve the results\, and building inte
+ lligent agents to figure out how to solve a problem.\n\nThis talk will sho
+ wcase the techniques with demos using open-source frameworks to build LLM-
+ powered applications like LangChain & LlamaIndex.\n\nThe talk also covers 
+ some practical considerations to consider while deploying these applicatio
+ ns to production.
+DTSTAMP:20261116T105835Z
+LOCATION:Auditorium
+SUMMARY:Next-Gen Apps: Enhancing User Experience with Large Language Models
+  - Nithish Raghunandanan
+URL:https://pretalx.evolutio.pt/pycon-portugal-2024/talk/APWHHR/
+END:VEVENT
+END:VCALENDAR

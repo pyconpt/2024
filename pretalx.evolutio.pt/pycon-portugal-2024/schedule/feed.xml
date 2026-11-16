@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom"><title>PyCon Portugal 2024 schedule updates</title><link href="https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/" rel="alternate"/><link href="https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/feed.xml" rel="self"/><id>https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/feed.xml</id><updated>2024-10-16T19:21:18.237868+00:00</updated><entry><title>New PyCon Portugal 2024 schedule released (0.7)</title><link href="https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.7" rel="alternate"/><published>2024-10-16T19:21:18.237868+00:00</published><id>https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.7</id><summary type="html">
+
+
+
+&lt;p&gt;
+    
+        A new PyCon Portugal 2024 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released a new schedule version!&lt;/p&gt;&lt;/p&gt;
+
+
+    
+        
+            &lt;p&gt;
+                We have a new session: 
+                
+                    &lt;a href="/pycon-portugal-2024/talk/XTB8FH/"&gt;“Django, SQLite, and Production” by Anže Pečar&lt;/a&gt;.
+                
+            &lt;/p&gt;
+        
+    
+
+    
+        
+            &lt;p&gt;
+                Sadly, we had to cancel a session:
+                “FastDjango: Conjuring Powerful APIs with the Sorcery of Django Ninja” by Julius Boakye
+            &lt;/p&gt;
+        
+    
+
+    
+
+
+</summary></entry><entry><title>New PyCon Portugal 2024 schedule released (0.6)</title><link href="https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.6" rel="alternate"/><published>2024-10-15T14:17:01.059145+00:00</published><id>https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.6</id><summary type="html">
+
+
+
+&lt;p&gt;
+    
+        A new PyCon Portugal 2024 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released a new schedule version!&lt;/p&gt;&lt;/p&gt;
+
+
+    
+        
+            &lt;p&gt;
+                We have a new session: 
+                
+                    &lt;a href="/pycon-portugal-2024/talk/NFLRHA/"&gt;“Modern art of simplifying python projects by distributing complexity.” by Maxim Danilov&lt;/a&gt;.
+                
+            &lt;/p&gt;
+        
+    
+
+    
+
+    
+        
+            &lt;p&gt;
+                We have moved a session around: 
+                
+                    &lt;a href="/pycon-portugal-2024/talk/G3BCAU/"&gt;“FastDjango: Conjuring Powerful APIs with the Sorcery of Django Ninja” by Julius Boakye&lt;/a&gt;
+                    
+                        (Oct. 17, 2024, 2 p.m. → Oct. 18, 2024, 4:20 p.m.)
+                    
+                
+            &lt;/p&gt;
+        
+    
+
+
+</summary></entry><entry><title>New PyCon Portugal 2024 schedule released (0.5)</title><link href="https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.5" rel="alternate"/><published>2024-10-14T10:18:46.253561+00:00</published><id>https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.5</id><summary type="html">
+
+
+
+&lt;p&gt;
+    
+        A new PyCon Portugal 2024 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released a new schedule version!&lt;/p&gt;&lt;/p&gt;
+
+
+
+</summary></entry><entry><title>New PyCon Portugal 2024 schedule released (0.4)</title><link href="https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.4" rel="alternate"/><published>2024-10-08T14:40:48.604656+00:00</published><id>https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.4</id><summary type="html">
+
+
+
+&lt;p&gt;
+    
+        A new PyCon Portugal 2024 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released a new schedule version!&lt;/p&gt;&lt;/p&gt;
+
+
+    
+        
+            &lt;p&gt;We have new sessions!&lt;/p&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;
+                        &lt;a href="/pycon-portugal-2024/talk/TRKAC9/"&gt;
+                            “Comparing Time Series Forecasting Models: A Clustering Analysis Approach with Python” by Alexandra Oliveira
+                        &lt;/a&gt;
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;
+                        &lt;a href="/pycon-portugal-2024/talk/AEPHCX/"&gt;
+                            “Going Beyond Copilot with AI Agents” by Alex Shershebnev
+                        &lt;/a&gt;
+                    &lt;/li&gt;
+                
+            &lt;/ul&gt;
+        
+    
+
+    
+        
+            &lt;p&gt;
+                Sadly, we had to cancel a session:
+                “From Eggs to Poetry: The Evolutionary Saga of Python Packaging” by Quazi Nafiul Islam
+            &lt;/p&gt;
+        
+    
+
+    
+
+
+</summary></entry><entry><title>New PyCon Portugal 2024 schedule released (0.3)</title><link href="https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.3" rel="alternate"/><published>2024-10-03T13:48:37.431615+00:00</published><id>https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.3</id><summary type="html">
+
+
+
+&lt;p&gt;
+    
+        A new PyCon Portugal 2024 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released a new schedule version!&lt;/p&gt;&lt;/p&gt;
+
+
+    
+        
+            &lt;p&gt;
+                We have a new session: 
+                
+                    &lt;a href="/pycon-portugal-2024/talk/39ZYDX/"&gt;“Introduction to Data Analysis Using Pandas - Part 2” by Stefanie Molin&lt;/a&gt;.
+                
+            &lt;/p&gt;
+        
+    
+
+    
+        
+            &lt;p&gt;Sadly, we had to cancel sessions:&lt;/p&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;“Serving Machine Learning Models with Fast API” by Wesley Kambale&lt;/li&gt;
+                
+                    &lt;li&gt;“Unrevealing new maps of biology with Squidpy” by Inácio Gomes Medeiros&lt;/li&gt;
+                
+            &lt;/ul&gt;
+        
+    
+
+    
+        
+            &lt;p&gt;
+                We had to move some sessions, so if you were planning on seeing them, check their new dates or locations:
+            &lt;/p&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;
+                        &lt;a href="/pycon-portugal-2024/talk/JGT833/"&gt;
+                            “Introduction to Data Analysis Using Pandas - Part 1” by Stefanie Molin
+                        &lt;/a&gt;
+                        
+                            (Oct. 19, 2024, 10:30 a.m. → Oct. 19, 2024, 1:30 p.m.)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;
+                        &lt;a href="/pycon-portugal-2024/talk/UYKQQ7/"&gt;
+                            “GenAI Beyond Chat with RAG, Knowledge Graphs and Python” by Martin O&amp;#x27;Hanlon
+                        &lt;/a&gt;
+                        
+                            (Oct. 19, 2024, 1:30 p.m., Workshops Azores → Oct. 19, 2024, 10:30 a.m.,
+                            Workshops Madeira)
+                        
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;
+                        &lt;a href="/pycon-portugal-2024/talk/X97LFD/"&gt;
+                            “Let&amp;#x27;s Dive into Web Scraping with Python!” by William Lacerda
+                        &lt;/a&gt;
+                        
+                            (Oct. 19, 2024, 4 p.m. → Oct. 19, 2024, 10:30 a.m.)
+                        
+                    &lt;/li&gt;
+                
+            &lt;/ul&gt;
+        
+    
+
+
+</summary></entry><entry><title>New PyCon Portugal 2024 schedule released (0.2)</title><link href="https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.2" rel="alternate"/><published>2024-09-09T13:51:57.014733+00:00</published><id>https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.2</id><summary type="html">
+
+
+
+&lt;p&gt;
+    
+        A new PyCon Portugal 2024 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released a new schedule version!&lt;/p&gt;&lt;/p&gt;
+
+
+    
+        
+            &lt;p&gt;We have new sessions!&lt;/p&gt;
+            &lt;ul&gt;
+                
+                    &lt;li&gt;
+                        &lt;a href="/pycon-portugal-2024/talk/BQ9WJG/"&gt;
+                            “503 days working full-time on FOSS: lessons learned” by Rodrigo Girão Serrão
+                        &lt;/a&gt;
+                    &lt;/li&gt;
+                
+                    &lt;li&gt;
+                        &lt;a href="/pycon-portugal-2024/talk/W7RD87/"&gt;
+                            “Paying Attention with Python” by Nicholas H.Tollervey
+                        &lt;/a&gt;
+                    &lt;/li&gt;
+                
+            &lt;/ul&gt;
+        
+    
+
+    
+
+    
+
+
+</summary></entry><entry><title>New PyCon Portugal 2024 schedule released (0.1)</title><link href="https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.1" rel="alternate"/><published>2024-07-30T21:52:52.090165+00:00</published><id>https://pretalx.evolutio.pt/pycon-portugal-2024/schedule/changelog/#0.1</id><summary type="html">
+
+
+
+&lt;p&gt;
+    
+        The first PyCon Portugal 2024 schedule has been released!
+    
+&lt;/p&gt;
+
+
+
+
+
+
+
+    &lt;p&gt;&lt;p&gt;We released our first schedule!&lt;/p&gt;&lt;/p&gt;
+
+
+
+</summary></entry></feed>
